@@ -1,0 +1,25 @@
+[blogPosts]
+pageNumber = "{{ :page }}"
+categoryFilter = "documents"
+postsPerPage = 20
+noPostsMessage = "Записей не найдено"
+sortOrder = "published_at desc"
+categoryPage = "receipt"
+postPage = "receipt"
+
+[viewBag]
+==
+{% set posts = blogPosts.posts %}
+
+{% for post in posts %}
+<div class="info__wrap">
+  <h3 class="main-content__subtitle">{{ post.title }}</h3>
+  <!-- /.main-content-list__title -->
+
+  <div class="main-content-list main-content-list-documents">
+    {{ post.content_html|raw }}
+  </div>
+  <!-- /.main-content-list -->
+</div>
+<!-- /.info__wrap -->
+{% endfor %}

@@ -1,0 +1,61 @@
+1583231871a:1:{s:14:"additional.htm";a:6:{s:8:"fileName";s:14:"additional.htm";s:7:"content";s:884:"description = "Additional layout"
+==
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap&subset=cyrillic" rel="stylesheet">
+  <link rel="stylesheet" href="{{ 'assets/css/bootstrap-grid.min.css'|theme }}">
+  <link rel="stylesheet" href="{{ 'assets/css/reset.css'|theme }}">
+  <link rel="stylesheet" href="{{ 'assets/css/about.css'|theme }}">
+  <title>{{ this.page.title }}</title>
+
+  {% styles %}
+</head>
+
+<body>
+  {% partial 'header-alt' %}
+
+  {% page %}
+
+
+  {% partial 'footer' %}
+
+  <!-- Scripts -->
+  <script src="{{ 'assets/js/script-about.js'|theme }}"></script>
+  {% framework extras %}
+  {% scripts %}
+</body>
+</html>";s:5:"mtime";i:1583220250;s:6:"markup";s:845:"<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap&subset=cyrillic" rel="stylesheet">
+  <link rel="stylesheet" href="{{ 'assets/css/bootstrap-grid.min.css'|theme }}">
+  <link rel="stylesheet" href="{{ 'assets/css/reset.css'|theme }}">
+  <link rel="stylesheet" href="{{ 'assets/css/about.css'|theme }}">
+  <title>{{ this.page.title }}</title>
+
+  {% styles %}
+</head>
+
+<body>
+  {% partial 'header-alt' %}
+
+  {% page %}
+
+
+  {% partial 'footer' %}
+
+  <!-- Scripts -->
+  <script src="{{ 'assets/js/script-about.js'|theme }}"></script>
+  {% framework extras %}
+  {% scripts %}
+</body>
+</html>";s:4:"code";N;s:11:"description";s:17:"Additional layout";}}

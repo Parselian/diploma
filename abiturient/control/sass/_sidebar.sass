@@ -1,0 +1,31 @@
+.sidebar
+  margin-right: 40px
+  padding: 
+    top: 20px
+    left: 15px
+  width: 28%
+  max-width: 210px
+  height: 100vh
+  font-size: 18px
+  background-color: $sidebar-bg-color
+  overflow: hidden
+  z-index: 99999
+  transition: .3s
+  &-list
+    &-item
+      padding: 10px 0
+      display: flex
+      align-items: center
+      &__img
+        margin-right: 15px
+        width: 25px
+        height: 25px
+        min-height: 25px
+        vertical-align: middle
+        transform: rotate(0)
+        transition: .3s
+      &__link
+        color: $sidebar-link-color
+        transition: .3s
+        &:hover
+          color: $sidebar-active-color

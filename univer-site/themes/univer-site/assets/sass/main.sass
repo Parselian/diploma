@@ -1,0 +1,44 @@
+@import 'common/variables.sass'
+
+body
+  color: $main-color
+  font-family: 'Montserrat', sans-serif
+
+label
+  cursor: pointer
+
+.hidden
+  display: none
+
+.burger-visible
+  right: 0 !important
+
+.button
+  padding: 5px 15px
+  display: inline-block
+  border: 1px solid $border-color
+  border-radius: 3px
+  cursor: pointer
+  &-authorization
+    background-color: #fff
+    font-family: 'Montserrat', sans-serif
+    font-size: 14px
+    &:first-child
+      margin-right: 15px
+    &__img
+      width: 20px
+      display: none
+
+.personal-data
+  &__link
+    text-decoration: underline
+  
+
+
+@import 'common/header.sass'
+@import 'common/burger.sass'
+@import 'common/slider.sass'
+@import 'index-page/about-section.sass'
+@import 'common/footer.sass'
+@import 'common/popups.sass'
+@import 'common/media.sass'

@@ -1,0 +1,214 @@
+[24-Feb-2020 18:13:18 Europe/Moscow] PHP Notice:  Undefined index: logged_user in /home/windmymind/Documents/projects/ds/control/admin-panel.php on line 32
+[24-Feb-2020 18:13:18 Europe/Moscow] PHP Notice:  Trying to get property 'login' of non-object in /home/windmymind/Documents/projects/ds/control/admin-panel.php on line 32
+[04-Mar-2020 19:48:43 Europe/Moscow] PHP Notice:  Undefined index: logged_user in /home/windmymind/Documents/projects/Diploma/abiturient/control/admin-panel.php on line 32
+[04-Mar-2020 19:48:43 Europe/Moscow] PHP Notice:  Trying to get property 'login' of non-object in /home/windmymind/Documents/projects/Diploma/abiturient/control/admin-panel.php on line 32
+[04-Mar-2020 19:48:44 Europe/Moscow] PHP Notice:  Undefined index: logged_user in /home/windmymind/Documents/projects/Diploma/abiturient/control/admin-panel.php on line 32
+[04-Mar-2020 19:48:44 Europe/Moscow] PHP Notice:  Trying to get property 'login' of non-object in /home/windmymind/Documents/projects/Diploma/abiturient/control/admin-panel.php on line 32
+[04-Mar-2020 19:48:48 Europe/Moscow] PHP Notice:  Undefined index: logged_user in /home/windmymind/Documents/projects/Diploma/abiturient/control/admin-panel.php on line 32
+[04-Mar-2020 19:48:48 Europe/Moscow] PHP Notice:  Trying to get property 'login' of non-object in /home/windmymind/Documents/projects/Diploma/abiturient/control/admin-panel.php on line 32
+[05-Mar-2020 11:15:13 Europe/Moscow] PHP Notice:  Undefined index: logged_user in /home/windmymind/Documents/projects/Diploma/abiturient/control/admin-panel.php on line 32
+[05-Mar-2020 11:15:13 Europe/Moscow] PHP Notice:  Trying to get property 'login' of non-object in /home/windmymind/Documents/projects/Diploma/abiturient/control/admin-panel.php on line 32
+[05-Mar-2020 21:13:43 Europe/Moscow] PHP Warning:  Use of undefined constant SITE_KEY - assumed 'SITE_KEY' (this will throw an Error in a future version of PHP) in /home/windmymind/Documents/projects/Diploma/abiturient/control/index.php on line 59
+[05-Mar-2020 21:13:43 Europe/Moscow] PHP Warning:  Use of undefined constant SITE_KEY - assumed 'SITE_KEY' (this will throw an Error in a future version of PHP) in /home/windmymind/Documents/projects/Diploma/abiturient/control/index.php on line 109
+[06-Mar-2020 12:15:47 Europe/Moscow] PHP Notice:  Undefined index: logged_user in /home/windmymind/Documents/projects/Diploma/abiturient/control/admin-panel.php on line 32
+[06-Mar-2020 12:15:47 Europe/Moscow] PHP Notice:  Trying to get property 'login' of non-object in /home/windmymind/Documents/projects/Diploma/abiturient/control/admin-panel.php on line 32
+[06-Mar-2020 12:15:53 Europe/Moscow] PHP Notice:  Undefined index: logged_user in /home/windmymind/Documents/projects/Diploma/abiturient/control/admin-panel.php on line 32
+[06-Mar-2020 12:15:53 Europe/Moscow] PHP Notice:  Trying to get property 'login' of non-object in /home/windmymind/Documents/projects/Diploma/abiturient/control/admin-panel.php on line 32
+[06-Mar-2020 12:17:15 Europe/Moscow] PHP Notice:  Undefined index: logged_user in /home/windmymind/Documents/projects/Diploma/abiturient/control/admin-panel.php on line 32
+[06-Mar-2020 12:17:15 Europe/Moscow] PHP Notice:  Trying to get property 'login' of non-object in /home/windmymind/Documents/projects/Diploma/abiturient/control/admin-panel.php on line 32
+[06-Mar-2020 13:22:54 Europe/Moscow] PHP Notice:  Undefined index: logged_user in /home/windmymind/Documents/projects/Diploma/abiturient/control/admin-panel.php on line 32
+[06-Mar-2020 13:22:54 Europe/Moscow] PHP Notice:  Trying to get property 'login' of non-object in /home/windmymind/Documents/projects/Diploma/abiturient/control/admin-panel.php on line 32
+[06-Mar-2020 14:10:32 Europe/Moscow] PHP Notice:  Undefined index: logged_user in /home/windmymind/Documents/projects/Diploma/abiturient/control/admin-panel.php on line 41
+[06-Mar-2020 14:10:32 Europe/Moscow] PHP Notice:  Trying to get property 'login' of non-object in /home/windmymind/Documents/projects/Diploma/abiturient/control/admin-panel.php on line 41
+[06-Mar-2020 14:10:38 Europe/Moscow] PHP Notice:  Undefined index: logged_user in /home/windmymind/Documents/projects/Diploma/abiturient/control/admin-panel.php on line 41
+[06-Mar-2020 14:10:38 Europe/Moscow] PHP Notice:  Trying to get property 'login' of non-object in /home/windmymind/Documents/projects/Diploma/abiturient/control/admin-panel.php on line 41
+[06-Mar-2020 14:46:44 Europe/Moscow] PHP Notice:  Undefined index: logged_user in /home/windmymind/Documents/projects/Diploma/abiturient/control/admin-panel.php on line 38
+[06-Mar-2020 14:46:44 Europe/Moscow] PHP Notice:  Trying to get property 'login' of non-object in /home/windmymind/Documents/projects/Diploma/abiturient/control/admin-panel.php on line 38
+[06-Mar-2020 14:46:53 Europe/Moscow] PHP Notice:  Undefined index: logged_user in /home/windmymind/Documents/projects/Diploma/abiturient/control/admin-panel.php on line 38
+[06-Mar-2020 14:46:53 Europe/Moscow] PHP Notice:  Trying to get property 'login' of non-object in /home/windmymind/Documents/projects/Diploma/abiturient/control/admin-panel.php on line 38
+[06-Mar-2020 19:23:09 Europe/Moscow] PHP Notice:  Undefined index: logged_user in /home/windmymind/Documents/projects/Diploma/abiturient/control/admin-panel.php on line 38
+[06-Mar-2020 19:23:09 Europe/Moscow] PHP Notice:  Trying to get property 'login' of non-object in /home/windmymind/Documents/projects/Diploma/abiturient/control/admin-panel.php on line 38
+[07-Mar-2020 16:33:01 Europe/Moscow] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/windmymind/Documents/projects/Diploma/abiturient/control/admin-panel.php on line 15
+[07-Mar-2020 16:36:05 Europe/Moscow] PHP Notice:  Undefined index: __info in /home/windmymind/Documents/projects/Diploma/abiturient/control/admin-panel.php on line 17
+[07-Mar-2020 16:36:05 Europe/Moscow] PHP Notice:  Trying to access array offset on value of type null in /home/windmymind/Documents/projects/Diploma/abiturient/control/admin-panel.php on line 17
+[07-Mar-2020 16:36:24 Europe/Moscow] PHP Notice:  Undefined index: __info in /home/windmymind/Documents/projects/Diploma/abiturient/control/admin-panel.php on line 17
+[07-Mar-2020 16:36:24 Europe/Moscow] PHP Notice:  Trying to access array offset on value of type null in /home/windmymind/Documents/projects/Diploma/abiturient/control/admin-panel.php on line 17
+[07-Mar-2020 16:37:37 Europe/Moscow] PHP Notice:  Undefined index: __info in /home/windmymind/Documents/projects/Diploma/abiturient/control/admin-panel.php on line 17
+[07-Mar-2020 16:37:37 Europe/Moscow] PHP Notice:  Trying to access array offset on value of type null in /home/windmymind/Documents/projects/Diploma/abiturient/control/admin-panel.php on line 17
+[07-Mar-2020 16:41:55 Europe/Moscow] PHP Notice:  Undefined index: __info in /home/windmymind/Documents/projects/Diploma/abiturient/control/admin-panel.php on line 17
+[07-Mar-2020 16:41:55 Europe/Moscow] PHP Notice:  Trying to access array offset on value of type null in /home/windmymind/Documents/projects/Diploma/abiturient/control/admin-panel.php on line 17
+[07-Mar-2020 16:41:55 Europe/Moscow] PHP Notice:  Undefined index: __info in /home/windmymind/Documents/projects/Diploma/abiturient/control/admin-panel.php on line 19
+[07-Mar-2020 16:41:55 Europe/Moscow] PHP Notice:  Trying to access array offset on value of type null in /home/windmymind/Documents/projects/Diploma/abiturient/control/admin-panel.php on line 19
+[07-Mar-2020 16:42:04 Europe/Moscow] PHP Notice:  Undefined index: __info in /home/windmymind/Documents/projects/Diploma/abiturient/control/admin-panel.php on line 17
+[07-Mar-2020 16:42:04 Europe/Moscow] PHP Notice:  Trying to access array offset on value of type null in /home/windmymind/Documents/projects/Diploma/abiturient/control/admin-panel.php on line 17
+[07-Mar-2020 16:42:04 Europe/Moscow] PHP Notice:  Undefined index: __info in /home/windmymind/Documents/projects/Diploma/abiturient/control/admin-panel.php on line 19
+[07-Mar-2020 16:42:04 Europe/Moscow] PHP Notice:  Trying to access array offset on value of type null in /home/windmymind/Documents/projects/Diploma/abiturient/control/admin-panel.php on line 19
+[07-Mar-2020 16:42:11 Europe/Moscow] PHP Notice:  Undefined index: __info in /home/windmymind/Documents/projects/Diploma/abiturient/control/admin-panel.php on line 17
+[07-Mar-2020 16:42:11 Europe/Moscow] PHP Notice:  Trying to access array offset on value of type null in /home/windmymind/Documents/projects/Diploma/abiturient/control/admin-panel.php on line 17
+[07-Mar-2020 16:42:11 Europe/Moscow] PHP Notice:  Undefined index: __info in /home/windmymind/Documents/projects/Diploma/abiturient/control/admin-panel.php on line 19
+[07-Mar-2020 16:42:11 Europe/Moscow] PHP Notice:  Trying to access array offset on value of type null in /home/windmymind/Documents/projects/Diploma/abiturient/control/admin-panel.php on line 19
+[07-Mar-2020 16:42:12 Europe/Moscow] PHP Notice:  Undefined index: __info in /home/windmymind/Documents/projects/Diploma/abiturient/control/admin-panel.php on line 17
+[07-Mar-2020 16:42:12 Europe/Moscow] PHP Notice:  Trying to access array offset on value of type null in /home/windmymind/Documents/projects/Diploma/abiturient/control/admin-panel.php on line 17
+[07-Mar-2020 16:42:12 Europe/Moscow] PHP Notice:  Undefined index: __info in /home/windmymind/Documents/projects/Diploma/abiturient/control/admin-panel.php on line 19
+[07-Mar-2020 16:42:12 Europe/Moscow] PHP Notice:  Trying to access array offset on value of type null in /home/windmymind/Documents/projects/Diploma/abiturient/control/admin-panel.php on line 19
+[07-Mar-2020 16:42:16 Europe/Moscow] PHP Notice:  Undefined index: __info in /home/windmymind/Documents/projects/Diploma/abiturient/control/admin-panel.php on line 17
+[07-Mar-2020 16:42:16 Europe/Moscow] PHP Notice:  Trying to access array offset on value of type null in /home/windmymind/Documents/projects/Diploma/abiturient/control/admin-panel.php on line 17
+[07-Mar-2020 16:42:16 Europe/Moscow] PHP Notice:  Undefined index: __info in /home/windmymind/Documents/projects/Diploma/abiturient/control/admin-panel.php on line 19
+[07-Mar-2020 16:42:16 Europe/Moscow] PHP Notice:  Trying to access array offset on value of type null in /home/windmymind/Documents/projects/Diploma/abiturient/control/admin-panel.php on line 19
+[07-Mar-2020 16:42:25 Europe/Moscow] PHP Notice:  Undefined index: __info:protected in /home/windmymind/Documents/projects/Diploma/abiturient/control/admin-panel.php on line 17
+[07-Mar-2020 16:42:25 Europe/Moscow] PHP Notice:  Trying to access array offset on value of type null in /home/windmymind/Documents/projects/Diploma/abiturient/control/admin-panel.php on line 17
+[07-Mar-2020 16:42:25 Europe/Moscow] PHP Notice:  Undefined index: __info in /home/windmymind/Documents/projects/Diploma/abiturient/control/admin-panel.php on line 19
+[07-Mar-2020 16:42:25 Europe/Moscow] PHP Notice:  Trying to access array offset on value of type null in /home/windmymind/Documents/projects/Diploma/abiturient/control/admin-panel.php on line 19
+[07-Mar-2020 16:42:25 Europe/Moscow] PHP Notice:  Undefined index: __info:protected in /home/windmymind/Documents/projects/Diploma/abiturient/control/admin-panel.php on line 17
+[07-Mar-2020 16:42:25 Europe/Moscow] PHP Notice:  Trying to access array offset on value of type null in /home/windmymind/Documents/projects/Diploma/abiturient/control/admin-panel.php on line 17
+[07-Mar-2020 16:42:25 Europe/Moscow] PHP Notice:  Undefined index: __info in /home/windmymind/Documents/projects/Diploma/abiturient/control/admin-panel.php on line 19
+[07-Mar-2020 16:42:25 Europe/Moscow] PHP Notice:  Trying to access array offset on value of type null in /home/windmymind/Documents/projects/Diploma/abiturient/control/admin-panel.php on line 19
+[07-Mar-2020 16:42:35 Europe/Moscow] PHP Notice:  Undefined index: __info in /home/windmymind/Documents/projects/Diploma/abiturient/control/admin-panel.php on line 19
+[07-Mar-2020 16:42:35 Europe/Moscow] PHP Notice:  Trying to access array offset on value of type null in /home/windmymind/Documents/projects/Diploma/abiturient/control/admin-panel.php on line 19
+[07-Mar-2020 16:42:47 Europe/Moscow] PHP Notice:  Undefined index: __info in /home/windmymind/Documents/projects/Diploma/abiturient/control/admin-panel.php on line 17
+[07-Mar-2020 16:42:47 Europe/Moscow] PHP Notice:  Trying to access array offset on value of type null in /home/windmymind/Documents/projects/Diploma/abiturient/control/admin-panel.php on line 17
+[07-Mar-2020 16:42:48 Europe/Moscow] PHP Notice:  Undefined index: __info in /home/windmymind/Documents/projects/Diploma/abiturient/control/admin-panel.php on line 17
+[07-Mar-2020 16:42:48 Europe/Moscow] PHP Notice:  Trying to access array offset on value of type null in /home/windmymind/Documents/projects/Diploma/abiturient/control/admin-panel.php on line 17
+[07-Mar-2020 16:44:08 Europe/Moscow] PHP Notice:  Undefined index: __info in /home/windmymind/Documents/projects/Diploma/abiturient/control/admin-panel.php on line 14
+[07-Mar-2020 16:44:08 Europe/Moscow] PHP Notice:  Trying to get property 'type' of non-object in /home/windmymind/Documents/projects/Diploma/abiturient/control/admin-panel.php on line 14
+[07-Mar-2020 16:44:09 Europe/Moscow] PHP Notice:  Undefined index: __info in /home/windmymind/Documents/projects/Diploma/abiturient/control/admin-panel.php on line 14
+[07-Mar-2020 16:44:09 Europe/Moscow] PHP Notice:  Trying to get property 'type' of non-object in /home/windmymind/Documents/projects/Diploma/abiturient/control/admin-panel.php on line 14
+[07-Mar-2020 16:47:19 Europe/Moscow] PHP Notice:  Undefined index: __info in /home/windmymind/Documents/projects/Diploma/abiturient/control/admin-panel.php on line 14
+[07-Mar-2020 16:47:29 Europe/Moscow] PHP Parse error:  syntax error, unexpected ':', expecting ']' in /home/windmymind/Documents/projects/Diploma/abiturient/control/admin-panel.php on line 14
+[07-Mar-2020 16:47:30 Europe/Moscow] PHP Parse error:  syntax error, unexpected ':', expecting ']' in /home/windmymind/Documents/projects/Diploma/abiturient/control/admin-panel.php on line 14
+[07-Mar-2020 16:47:47 Europe/Moscow] PHP Notice:  Undefined index: __info:protected in /home/windmymind/Documents/projects/Diploma/abiturient/control/admin-panel.php on line 14
+[07-Mar-2020 16:47:48 Europe/Moscow] PHP Notice:  Undefined index: __info:protected in /home/windmymind/Documents/projects/Diploma/abiturient/control/admin-panel.php on line 14
+[07-Mar-2020 16:54:18 Europe/Moscow] PHP Notice:  Undefined index: type in /home/windmymind/Documents/projects/Diploma/abiturient/control/admin-panel.php on line 14
+[07-Mar-2020 16:54:19 Europe/Moscow] PHP Notice:  Undefined index: type in /home/windmymind/Documents/projects/Diploma/abiturient/control/admin-panel.php on line 14
+[07-Mar-2020 17:23:57 Europe/Moscow] PHP Notice:  Undefined variable: _SESSION in /home/windmymind/Documents/projects/Diploma/abiturient/control/admin-panel.php on line 14
+[07-Mar-2020 17:23:57 Europe/Moscow] PHP Notice:  Trying to access array offset on value of type null in /home/windmymind/Documents/projects/Diploma/abiturient/control/admin-panel.php on line 14
+[07-Mar-2020 17:23:57 Europe/Moscow] PHP Notice:  Undefined variable: _SESSION in /home/windmymind/Documents/projects/Diploma/abiturient/control/admin-panel.php on line 44
+[07-Mar-2020 17:23:57 Europe/Moscow] PHP Notice:  Trying to access array offset on value of type null in /home/windmymind/Documents/projects/Diploma/abiturient/control/admin-panel.php on line 44
+[07-Mar-2020 17:23:57 Europe/Moscow] PHP Notice:  Trying to get property 'login' of non-object in /home/windmymind/Documents/projects/Diploma/abiturient/control/admin-panel.php on line 44
+[07-Mar-2020 17:23:58 Europe/Moscow] PHP Notice:  Undefined variable: _SESSION in /home/windmymind/Documents/projects/Diploma/abiturient/control/admin-panel.php on line 14
+[07-Mar-2020 17:23:58 Europe/Moscow] PHP Notice:  Trying to access array offset on value of type null in /home/windmymind/Documents/projects/Diploma/abiturient/control/admin-panel.php on line 14
+[07-Mar-2020 17:23:58 Europe/Moscow] PHP Notice:  Undefined variable: _SESSION in /home/windmymind/Documents/projects/Diploma/abiturient/control/admin-panel.php on line 44
+[07-Mar-2020 17:23:58 Europe/Moscow] PHP Notice:  Trying to access array offset on value of type null in /home/windmymind/Documents/projects/Diploma/abiturient/control/admin-panel.php on line 44
+[07-Mar-2020 17:23:58 Europe/Moscow] PHP Notice:  Trying to get property 'login' of non-object in /home/windmymind/Documents/projects/Diploma/abiturient/control/admin-panel.php on line 44
+[07-Mar-2020 17:30:32 Europe/Moscow] PHP Notice:  Undefined index: logged_user in /home/windmymind/Documents/projects/Diploma/abiturient/control/admin-panel.php on line 44
+[07-Mar-2020 17:30:32 Europe/Moscow] PHP Notice:  Trying to get property 'login' of non-object in /home/windmymind/Documents/projects/Diploma/abiturient/control/admin-panel.php on line 44
+[07-Mar-2020 17:30:45 Europe/Moscow] PHP Notice:  Undefined index: logged_user in /home/windmymind/Documents/projects/Diploma/abiturient/control/admin-panel.php on line 44
+[07-Mar-2020 17:30:45 Europe/Moscow] PHP Notice:  Trying to get property 'login' of non-object in /home/windmymind/Documents/projects/Diploma/abiturient/control/admin-panel.php on line 44
+[07-Mar-2020 17:31:29 Europe/Moscow] PHP Notice:  Undefined index: logged_user in /home/windmymind/Documents/projects/Diploma/abiturient/control/admin-panel.php on line 42
+[07-Mar-2020 17:31:29 Europe/Moscow] PHP Notice:  Trying to get property 'login' of non-object in /home/windmymind/Documents/projects/Diploma/abiturient/control/admin-panel.php on line 42
+[07-Mar-2020 17:31:37 Europe/Moscow] PHP Notice:  Undefined index: logged_user in /home/windmymind/Documents/projects/Diploma/abiturient/control/admin-panel.php on line 42
+[07-Mar-2020 17:31:37 Europe/Moscow] PHP Notice:  Trying to get property 'login' of non-object in /home/windmymind/Documents/projects/Diploma/abiturient/control/admin-panel.php on line 42
+[07-Mar-2020 17:31:38 Europe/Moscow] PHP Notice:  Undefined index: logged_user in /home/windmymind/Documents/projects/Diploma/abiturient/control/admin-panel.php on line 42
+[07-Mar-2020 17:31:38 Europe/Moscow] PHP Notice:  Trying to get property 'login' of non-object in /home/windmymind/Documents/projects/Diploma/abiturient/control/admin-panel.php on line 42
+[08-Mar-2020 15:57:56 Europe/Moscow] PHP Notice:  Undefined index: admin in /home/windmymind/Documents/projects/Diploma/abiturient/control/admin-panel.php on line 42
+[08-Mar-2020 15:57:56 Europe/Moscow] PHP Notice:  Trying to get property 'login' of non-object in /home/windmymind/Documents/projects/Diploma/abiturient/control/admin-panel.php on line 42
+[08-Mar-2020 15:58:04 Europe/Moscow] PHP Notice:  Undefined index: admin in /home/windmymind/Documents/projects/Diploma/abiturient/control/admin-panel.php on line 42
+[08-Mar-2020 15:58:04 Europe/Moscow] PHP Notice:  Trying to get property 'login' of non-object in /home/windmymind/Documents/projects/Diploma/abiturient/control/admin-panel.php on line 42
+[08-Mar-2020 21:39:35 Europe/Moscow] PHP Notice:  Undefined index: admin in /home/windmymind/Documents/projects/Diploma/abiturient/control/admin-panel.php on line 42
+[08-Mar-2020 21:39:35 Europe/Moscow] PHP Notice:  Trying to get property 'login' of non-object in /home/windmymind/Documents/projects/Diploma/abiturient/control/admin-panel.php on line 42
+[09-Mar-2020 11:36:00 Europe/Moscow] PHP Notice:  Undefined index: admin in /home/windmymind/Documents/projects/Diploma/abiturient/control/admin-panel.php on line 35
+[09-Mar-2020 11:36:00 Europe/Moscow] PHP Notice:  Trying to get property 'login' of non-object in /home/windmymind/Documents/projects/Diploma/abiturient/control/admin-panel.php on line 35
+[10-Mar-2020 14:52:02 Europe/Moscow] PHP Notice:  Undefined index: admin in /home/windmymind/Documents/projects/Diploma/abiturient/control/admin-panel.php on line 34
+[10-Mar-2020 14:52:02 Europe/Moscow] PHP Notice:  Trying to get property 'login' of non-object in /home/windmymind/Documents/projects/Diploma/abiturient/control/admin-panel.php on line 34
+[11-Mar-2020 10:39:00 Europe/Moscow] PHP Notice:  Undefined index: admin in /home/windmymind/Documents/projects/Diploma/abiturient/control/admin-panel.php on line 34
+[11-Mar-2020 10:39:00 Europe/Moscow] PHP Notice:  Trying to get property 'login' of non-object in /home/windmymind/Documents/projects/Diploma/abiturient/control/admin-panel.php on line 34
+[11-Mar-2020 11:15:28 Europe/Moscow] PHP Notice:  Undefined variable: test in /home/windmymind/Documents/projects/Diploma/abiturient/control/admin-panel.php on line 198
+[11-Mar-2020 11:15:54 Europe/Moscow] PHP Notice:  Undefined variable: test in /home/windmymind/Documents/projects/Diploma/abiturient/control/admin-panel.php on line 198
+[11-Mar-2020 13:55:10 Europe/Moscow] PHP Notice:  Undefined index: admin in /home/windmymind/Documents/projects/Diploma/abiturient/control/admin-panel.php on line 34
+[11-Mar-2020 13:55:10 Europe/Moscow] PHP Notice:  Trying to get property 'login' of non-object in /home/windmymind/Documents/projects/Diploma/abiturient/control/admin-panel.php on line 34
+[11-Mar-2020 14:35:12 Europe/Moscow] PHP Notice:  Undefined index: admin in /home/windmymind/Documents/projects/Diploma/abiturient/control/admin-panel.php on line 34
+[11-Mar-2020 14:35:12 Europe/Moscow] PHP Notice:  Trying to get property 'login' of non-object in /home/windmymind/Documents/projects/Diploma/abiturient/control/admin-panel.php on line 34
+[11-Mar-2020 14:35:31 Europe/Moscow] PHP Warning:  require(../db.php): failed to open stream: No such file or directory in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/manageStatements.php on line 2
+[11-Mar-2020 14:35:31 Europe/Moscow] PHP Fatal error:  require(): Failed opening required '../db.php' (include_path='.:/usr/share/php') in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/manageStatements.php on line 2
+[11-Mar-2020 14:36:52 Europe/Moscow] PHP Parse error:  syntax error, unexpected ''/../db.php'' (T_CONSTANT_ENCAPSED_STRING) in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/manageStatements.php on line 2
+[11-Mar-2020 14:37:17 Europe/Moscow] PHP Fatal error:  Cannot declare interface RedBeanPHP\Logger, because the name is already in use in /home/windmymind/Documents/projects/Diploma/abiturient/control/libs/rb-mysql.php on line 19
+[11-Mar-2020 14:38:02 Europe/Moscow] PHP Notice:  Array to string conversion in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/manageStatements.php on line 7
+[11-Mar-2020 14:43:10 Europe/Moscow] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/manageStatements.php on line 8
+[11-Mar-2020 14:43:40 Europe/Moscow] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/manageStatements.php on line 7
+[11-Mar-2020 14:43:40 Europe/Moscow] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/manageStatements.php:8) in /home/windmymind/Documents/projects/Diploma/abiturient/control/admin-panel.php on line 11
+[11-Mar-2020 14:43:40 Europe/Moscow] PHP Notice:  Undefined index: admin in /home/windmymind/Documents/projects/Diploma/abiturient/control/admin-panel.php on line 34
+[11-Mar-2020 14:43:40 Europe/Moscow] PHP Notice:  Trying to get property 'login' of non-object in /home/windmymind/Documents/projects/Diploma/abiturient/control/admin-panel.php on line 34
+[12-Mar-2020 11:20:27 Europe/Moscow] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/manageStatements.php on line 12
+[12-Mar-2020 11:20:27 Europe/Moscow] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/manageStatements.php on line 12
+[12-Mar-2020 11:20:27 Europe/Moscow] PHP Notice:  Undefined index: admin in /home/windmymind/Documents/projects/Diploma/abiturient/control/admin-panel.php on line 34
+[12-Mar-2020 11:20:27 Europe/Moscow] PHP Notice:  Trying to get property 'login' of non-object in /home/windmymind/Documents/projects/Diploma/abiturient/control/admin-panel.php on line 34
+[12-Mar-2020 12:38:13 Europe/Moscow] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/manageStatements.php on line 12
+[12-Mar-2020 12:38:13 Europe/Moscow] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/manageStatements.php on line 12
+[12-Mar-2020 12:38:13 Europe/Moscow] PHP Notice:  Undefined index: admin in /home/windmymind/Documents/projects/Diploma/abiturient/control/admin-panel.php on line 34
+[12-Mar-2020 12:38:13 Europe/Moscow] PHP Notice:  Trying to get property 'login' of non-object in /home/windmymind/Documents/projects/Diploma/abiturient/control/admin-panel.php on line 34
+[12-Mar-2020 18:28:38 Europe/Moscow] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/manageStatements.php on line 12
+[12-Mar-2020 18:28:38 Europe/Moscow] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/manageStatements.php on line 12
+[13-Mar-2020 14:58:34 Europe/Moscow] PHP Notice:  Undefined index: admin in /home/windmymind/Documents/projects/Diploma/abiturient/control/admin-panel.php on line 33
+[13-Mar-2020 14:58:34 Europe/Moscow] PHP Notice:  Trying to get property 'login' of non-object in /home/windmymind/Documents/projects/Diploma/abiturient/control/admin-panel.php on line 33
+[13-Mar-2020 17:41:20 Europe/Moscow] PHP Notice:  Undefined index: admin in /home/windmymind/Documents/projects/Diploma/abiturient/control/admin-panel.php on line 33
+[13-Mar-2020 17:41:20 Europe/Moscow] PHP Notice:  Trying to get property 'login' of non-object in /home/windmymind/Documents/projects/Diploma/abiturient/control/admin-panel.php on line 33
+[14-Mar-2020 09:36:41 Europe/Moscow] PHP Notice:  Undefined index: admin in /home/windmymind/Documents/projects/Diploma/abiturient/control/admin-panel.php on line 33
+[14-Mar-2020 09:36:41 Europe/Moscow] PHP Notice:  Trying to get property 'login' of non-object in /home/windmymind/Documents/projects/Diploma/abiturient/control/admin-panel.php on line 33
+[14-Mar-2020 11:46:51 Europe/Moscow] PHP Notice:  Undefined index: admin in /home/windmymind/Documents/projects/Diploma/abiturient/control/admin-panel.php on line 33
+[14-Mar-2020 11:46:51 Europe/Moscow] PHP Notice:  Trying to get property 'login' of non-object in /home/windmymind/Documents/projects/Diploma/abiturient/control/admin-panel.php on line 33
+[14-Mar-2020 14:05:35 Europe/Moscow] PHP Notice:  Undefined index: admin in /home/windmymind/Documents/projects/Diploma/abiturient/control/admin-panel.php on line 33
+[14-Mar-2020 14:05:35 Europe/Moscow] PHP Notice:  Trying to get property 'login' of non-object in /home/windmymind/Documents/projects/Diploma/abiturient/control/admin-panel.php on line 33
+[14-Mar-2020 14:19:17 Europe/Moscow] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /home/windmymind/Documents/projects/Diploma/abiturient/control/admin-panel.php on line 3
+[14-Mar-2020 14:19:29 Europe/Moscow] PHP Notice:  Undefined variable: _SESSION in /home/windmymind/Documents/projects/Diploma/abiturient/control/admin-panel.php on line 32
+[14-Mar-2020 14:19:29 Europe/Moscow] PHP Notice:  Trying to access array offset on value of type null in /home/windmymind/Documents/projects/Diploma/abiturient/control/admin-panel.php on line 32
+[14-Mar-2020 14:19:29 Europe/Moscow] PHP Notice:  Trying to get property 'login' of non-object in /home/windmymind/Documents/projects/Diploma/abiturient/control/admin-panel.php on line 32
+[14-Mar-2020 14:19:31 Europe/Moscow] PHP Notice:  Undefined variable: _SESSION in /home/windmymind/Documents/projects/Diploma/abiturient/control/admin-panel.php on line 32
+[14-Mar-2020 14:19:31 Europe/Moscow] PHP Notice:  Trying to access array offset on value of type null in /home/windmymind/Documents/projects/Diploma/abiturient/control/admin-panel.php on line 32
+[14-Mar-2020 14:19:31 Europe/Moscow] PHP Notice:  Trying to get property 'login' of non-object in /home/windmymind/Documents/projects/Diploma/abiturient/control/admin-panel.php on line 32
+[14-Mar-2020 15:20:51 Europe/Moscow] PHP Warning:  require(../db.php): failed to open stream: No such file or directory in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/getReceiptStatistics.php on line 2
+[14-Mar-2020 15:20:51 Europe/Moscow] PHP Fatal error:  require(): Failed opening required '../db.php' (include_path='.:/usr/share/php') in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/getReceiptStatistics.php on line 2
+[14-Mar-2020 15:20:52 Europe/Moscow] PHP Warning:  require(../db.php): failed to open stream: No such file or directory in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/getReceiptStatistics.php on line 2
+[14-Mar-2020 15:20:52 Europe/Moscow] PHP Fatal error:  require(): Failed opening required '../db.php' (include_path='.:/usr/share/php') in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/getReceiptStatistics.php on line 2
+[14-Mar-2020 15:21:10 Europe/Moscow] PHP Fatal error:  Cannot declare interface RedBeanPHP\Logger, because the name is already in use in /home/windmymind/Documents/projects/Diploma/abiturient/control/libs/rb-mysql.php on line 19
+[14-Mar-2020 15:21:11 Europe/Moscow] PHP Fatal error:  Cannot declare interface RedBeanPHP\Logger, because the name is already in use in /home/windmymind/Documents/projects/Diploma/abiturient/control/libs/rb-mysql.php on line 19
+[14-Mar-2020 15:21:27 Europe/Moscow] PHP Notice:  Trying to get property 'anket_status' of non-object in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/getReceiptStatistics.php on line 9
+[14-Mar-2020 15:21:44 Europe/Moscow] PHP Notice:  Trying to get property 'anket_status' of non-object in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/getReceiptStatistics.php on line 9
+[14-Mar-2020 15:21:44 Europe/Moscow] PHP Notice:  Trying to get property 'anket_status' of non-object in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/getReceiptStatistics.php on line 11
+[14-Mar-2020 15:21:45 Europe/Moscow] PHP Notice:  Trying to get property 'anket_status' of non-object in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/getReceiptStatistics.php on line 9
+[14-Mar-2020 15:21:45 Europe/Moscow] PHP Notice:  Trying to get property 'anket_status' of non-object in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/getReceiptStatistics.php on line 11
+[14-Mar-2020 15:22:16 Europe/Moscow] PHP Fatal error:  Uncaught [42000] - SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '?  -- keep-cache' at line 1
+trace: #0 /home/windmymind/Documents/projects/Diploma/abiturient/control/libs/rb-mysql.php(1080): RedBeanPHP\Driver\RPDO->runQuery()
+#1 /home/windmymind/Documents/projects/Diploma/abiturient/control/libs/rb-mysql.php(4245): RedBeanPHP\Driver\RPDO->GetAll()
+#2 /home/windmymind/Documents/projects/Diploma/abiturient/control/libs/rb-mysql.php(6180): RedBeanPHP\Adapter\DBAdapter->get()
+#3 /home/windmymind/Documents/projects/Diploma/abiturient/control/libs/rb-mysql.php(8000): RedBeanPHP\QueryWriter\AQueryWriter->queryRecord()
+#4 /home/windmymind/Documents/projects/Diploma/abiturient/control/libs/rb-mysql.php(9100): RedBeanPHP\Repository->find()
+#5 /home/windmymind/Documents/projects/Diploma/abiturient/control/libs/rb-mysql.php(9660): RedBeanPHP\OODB->find()
+#6 /home/windmymind/Do in /home/windmymind/Documents/projects/Diploma/abiturient/control/libs/rb-mysql.php on line 810
+[14-Mar-2020 15:22:38 Europe/Moscow] PHP Notice:  Trying to get property 'anket_status' of non-object in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/getReceiptStatistics.php on line 9
+[14-Mar-2020 15:22:39 Europe/Moscow] PHP Notice:  Trying to get property 'anket_status' of non-object in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/getReceiptStatistics.php on line 9
+[14-Mar-2020 15:23:01 Europe/Moscow] PHP Notice:  Trying to get property 'anket_status' of non-object in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/getReceiptStatistics.php on line 9
+[14-Mar-2020 15:23:02 Europe/Moscow] PHP Notice:  Trying to get property 'anket_status' of non-object in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/getReceiptStatistics.php on line 9
+[14-Mar-2020 15:23:38 Europe/Moscow] PHP Notice:  Trying to get property 'anket_status' of non-object in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/getReceiptStatistics.php on line 11
+[14-Mar-2020 15:23:50 Europe/Moscow] PHP Notice:  Undefined index: anket_status in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/getReceiptStatistics.php on line 11
+[14-Mar-2020 15:23:50 Europe/Moscow] PHP Notice:  Undefined index: anket_status in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/getReceiptStatistics.php on line 11
+[14-Mar-2020 15:24:34 Europe/Moscow] PHP Notice:  Undefined index: id in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/getReceiptStatistics.php on line 11
+[14-Mar-2020 15:24:42 Europe/Moscow] PHP Notice:  Trying to get property 'id' of non-object in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/getReceiptStatistics.php on line 11
+[14-Mar-2020 15:24:48 Europe/Moscow] PHP Notice:  Trying to get property 'id' of non-object in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/getReceiptStatistics.php on line 11
+[14-Mar-2020 15:24:48 Europe/Moscow] PHP Notice:  Trying to get property 'id' of non-object in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/getReceiptStatistics.php on line 11
+[14-Mar-2020 15:25:13 Europe/Moscow] PHP Notice:  Trying to get property 'id' of non-object in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/getReceiptStatistics.php on line 11
+[14-Mar-2020 15:25:14 Europe/Moscow] PHP Notice:  Trying to get property 'id' of non-object in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/getReceiptStatistics.php on line 11
+[14-Mar-2020 15:32:15 Europe/Moscow] PHP Fatal error:  Cannot declare interface RedBeanPHP\Logger, because the name is already in use in /home/windmymind/Documents/projects/Diploma/abiturient/control/libs/rb-mysql.php on line 19
+[14-Mar-2020 15:32:19 Europe/Moscow] PHP Notice:  Array to string conversion in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/getReceiptStatistics.php on line 15
+[14-Mar-2020 15:32:21 Europe/Moscow] PHP Notice:  Array to string conversion in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/getReceiptStatistics.php on line 15
+[14-Mar-2020 15:32:40 Europe/Moscow] PHP Notice:  Array to string conversion in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/getReceiptStatistics.php on line 15
+[14-Mar-2020 15:32:40 Europe/Moscow] PHP Notice:  Array to string conversion in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/getReceiptStatistics.php on line 15
+[14-Mar-2020 19:56:49 Europe/Moscow] PHP Notice:  Undefined index: admin in /home/windmymind/Documents/projects/Diploma/abiturient/control/admin-panel.php on line 32
+[14-Mar-2020 19:56:49 Europe/Moscow] PHP Notice:  Trying to get property 'login' of non-object in /home/windmymind/Documents/projects/Diploma/abiturient/control/admin-panel.php on line 32
+[19-Mar-2020 19:48:49 Europe/Moscow] PHP Notice:  Undefined index: admin in /home/windmymind/Documents/projects/Diploma/abiturient/control/admin-panel.php on line 32
+[19-Mar-2020 19:48:49 Europe/Moscow] PHP Notice:  Trying to get property 'login' of non-object in /home/windmymind/Documents/projects/Diploma/abiturient/control/admin-panel.php on line 32
+[19-Mar-2020 20:57:32 Europe/Moscow] PHP Notice:  Undefined index: admin in /home/windmymind/Documents/projects/Diploma/abiturient/control/admin-panel.php on line 32
+[19-Mar-2020 20:57:32 Europe/Moscow] PHP Notice:  Trying to get property 'login' of non-object in /home/windmymind/Documents/projects/Diploma/abiturient/control/admin-panel.php on line 32
+[20-Mar-2020 12:31:29 Europe/Moscow] PHP Notice:  Undefined index: admin in /home/windmymind/Documents/projects/Diploma/abiturient/control/admin-panel.php on line 32
+[20-Mar-2020 12:31:29 Europe/Moscow] PHP Notice:  Trying to get property 'login' of non-object in /home/windmymind/Documents/projects/Diploma/abiturient/control/admin-panel.php on line 32
+[20-Mar-2020 13:49:41 Europe/Moscow] PHP Notice:  Undefined index: admin in /home/windmymind/Documents/projects/Diploma/abiturient/control/admin-panel.php on line 32
+[20-Mar-2020 13:49:41 Europe/Moscow] PHP Notice:  Trying to get property 'login' of non-object in /home/windmymind/Documents/projects/Diploma/abiturient/control/admin-panel.php on line 32
+[20-Mar-2020 18:43:10 Europe/Moscow] PHP Notice:  Undefined index: admin in /home/windmymind/Documents/projects/Diploma/abiturient/control/admin-panel.php on line 32
+[20-Mar-2020 18:43:10 Europe/Moscow] PHP Notice:  Trying to get property 'login' of non-object in /home/windmymind/Documents/projects/Diploma/abiturient/control/admin-panel.php on line 32
+[20-Mar-2020 20:45:58 Europe/Moscow] PHP Notice:  Undefined index: admin in /home/windmymind/Documents/projects/Diploma/abiturient/control/admin-panel.php on line 32
+[20-Mar-2020 20:45:58 Europe/Moscow] PHP Notice:  Trying to get property 'login' of non-object in /home/windmymind/Documents/projects/Diploma/abiturient/control/admin-panel.php on line 32
+[21-Mar-2020 11:55:54 Europe/Moscow] PHP Notice:  Undefined index: admin in /home/windmymind/Documents/projects/Diploma/abiturient/control/admin-panel.php on line 32
+[21-Mar-2020 11:55:54 Europe/Moscow] PHP Notice:  Trying to get property 'login' of non-object in /home/windmymind/Documents/projects/Diploma/abiturient/control/admin-panel.php on line 32
+[21-Mar-2020 14:48:44 Europe/Moscow] PHP Notice:  Undefined index: admin in /home/windmymind/Documents/projects/Diploma/abiturient/control/admin-panel.php on line 32
+[21-Mar-2020 14:48:44 Europe/Moscow] PHP Notice:  Trying to get property 'login' of non-object in /home/windmymind/Documents/projects/Diploma/abiturient/control/admin-panel.php on line 32
+[21-Mar-2020 19:34:56 Europe/Moscow] PHP Notice:  Undefined index: admin in /home/windmymind/Documents/projects/Diploma/abiturient/control/admin-panel.php on line 32
+[21-Mar-2020 19:34:56 Europe/Moscow] PHP Notice:  Trying to get property 'login' of non-object in /home/windmymind/Documents/projects/Diploma/abiturient/control/admin-panel.php on line 32

@@ -1,0 +1,98 @@
+1583231417a:1:{s:9:"about.htm";a:13:{s:8:"fileName";s:9:"about.htm";s:7:"content";s:1818:"title = "univer-site"
+url = "/about"
+layout = "additional"
+is_hidden = 0
+menu_text = "Об организации"
+menu_order = 1
+show_menu = 1
+
+[simpleMenu]
+main-ul-class = "header-list"
+main-li-class = "header-list__item"
+active-class = "active"
+==
+<main class="container main">
+    <nav class="main-sidebar">
+      <h2 class="main-sidebar__title">
+        <div class="main-sidebar__title-text">Меню</div>
+        <img src="{{ 'assets/images/down-arrow_dark.svg'|theme }}" class="header-list__link-arrow main-sidebar__title-icon">
+      </h2>
+      <!-- /.main-sidebar__title -->
+
+      <ul class="main-sidebar-list">
+        <li class="main-sidebar-list__item">
+          <a href="#about-college" class="main-sidebar-list__link active">Об университете</a>
+        </li>
+        <!-- /.main-sidebar-list__item -->
+        <li class="main-sidebar-list__item">
+          <a href="#history" class="main-sidebar-list__link">История</a>
+        </li>
+        <!-- /.main-sidebar-list__item -->
+        <li class="main-sidebar-list__item">
+          <a href="#bosses" class="main-sidebar-list__link">Руководители</a>
+        </li>
+        <!-- /.main-sidebar-list__item -->
+      </ul>
+      <!-- /.main-sidebar-list -->
+    </nav>
+    <!-- /.main-sidebar -->
+
+    <section id="about-college" class="main-content visible">
+      <!-- About -->
+      {% partial 'info' %}
+    </section>
+
+    <section id="history" class="main-content hidden">
+      {% partial 'history' %}
+    </section>
+
+    <section id="bosses" class="main-content hidden">
+      <h2 class="main-content__title">Руководители</h2>
+      <!-- /.main-content__title -->
+
+      {% partial 'bossess' %}
+    </section>
+    <!-- /.main-content -->
+  </main>";s:5:"mtime";i:1583226098;s:6:"markup";s:1554:"<main class="container main">
+    <nav class="main-sidebar">
+      <h2 class="main-sidebar__title">
+        <div class="main-sidebar__title-text">Меню</div>
+        <img src="{{ 'assets/images/down-arrow_dark.svg'|theme }}" class="header-list__link-arrow main-sidebar__title-icon">
+      </h2>
+      <!-- /.main-sidebar__title -->
+
+      <ul class="main-sidebar-list">
+        <li class="main-sidebar-list__item">
+          <a href="#about-college" class="main-sidebar-list__link active">Об университете</a>
+        </li>
+        <!-- /.main-sidebar-list__item -->
+        <li class="main-sidebar-list__item">
+          <a href="#history" class="main-sidebar-list__link">История</a>
+        </li>
+        <!-- /.main-sidebar-list__item -->
+        <li class="main-sidebar-list__item">
+          <a href="#bosses" class="main-sidebar-list__link">Руководители</a>
+        </li>
+        <!-- /.main-sidebar-list__item -->
+      </ul>
+      <!-- /.main-sidebar-list -->
+    </nav>
+    <!-- /.main-sidebar -->
+
+    <section id="about-college" class="main-content visible">
+      <!-- About -->
+      {% partial 'info' %}
+    </section>
+
+    <section id="history" class="main-content hidden">
+      {% partial 'history' %}
+    </section>
+
+    <section id="bosses" class="main-content hidden">
+      <h2 class="main-content__title">Руководители</h2>
+      <!-- /.main-content__title -->
+
+      {% partial 'bossess' %}
+    </section>
+    <!-- /.main-content -->
+  </main>";s:4:"code";N;s:5:"title";s:11:"univer-site";s:3:"url";s:6:"/about";s:6:"layout";s:10:"additional";s:9:"is_hidden";s:1:"0";s:9:"menu_text";s:27:"Об организации";s:10:"menu_order";s:1:"1";s:9:"show_menu";s:1:"1";s:10:"simpleMenu";a:3:{s:13:"main-ul-class";s:11:"header-list";s:13:"main-li-class";s:17:"header-list__item";s:12:"active-class";s:6:"active";}}}

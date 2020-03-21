@@ -1,0 +1,38 @@
+1583231872a:1:{s:13:"documents.htm";a:7:{s:8:"fileName";s:13:"documents.htm";s:7:"content";s:613:"[blogPosts]
+pageNumber = "{{ :page }}"
+categoryFilter = "documents"
+postsPerPage = 20
+noPostsMessage = "Записей не найдено"
+sortOrder = "published_at desc"
+categoryPage = "receipt"
+postPage = "receipt"
+
+[viewBag]
+==
+{% set posts = blogPosts.posts %}
+
+{% for post in posts %}
+<div class="info__wrap">
+  <h3 class="main-content__subtitle">{{ post.title }}</h3>
+  <!-- /.main-content-list__title -->
+
+  <div class="main-content-list main-content-list-documents">
+    {{ post.content_html|raw }}
+  </div>
+  <!-- /.main-content-list -->
+</div>
+<!-- /.info__wrap -->
+{% endfor %}";s:5:"mtime";i:1582802870;s:6:"markup";s:370:"{% set posts = blogPosts.posts %}
+
+{% for post in posts %}
+<div class="info__wrap">
+  <h3 class="main-content__subtitle">{{ post.title }}</h3>
+  <!-- /.main-content-list__title -->
+
+  <div class="main-content-list main-content-list-documents">
+    {{ post.content_html|raw }}
+  </div>
+  <!-- /.main-content-list -->
+</div>
+<!-- /.info__wrap -->
+{% endfor %}";s:4:"code";N;s:9:"blogPosts";a:7:{s:10:"pageNumber";s:11:"{{ :page }}";s:14:"categoryFilter";s:9:"documents";s:12:"postsPerPage";s:2:"20";s:14:"noPostsMessage";s:34:"Записей не найдено";s:9:"sortOrder";s:17:"published_at desc";s:12:"categoryPage";s:7:"receipt";s:8:"postPage";s:7:"receipt";}s:7:"viewBag";a:0:{}}}

@@ -1,0 +1,59 @@
+1583231417a:1:{s:8:"home.htm";a:12:{s:8:"fileName";s:8:"home.htm";s:7:"content";s:1705:"title = "univer-site"
+url = "/"
+layout = "default"
+is_hidden = 0
+show_menu = 0
+
+[simpleMenu]
+main-ul-class = "header-list"
+main-li-class = "header-list__item"
+
+[simpleMenu burgerMenu]
+main-ul-class = "burger-menu"
+main-li-class = "burger-menu__item"
+==
+<section class="about">
+    <div class="container about-wrap">
+      <div class="about-text">
+        <h2 class="about-text__title">Кратко о нас</h2>
+        <p class="about-text__info">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
+          magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+          est laborum.
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
+          magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+          est laborum.
+        </p>
+      </div>
+      <!-- /.about__text -->
+      <img src="{{ 'assets/images/college.jpg'|theme }}" alt="университет" class="about__img">
+    </div>
+    <!-- /.conteiner about-wrap -->
+  </section>
+  <!-- /.about -->";s:5:"mtime";i:1583227354;s:6:"markup";s:1452:"<section class="about">
+    <div class="container about-wrap">
+      <div class="about-text">
+        <h2 class="about-text__title">Кратко о нас</h2>
+        <p class="about-text__info">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
+          magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+          est laborum.
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
+          magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+          est laborum.
+        </p>
+      </div>
+      <!-- /.about__text -->
+      <img src="{{ 'assets/images/college.jpg'|theme }}" alt="университет" class="about__img">
+    </div>
+    <!-- /.conteiner about-wrap -->
+  </section>
+  <!-- /.about -->";s:4:"code";N;s:5:"title";s:11:"univer-site";s:3:"url";s:1:"/";s:6:"layout";s:7:"default";s:9:"is_hidden";s:1:"0";s:9:"show_menu";s:1:"0";s:10:"simpleMenu";a:2:{s:13:"main-ul-class";s:11:"header-list";s:13:"main-li-class";s:17:"header-list__item";}s:21:"simpleMenu burgerMenu";a:2:{s:13:"main-ul-class";s:11:"burger-menu";s:13:"main-li-class";s:17:"burger-menu__item";}}}

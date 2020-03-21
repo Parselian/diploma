@@ -1,0 +1,159 @@
+.section
+  padding-top: 20px
+  width: 100% !important
+  &-content
+    padding-bottom: 40px
+    width: 80%
+    &__title
+      margin-bottom: 20px
+      padding: 20px 0
+      font-weight: 500
+      background-color: #fff
+    &__subtitle
+      margin: 50px 0
+      font-size: 18px
+      font-weight: 500
+      color: $header-text-color
+    &-attention
+      width: 100%
+      padding: 30px 0
+      position: absolute
+      background-color: $attention-color
+      color: $header-text-color
+      &_error
+        background-color: $attention-error-color
+      &__close
+        position: absolute
+        top: 0
+        right: 7px
+        font-size: 28px
+        font-weight: 700
+        cursor: pointer
+      &__text
+        padding: 0 30px 0 65px
+        text-align: center
+        font-weight: 700
+  &__title
+    font-size: 28px
+    margin-bottom: 40px
+  &-general
+    &-wrap
+      display: flex
+      flex-wrap: wrap
+    &-block
+      margin-bottom: 30px
+      padding: 15px 20px
+      width: 40%
+      display: inline-block
+      border-radius: 5px
+      box-shadow: 0px 4px 16px 0px rgba(0,0,0,0.25)
+      &:nth-child(odd)
+        margin-right: 30px
+      &__title
+        margin-bottom: 20px
+      &__text
+        margin: 0
+    &-form
+      &__button
+        margin-top: 10px
+        width: auto
+        padding: 5px 15px
+        font-size: 15px
+        background-color: green
+        color: $btn-text-color
+  &-props
+    height: 80vh
+    overflow-y: auto
+    &-form
+      margin-bottom: 30px
+      max-width: 80%
+      display: flex
+      flex-direction: row
+      align-items: center
+    &-block
+      &__info
+        margin-right: 20px
+        padding: 10px 20px
+        width: 70%
+        display: flex
+        justify-content: space-between
+        border: 2px solid $section-border-color
+        border-radius: 5px
+      &__btn
+        padding: 5px 20px
+        height: 43px
+        border-radius: 7px
+  &-statement
+    width: 100vw !important
+    padding-left: 40px
+    &-wrap
+      padding: 20px 0
+      display: flex
+      overflow-Y: scroll
+      max-height: 70vh
+    &-column
+      display: flex
+      flex-direction: column
+      width: 30%
+      height: fir-content
+      &:first-child
+        .section
+          &-statement
+            &-block
+              &:first-child
+                margin-bottom: 113px
+      &:last-child
+        .section
+          &-statement
+            &-block
+              &:first-child
+                margin-bottom: 100px
+    &-block
+      margin-bottom: 50px
+      &__title
+        margin-bottom: 20px
+        font-weight: 700
+        &:nth-child(4)
+          margin-top: 33px
+    &-field
+      margin-bottom: 10px
+      &:last-child
+        margin-bottom: 0
+      &__title
+        margin-bottom: 3px
+        font-size: 14px
+      &__field
+        padding-top: 6px
+        width: 90%
+        height: 24px
+        text-align: center
+        border: 2px solid $section-border-color
+        border-radius: 5px
+    &-link
+      margin-bottom: 10px
+      max-width: 250px
+      display: flex
+      justify-content: space-between
+      &__link
+        color: $link-color
+        transition: .3s
+        &:hover
+          color: $hovered-link-color
+    &-buttons
+      margin-top: 50px
+      &__button
+        font-size: 16px
+        &:first-child
+          margin-right: 10px
+  &-specialty
+    &-wrap
+      overflow-y: scroll
+      height: 80vh
+    &-form
+      &-block
+        width: 100%
+        display: flex
+        justify-content: space-between
+      &__input
+        &_short
+          width: 25%

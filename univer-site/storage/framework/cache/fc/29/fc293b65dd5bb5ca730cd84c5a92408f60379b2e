@@ -1,0 +1,32 @@
+1583231871a:1:{s:8:"info.htm";a:7:{s:8:"fileName";s:8:"info.htm";s:7:"content";s:493:"[viewBag]
+
+[blogPosts]
+pageNumber = "{{ :page }}"
+categoryFilter = "about-univer"
+postsPerPage = 1
+noPostsMessage = "Записей не найдено"
+sortOrder = "published_at desc"
+categoryPage = "about"
+postPage = "about"
+==
+{% set posts = blogPosts.posts %}
+
+{% for post in posts %}
+<div class="info__wrap">
+  <h2 class="main-content__title">{{ post.title }}</h2>
+  <!-- /.main-content__title -->
+
+  {{ post.content_html|raw }}
+</div>
+<!-- /.main-content__wrap -->
+{% endfor %}";s:5:"mtime";i:1582712734;s:6:"markup";s:263:"{% set posts = blogPosts.posts %}
+
+{% for post in posts %}
+<div class="info__wrap">
+  <h2 class="main-content__title">{{ post.title }}</h2>
+  <!-- /.main-content__title -->
+
+  {{ post.content_html|raw }}
+</div>
+<!-- /.main-content__wrap -->
+{% endfor %}";s:4:"code";N;s:7:"viewBag";a:0:{}s:9:"blogPosts";a:7:{s:10:"pageNumber";s:11:"{{ :page }}";s:14:"categoryFilter";s:12:"about-univer";s:12:"postsPerPage";s:1:"1";s:14:"noPostsMessage";s:34:"Записей не найдено";s:9:"sortOrder";s:17:"published_at desc";s:12:"categoryPage";s:5:"about";s:8:"postPage";s:5:"about";}}}

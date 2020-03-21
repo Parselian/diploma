@@ -1,0 +1,518 @@
+[04-Mar-2020 11:21:29 Europe/Moscow] PHP Warning:  move_uploaded_file(control/uploads/photos/user_id_8ло): failed to open stream: No such file or directory in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 21
+[04-Mar-2020 11:21:29 Europe/Moscow] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpMjZhlW' to 'control/uploads/photos/user_id_8ло' in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 21
+[04-Mar-2020 11:21:29 Europe/Moscow] PHP Warning:  move_uploaded_file(control/uploads/passports/user_id_8avocode promocode.png): failed to open stream: No such file or directory in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 22
+[04-Mar-2020 11:21:29 Europe/Moscow] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/php6MK3pl' to 'control/uploads/passports/user_id_8avocode promocode.png' in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 22
+[04-Mar-2020 11:21:29 Europe/Moscow] PHP Warning:  move_uploaded_file(control/uploads/statements/user_id_8ло): failed to open stream: No such file or directory in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 23
+[04-Mar-2020 11:21:29 Europe/Moscow] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpDu7Bgx' to 'control/uploads/statements/user_id_8ло' in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 23
+[04-Mar-2020 11:25:29 Europe/Moscow] PHP Warning:  move_uploaded_file(control/uploads/photos/user_id_8ло): failed to open stream: No such file or directory in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 21
+[04-Mar-2020 11:25:29 Europe/Moscow] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpvpDb4I' to 'control/uploads/photos/user_id_8ло' in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 21
+[04-Mar-2020 11:25:29 Europe/Moscow] PHP Warning:  move_uploaded_file(control/uploads/passports/user_id_8ло): failed to open stream: No such file or directory in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 22
+[04-Mar-2020 11:25:29 Europe/Moscow] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpsgauMJ' to 'control/uploads/passports/user_id_8ло' in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 22
+[04-Mar-2020 11:25:29 Europe/Moscow] PHP Warning:  move_uploaded_file(control/uploads/statements/user_id_8ло): failed to open stream: No such file or directory in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 23
+[04-Mar-2020 11:25:29 Europe/Moscow] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpPDkYlI' to 'control/uploads/statements/user_id_8ло' in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 23
+[04-Mar-2020 11:27:47 Europe/Moscow] PHP Warning:  move_uploaded_file(control/uploads/photos/user_id_8photo): failed to open stream: No such file or directory in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 21
+[04-Mar-2020 11:27:47 Europe/Moscow] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpIF9GM1' to 'control/uploads/photos/user_id_8photo' in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 21
+[04-Mar-2020 11:27:47 Europe/Moscow] PHP Warning:  move_uploaded_file(control/uploads/passports/user_id_8passport): failed to open stream: No such file or directory in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 22
+[04-Mar-2020 11:27:47 Europe/Moscow] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpyIYi7b' to 'control/uploads/passports/user_id_8passport' in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 22
+[04-Mar-2020 11:27:47 Europe/Moscow] PHP Warning:  move_uploaded_file(control/uploads/statements/user_id_8statement): failed to open stream: No such file or directory in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 23
+[04-Mar-2020 11:27:47 Europe/Moscow] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpmqx6rR' to 'control/uploads/statements/user_id_8statement' in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 23
+[04-Mar-2020 13:01:47 Europe/Moscow] PHP Warning:  move_uploaded_file(control/uploads/photos/user_id_8photo): failed to open stream: No such file or directory in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 21
+[04-Mar-2020 13:01:47 Europe/Moscow] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpXjUC9c' to 'control/uploads/photos/user_id_8photo' in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 21
+[04-Mar-2020 13:01:47 Europe/Moscow] PHP Warning:  move_uploaded_file(control/uploads/passports/user_id_8passport): failed to open stream: No such file or directory in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 22
+[04-Mar-2020 13:01:47 Europe/Moscow] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpKcb8Da' to 'control/uploads/passports/user_id_8passport' in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 22
+[04-Mar-2020 13:01:47 Europe/Moscow] PHP Warning:  move_uploaded_file(control/uploads/statements/user_id_8statement): failed to open stream: No such file or directory in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 23
+[04-Mar-2020 13:01:47 Europe/Moscow] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpZPy9Ef' to 'control/uploads/statements/user_id_8statement' in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 23
+[04-Mar-2020 13:03:58 Europe/Moscow] PHP Warning:  move_uploaded_file(control/uploads/photos/user_id_8photo): failed to open stream: No such file or directory in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 22
+[04-Mar-2020 13:03:58 Europe/Moscow] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpMIm4sQ' to 'control/uploads/photos/user_id_8photo' in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 22
+[04-Mar-2020 13:03:58 Europe/Moscow] PHP Warning:  move_uploaded_file(control/uploads/passports/user_id_8): failed to open stream: No such file or directory in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 23
+[04-Mar-2020 13:03:58 Europe/Moscow] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpA34MRb' to 'control/uploads/passports/user_id_8' in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 23
+[04-Mar-2020 13:03:58 Europe/Moscow] PHP Warning:  move_uploaded_file(control/uploads/statements/user_id_8statement): failed to open stream: No such file or directory in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 24
+[04-Mar-2020 13:03:58 Europe/Moscow] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpfJus4u' to 'control/uploads/statements/user_id_8statement' in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 24
+[04-Mar-2020 13:06:42 Europe/Moscow] PHP Warning:  move_uploaded_file(control/uploads/photos/user_id_8photo): failed to open stream: No such file or directory in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 22
+[04-Mar-2020 13:06:42 Europe/Moscow] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/php3LnBow' to 'control/uploads/photos/user_id_8photo' in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 22
+[04-Mar-2020 13:06:42 Europe/Moscow] PHP Warning:  move_uploaded_file(control/uploads/passports/user_id_8): failed to open stream: No such file or directory in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 23
+[04-Mar-2020 13:06:42 Europe/Moscow] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpEylGr8' to 'control/uploads/passports/user_id_8' in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 23
+[04-Mar-2020 13:06:42 Europe/Moscow] PHP Warning:  move_uploaded_file(control/uploads/statements/user_id_8statement): failed to open stream: No such file or directory in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 24
+[04-Mar-2020 13:06:42 Europe/Moscow] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpf4fAlU' to 'control/uploads/statements/user_id_8statement' in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 24
+[04-Mar-2020 19:43:30 Europe/Moscow] PHP Notice:  Undefined index: logged_user in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 10
+[04-Mar-2020 19:43:30 Europe/Moscow] PHP Notice:  Trying to get property 'id' of non-object in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 10
+[04-Mar-2020 19:43:30 Europe/Moscow] PHP Notice:  Undefined index: logged_user in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 14
+[04-Mar-2020 19:43:30 Europe/Moscow] PHP Notice:  Trying to get property 'id' of non-object in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 14
+[04-Mar-2020 19:43:30 Europe/Moscow] PHP Notice:  Undefined index: logged_user in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 18
+[04-Mar-2020 19:43:30 Europe/Moscow] PHP Notice:  Trying to get property 'id' of non-object in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 18
+[04-Mar-2020 19:43:30 Europe/Moscow] PHP Warning:  move_uploaded_file(control/uploads/photos/user_id_photo): failed to open stream: No such file or directory in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 22
+[04-Mar-2020 19:43:30 Europe/Moscow] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpQSm3Np' to 'control/uploads/photos/user_id_photo' in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 22
+[04-Mar-2020 19:43:30 Europe/Moscow] PHP Warning:  move_uploaded_file(control/uploads/passports/user_id_): failed to open stream: No such file or directory in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 23
+[04-Mar-2020 19:43:30 Europe/Moscow] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpBNJo94' to 'control/uploads/passports/user_id_' in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 23
+[04-Mar-2020 19:43:30 Europe/Moscow] PHP Warning:  move_uploaded_file(control/uploads/statements/user_id_statement): failed to open stream: No such file or directory in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 24
+[04-Mar-2020 19:43:30 Europe/Moscow] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpVKqNsK' to 'control/uploads/statements/user_id_statement' in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 24
+[04-Mar-2020 19:43:30 Europe/Moscow] PHP Notice:  Undefined index: logged_user in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 30
+[04-Mar-2020 19:43:30 Europe/Moscow] PHP Notice:  Trying to get property 'id' of non-object in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 30
+[04-Mar-2020 19:43:30 Europe/Moscow] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 5 in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php:36
+Stack trace:
+#0 /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php(36): PDOStatement->execute()
+#1 {main}
+  thrown in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 36
+[04-Mar-2020 19:43:30 Europe/Moscow] PHP Notice:  Undefined index: logged_user in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 10
+[04-Mar-2020 19:43:30 Europe/Moscow] PHP Notice:  Trying to get property 'id' of non-object in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 10
+[04-Mar-2020 19:43:30 Europe/Moscow] PHP Notice:  Undefined index: logged_user in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 14
+[04-Mar-2020 19:43:30 Europe/Moscow] PHP Notice:  Trying to get property 'id' of non-object in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 14
+[04-Mar-2020 19:43:30 Europe/Moscow] PHP Notice:  Undefined index: logged_user in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 18
+[04-Mar-2020 19:43:30 Europe/Moscow] PHP Notice:  Trying to get property 'id' of non-object in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 18
+[04-Mar-2020 19:43:30 Europe/Moscow] PHP Warning:  move_uploaded_file(control/uploads/photos/user_id_photo): failed to open stream: No such file or directory in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 22
+[04-Mar-2020 19:43:30 Europe/Moscow] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpKUJCms' to 'control/uploads/photos/user_id_photo' in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 22
+[04-Mar-2020 19:43:30 Europe/Moscow] PHP Warning:  move_uploaded_file(control/uploads/passports/user_id_): failed to open stream: No such file or directory in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 23
+[04-Mar-2020 19:43:30 Europe/Moscow] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phplY2Fp6' to 'control/uploads/passports/user_id_' in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 23
+[04-Mar-2020 19:43:30 Europe/Moscow] PHP Warning:  move_uploaded_file(control/uploads/statements/user_id_statement): failed to open stream: No such file or directory in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 24
+[04-Mar-2020 19:43:30 Europe/Moscow] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpH0ODjO' to 'control/uploads/statements/user_id_statement' in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 24
+[04-Mar-2020 19:43:30 Europe/Moscow] PHP Notice:  Undefined index: logged_user in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 30
+[04-Mar-2020 19:43:30 Europe/Moscow] PHP Notice:  Trying to get property 'id' of non-object in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 30
+[04-Mar-2020 19:43:30 Europe/Moscow] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 5 in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php:36
+Stack trace:
+#0 /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php(36): PDOStatement->execute()
+#1 {main}
+  thrown in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 36
+[04-Mar-2020 19:44:47 Europe/Moscow] PHP Notice:  Undefined index: logged_user in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 10
+[04-Mar-2020 19:44:47 Europe/Moscow] PHP Notice:  Trying to get property 'id' of non-object in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 10
+[04-Mar-2020 19:44:47 Europe/Moscow] PHP Notice:  Undefined index: logged_user in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 14
+[04-Mar-2020 19:44:47 Europe/Moscow] PHP Notice:  Trying to get property 'id' of non-object in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 14
+[04-Mar-2020 19:44:47 Europe/Moscow] PHP Notice:  Undefined index: logged_user in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 18
+[04-Mar-2020 19:44:47 Europe/Moscow] PHP Notice:  Trying to get property 'id' of non-object in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 18
+[04-Mar-2020 19:44:47 Europe/Moscow] PHP Warning:  move_uploaded_file(control/uploads/photos/user_id_photo): failed to open stream: No such file or directory in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 22
+[04-Mar-2020 19:44:47 Europe/Moscow] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpR3NKQ1' to 'control/uploads/photos/user_id_photo' in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 22
+[04-Mar-2020 19:44:47 Europe/Moscow] PHP Warning:  move_uploaded_file(control/uploads/passports/user_id_): failed to open stream: No such file or directory in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 23
+[04-Mar-2020 19:44:47 Europe/Moscow] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpBWM85X' to 'control/uploads/passports/user_id_' in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 23
+[04-Mar-2020 19:44:47 Europe/Moscow] PHP Warning:  move_uploaded_file(control/uploads/statements/user_id_statement): failed to open stream: No such file or directory in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 24
+[04-Mar-2020 19:44:47 Europe/Moscow] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpvvtpB5' to 'control/uploads/statements/user_id_statement' in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 24
+[04-Mar-2020 19:44:47 Europe/Moscow] PHP Notice:  Undefined index: logged_user in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 30
+[04-Mar-2020 19:44:47 Europe/Moscow] PHP Notice:  Trying to get property 'id' of non-object in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 30
+[04-Mar-2020 19:44:47 Europe/Moscow] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 5 in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php:36
+Stack trace:
+#0 /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php(36): PDOStatement->execute()
+#1 {main}
+  thrown in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 36
+[04-Mar-2020 19:46:06 Europe/Moscow] PHP Notice:  Undefined index: logged_user in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 10
+[04-Mar-2020 19:46:06 Europe/Moscow] PHP Notice:  Trying to get property 'id' of non-object in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 10
+[04-Mar-2020 19:46:06 Europe/Moscow] PHP Notice:  Undefined index: logged_user in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 14
+[04-Mar-2020 19:46:06 Europe/Moscow] PHP Notice:  Trying to get property 'id' of non-object in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 14
+[04-Mar-2020 19:46:06 Europe/Moscow] PHP Notice:  Undefined index: logged_user in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 18
+[04-Mar-2020 19:46:06 Europe/Moscow] PHP Notice:  Trying to get property 'id' of non-object in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 18
+[04-Mar-2020 19:46:06 Europe/Moscow] PHP Warning:  move_uploaded_file(control/uploads/photos/user_id_photo): failed to open stream: No such file or directory in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 22
+[04-Mar-2020 19:46:06 Europe/Moscow] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpUWLtM8' to 'control/uploads/photos/user_id_photo' in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 22
+[04-Mar-2020 19:46:06 Europe/Moscow] PHP Warning:  move_uploaded_file(control/uploads/passports/user_id_): failed to open stream: No such file or directory in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 23
+[04-Mar-2020 19:46:06 Europe/Moscow] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/php1RoqVj' to 'control/uploads/passports/user_id_' in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 23
+[04-Mar-2020 19:46:06 Europe/Moscow] PHP Warning:  move_uploaded_file(control/uploads/statements/user_id_statement): failed to open stream: No such file or directory in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 24
+[04-Mar-2020 19:46:06 Europe/Moscow] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpAckGDX' to 'control/uploads/statements/user_id_statement' in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 24
+[04-Mar-2020 19:46:06 Europe/Moscow] PHP Notice:  Undefined index: logged_user in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 30
+[04-Mar-2020 19:46:06 Europe/Moscow] PHP Notice:  Trying to get property 'id' of non-object in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 30
+[04-Mar-2020 19:46:06 Europe/Moscow] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 5 in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php:36
+Stack trace:
+#0 /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php(36): PDOStatement->execute()
+#1 {main}
+  thrown in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 36
+[04-Mar-2020 19:47:40 Europe/Moscow] PHP Notice:  Undefined index: logged_user in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 15
+[04-Mar-2020 19:47:40 Europe/Moscow] PHP Notice:  Trying to get property 'id' of non-object in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 15
+[04-Mar-2020 19:47:40 Europe/Moscow] PHP Notice:  Undefined index: logged_user in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 19
+[04-Mar-2020 19:47:40 Europe/Moscow] PHP Notice:  Trying to get property 'id' of non-object in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 19
+[04-Mar-2020 19:47:40 Europe/Moscow] PHP Notice:  Undefined index: logged_user in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 23
+[04-Mar-2020 19:47:40 Europe/Moscow] PHP Notice:  Trying to get property 'id' of non-object in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 23
+[04-Mar-2020 19:47:40 Europe/Moscow] PHP Warning:  move_uploaded_file(control/uploads/photos/user_id_photo): failed to open stream: No such file or directory in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 27
+[04-Mar-2020 19:47:40 Europe/Moscow] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpHDtpGY' to 'control/uploads/photos/user_id_photo' in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 27
+[04-Mar-2020 19:47:40 Europe/Moscow] PHP Warning:  move_uploaded_file(control/uploads/passports/user_id_): failed to open stream: No such file or directory in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 28
+[04-Mar-2020 19:47:40 Europe/Moscow] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpr3MAAR' to 'control/uploads/passports/user_id_' in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 28
+[04-Mar-2020 19:47:40 Europe/Moscow] PHP Warning:  move_uploaded_file(control/uploads/statements/user_id_statement): failed to open stream: No such file or directory in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 29
+[04-Mar-2020 19:47:40 Europe/Moscow] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpxYNnM5' to 'control/uploads/statements/user_id_statement' in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 29
+[04-Mar-2020 19:47:40 Europe/Moscow] PHP Notice:  Undefined index: logged_user in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 35
+[04-Mar-2020 19:47:40 Europe/Moscow] PHP Notice:  Trying to get property 'id' of non-object in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 35
+[04-Mar-2020 19:47:40 Europe/Moscow] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 5 in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php:41
+Stack trace:
+#0 /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php(41): PDOStatement->execute()
+#1 {main}
+  thrown in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 41
+[04-Mar-2020 20:12:15 Europe/Moscow] PHP Warning:  move_uploaded_file(/home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user./uploads/photos/user_id_9): failed to open stream: No such file or directory in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 22
+[04-Mar-2020 20:12:15 Europe/Moscow] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpJWd7Ma' to '/home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user./uploads/photos/user_id_9' in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 22
+[04-Mar-2020 20:12:15 Europe/Moscow] PHP Warning:  move_uploaded_file(/home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user./uploads/passports/user_id_9): failed to open stream: No such file or directory in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 23
+[04-Mar-2020 20:12:15 Europe/Moscow] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpOU4Qel' to '/home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user./uploads/passports/user_id_9' in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 23
+[04-Mar-2020 20:12:15 Europe/Moscow] PHP Warning:  move_uploaded_file(/home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user./uploads/statements/user_id_9): failed to open stream: No such file or directory in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 24
+[04-Mar-2020 20:12:15 Europe/Moscow] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpniYul0' to '/home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user./uploads/statements/user_id_9' in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 24
+[04-Mar-2020 20:12:56 Europe/Moscow] PHP Warning:  move_uploaded_file(/home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/../uploads/photos/user_id_9): failed to open stream: No such file or directory in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 22
+[04-Mar-2020 20:12:56 Europe/Moscow] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/php5OU7Lj' to '/home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/../uploads/photos/user_id_9' in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 22
+[04-Mar-2020 20:12:56 Europe/Moscow] PHP Warning:  move_uploaded_file(/home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/../uploads/passports/user_id_9): failed to open stream: No such file or directory in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 23
+[04-Mar-2020 20:12:56 Europe/Moscow] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpf0qs81' to '/home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/../uploads/passports/user_id_9' in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 23
+[04-Mar-2020 20:12:56 Europe/Moscow] PHP Warning:  move_uploaded_file(/home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/../uploads/statements/user_id_9): failed to open stream: No such file or directory in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 24
+[04-Mar-2020 20:12:56 Europe/Moscow] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpXb8RpB' to '/home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/../uploads/statements/user_id_9' in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 24
+[04-Mar-2020 20:14:43 Europe/Moscow] PHP Warning:  move_uploaded_file(../uploads/photos/user_id_9): failed to open stream: No such file or directory in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 22
+[04-Mar-2020 20:14:43 Europe/Moscow] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpmFOu3J' to '../uploads/photos/user_id_9' in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 22
+[04-Mar-2020 20:14:43 Europe/Moscow] PHP Warning:  move_uploaded_file(../uploads/passports/user_id_9): failed to open stream: No such file or directory in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 23
+[04-Mar-2020 20:14:43 Europe/Moscow] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpyJY8gK' to '../uploads/passports/user_id_9' in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 23
+[04-Mar-2020 20:14:43 Europe/Moscow] PHP Warning:  move_uploaded_file(../uploads/statements/user_id_9): failed to open stream: No such file or directory in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 24
+[04-Mar-2020 20:14:43 Europe/Moscow] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpFFURPJ' to '../uploads/statements/user_id_9' in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 24
+[04-Mar-2020 20:18:59 Europe/Moscow] PHP Warning:  move_uploaded_file(/home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/../../../uploads/photos/user_id_9): failed to open stream: No such file or directory in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 22
+[04-Mar-2020 20:18:59 Europe/Moscow] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpAlJfkI' to '/home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/../../../uploads/photos/user_id_9' in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 22
+[04-Mar-2020 20:18:59 Europe/Moscow] PHP Warning:  move_uploaded_file(/home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/../../../uploads/passports/user_id_9): failed to open stream: No such file or directory in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 23
+[04-Mar-2020 20:18:59 Europe/Moscow] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpHkowpJ' to '/home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/../../../uploads/passports/user_id_9' in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 23
+[04-Mar-2020 20:18:59 Europe/Moscow] PHP Warning:  move_uploaded_file(/home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/../../../uploads/statements/user_id_9): failed to open stream: No such file or directory in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 24
+[04-Mar-2020 20:18:59 Europe/Moscow] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpT2q3eH' to '/home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/../../../uploads/statements/user_id_9' in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 24
+[04-Mar-2020 20:20:15 Europe/Moscow] PHP Warning:  move_uploaded_file(../../../uploads/photos/user_id_9): failed to open stream: No such file or directory in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 22
+[04-Mar-2020 20:20:15 Europe/Moscow] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/php3a0JnT' to '../../../uploads/photos/user_id_9' in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 22
+[04-Mar-2020 20:20:15 Europe/Moscow] PHP Warning:  move_uploaded_file(../../../uploads/passports/user_id_9): failed to open stream: No such file or directory in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 23
+[04-Mar-2020 20:20:15 Europe/Moscow] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpc5V18e' to '../../../uploads/passports/user_id_9' in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 23
+[04-Mar-2020 20:20:15 Europe/Moscow] PHP Warning:  move_uploaded_file(../../../uploads/statements/user_id_9): failed to open stream: No such file or directory in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 24
+[04-Mar-2020 20:20:15 Europe/Moscow] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpC4bDCx' to '../../../uploads/statements/user_id_9' in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 24
+[04-Mar-2020 20:20:55 Europe/Moscow] PHP Warning:  move_uploaded_file(/abiturient/uploads/photos/user_id_9): failed to open stream: No such file or directory in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 22
+[04-Mar-2020 20:20:55 Europe/Moscow] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpq5xnJA' to '/abiturient/uploads/photos/user_id_9' in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 22
+[04-Mar-2020 20:20:55 Europe/Moscow] PHP Warning:  move_uploaded_file(/abiturient/uploads/passports/user_id_9): failed to open stream: No such file or directory in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 23
+[04-Mar-2020 20:20:55 Europe/Moscow] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpWLOa5w' to '/abiturient/uploads/passports/user_id_9' in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 23
+[04-Mar-2020 20:20:55 Europe/Moscow] PHP Warning:  move_uploaded_file(/abiturient/uploads/statements/user_id_9): failed to open stream: No such file or directory in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 24
+[04-Mar-2020 20:20:55 Europe/Moscow] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phptYrBnE' to '/abiturient/uploads/statements/user_id_9' in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 24
+[04-Mar-2020 20:21:36 Europe/Moscow] PHP Warning:  move_uploaded_file(control/uploads/photos/user_id_9): failed to open stream: No such file or directory in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 22
+[04-Mar-2020 20:21:36 Europe/Moscow] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpRskzQE' to 'control/uploads/photos/user_id_9' in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 22
+[04-Mar-2020 20:21:36 Europe/Moscow] PHP Warning:  move_uploaded_file(control/uploads/passports/user_id_9): failed to open stream: No such file or directory in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 23
+[04-Mar-2020 20:21:36 Europe/Moscow] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpWqUM2a' to 'control/uploads/passports/user_id_9' in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 23
+[04-Mar-2020 20:21:36 Europe/Moscow] PHP Warning:  move_uploaded_file(control/uploads/statements/user_id_9): failed to open stream: No such file or directory in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 24
+[04-Mar-2020 20:21:36 Europe/Moscow] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpOHhnE8' to 'control/uploads/statements/user_id_9' in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 24
+[04-Mar-2020 20:23:32 Europe/Moscow] PHP Warning:  move_uploaded_file(control/uploads/photos/user_id_9): failed to open stream: No such file or directory in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 21
+[04-Mar-2020 20:23:32 Europe/Moscow] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpMVAsvL' to 'control/uploads/photos/user_id_9' in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 21
+[04-Mar-2020 20:23:32 Europe/Moscow] PHP Warning:  move_uploaded_file(control/uploads/passports/user_id_9): failed to open stream: No such file or directory in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 22
+[04-Mar-2020 20:23:32 Europe/Moscow] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpxO7RIc' to 'control/uploads/passports/user_id_9' in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 22
+[04-Mar-2020 20:23:32 Europe/Moscow] PHP Warning:  move_uploaded_file(control/uploads/statements/user_id_9): failed to open stream: No such file or directory in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 23
+[04-Mar-2020 20:23:32 Europe/Moscow] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpeSo5hk' to 'control/uploads/statements/user_id_9' in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 23
+[04-Mar-2020 20:25:27 Europe/Moscow] PHP Warning:  move_uploaded_file(control/uploads/photos/user_id_9): failed to open stream: No such file or directory in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 21
+[04-Mar-2020 20:25:27 Europe/Moscow] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpguAYPi' to 'control/uploads/photos/user_id_9' in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 21
+[04-Mar-2020 20:25:27 Europe/Moscow] PHP Warning:  move_uploaded_file(control/uploads/passports/user_id_9): failed to open stream: No such file or directory in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 22
+[04-Mar-2020 20:25:27 Europe/Moscow] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/php9DUR1H' to 'control/uploads/passports/user_id_9' in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 22
+[04-Mar-2020 20:25:27 Europe/Moscow] PHP Warning:  move_uploaded_file(control/uploads/statements/user_id_9): failed to open stream: No such file or directory in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 23
+[04-Mar-2020 20:25:27 Europe/Moscow] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/php3qe6DT' to 'control/uploads/statements/user_id_9' in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 23
+[04-Mar-2020 20:32:57 Europe/Moscow] PHP Notice:  Undefined index: documents_passport in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 10
+[04-Mar-2020 20:32:57 Europe/Moscow] PHP Notice:  Trying to access array offset on value of type null in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 10
+[04-Mar-2020 20:32:57 Europe/Moscow] PHP Notice:  Undefined index: documents_photo in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 14
+[04-Mar-2020 20:32:57 Europe/Moscow] PHP Notice:  Trying to access array offset on value of type null in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 14
+[04-Mar-2020 20:32:57 Europe/Moscow] PHP Notice:  Undefined index: documents_statement in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 18
+[04-Mar-2020 20:32:57 Europe/Moscow] PHP Notice:  Trying to access array offset on value of type null in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 18
+[04-Mar-2020 20:33:42 Europe/Moscow] PHP Notice:  Undefined index: documents_passport in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 10
+[04-Mar-2020 20:33:42 Europe/Moscow] PHP Notice:  Trying to access array offset on value of type null in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 10
+[04-Mar-2020 20:33:42 Europe/Moscow] PHP Notice:  Undefined index: documents_photo in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 14
+[04-Mar-2020 20:33:42 Europe/Moscow] PHP Notice:  Trying to access array offset on value of type null in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 14
+[04-Mar-2020 20:33:42 Europe/Moscow] PHP Notice:  Undefined index: documents_statement in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 18
+[04-Mar-2020 20:33:42 Europe/Moscow] PHP Notice:  Trying to access array offset on value of type null in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 18
+[04-Mar-2020 20:38:07 Europe/Moscow] PHP Warning:  move_uploaded_file(control/uploads/photos/user_id_9): failed to open stream: No such file or directory in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 20
+[04-Mar-2020 20:38:07 Europe/Moscow] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/php5Q2hMN' to 'control/uploads/photos/user_id_9' in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 20
+[04-Mar-2020 20:38:07 Europe/Moscow] PHP Warning:  move_uploaded_file(control/uploads/passports/user_id_9): failed to open stream: No such file or directory in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 21
+[04-Mar-2020 20:38:07 Europe/Moscow] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpy1C9bx' to 'control/uploads/passports/user_id_9' in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 21
+[04-Mar-2020 20:38:07 Europe/Moscow] PHP Warning:  move_uploaded_file(control/uploads/statements/user_id_9): failed to open stream: No such file or directory in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 22
+[04-Mar-2020 20:38:07 Europe/Moscow] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpJuEsm4' to 'control/uploads/statements/user_id_9' in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 22
+[04-Mar-2020 20:42:06 Europe/Moscow] PHP Warning:  move_uploaded_file(control/uploads/photos/user_id_9): failed to open stream: No such file or directory in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 20
+[04-Mar-2020 20:42:06 Europe/Moscow] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/php9J5tRc' to 'control/uploads/photos/user_id_9' in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 20
+[04-Mar-2020 20:42:06 Europe/Moscow] PHP Warning:  move_uploaded_file(control/uploads/passports/user_id_9): failed to open stream: No such file or directory in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 21
+[04-Mar-2020 20:42:06 Europe/Moscow] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/php9NEcqz' to 'control/uploads/passports/user_id_9' in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 21
+[04-Mar-2020 20:42:06 Europe/Moscow] PHP Warning:  move_uploaded_file(control/uploads/statements/user_id_9): failed to open stream: No such file or directory in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 22
+[04-Mar-2020 20:42:06 Europe/Moscow] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpI0aMiQ' to 'control/uploads/statements/user_id_9' in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 22
+[04-Mar-2020 20:44:12 Europe/Moscow] PHP Warning:  move_uploaded_file(control/uploads/photos/user_id_8): failed to open stream: No such file or directory in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 20
+[04-Mar-2020 20:44:12 Europe/Moscow] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpE150fS' to 'control/uploads/photos/user_id_8' in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 20
+[04-Mar-2020 20:44:12 Europe/Moscow] PHP Warning:  move_uploaded_file(control/uploads/passports/user_id_8): failed to open stream: No such file or directory in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 21
+[04-Mar-2020 20:44:12 Europe/Moscow] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpXbOV2N' to 'control/uploads/passports/user_id_8' in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 21
+[04-Mar-2020 20:44:12 Europe/Moscow] PHP Warning:  move_uploaded_file(control/uploads/statements/user_id_8): failed to open stream: No such file or directory in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 22
+[04-Mar-2020 20:44:12 Europe/Moscow] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpNk46sW' to 'control/uploads/statements/user_id_8' in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 22
+[04-Mar-2020 20:45:07 Europe/Moscow] PHP Warning:  move_uploaded_file(control/uploads/photos/user_id_8): failed to open stream: No such file or directory in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 22
+[04-Mar-2020 20:45:07 Europe/Moscow] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/php7i5f90' to 'control/uploads/photos/user_id_8' in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 22
+[04-Mar-2020 20:45:07 Europe/Moscow] PHP Warning:  move_uploaded_file(control/uploads/passports/user_id_8): failed to open stream: No such file or directory in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 23
+[04-Mar-2020 20:45:07 Europe/Moscow] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpEy51c3' to 'control/uploads/passports/user_id_8' in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 23
+[04-Mar-2020 20:45:07 Europe/Moscow] PHP Warning:  move_uploaded_file(control/uploads/statements/user_id_8): failed to open stream: No such file or directory in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 24
+[04-Mar-2020 20:45:07 Europe/Moscow] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpfENF5Y' to 'control/uploads/statements/user_id_8' in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 24
+[04-Mar-2020 20:47:28 Europe/Moscow] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 42
+[04-Mar-2020 21:16:28 Europe/Moscow] PHP Notice:  Undefined index: logged_user in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 10
+[04-Mar-2020 21:16:28 Europe/Moscow] PHP Notice:  Trying to get property 'id' of non-object in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 10
+[04-Mar-2020 21:16:28 Europe/Moscow] PHP Notice:  Undefined index: logged_user in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 15
+[04-Mar-2020 21:16:28 Europe/Moscow] PHP Notice:  Trying to get property 'id' of non-object in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 15
+[04-Mar-2020 21:16:28 Europe/Moscow] PHP Notice:  Undefined index: logged_user in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 20
+[04-Mar-2020 21:16:28 Europe/Moscow] PHP Notice:  Trying to get property 'id' of non-object in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 20
+[04-Mar-2020 21:16:28 Europe/Moscow] PHP Notice:  Undefined index: logged_user in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 33
+[04-Mar-2020 21:16:28 Europe/Moscow] PHP Notice:  Trying to get property 'id' of non-object in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 33
+[04-Mar-2020 21:16:28 Europe/Moscow] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 5 in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php:39
+Stack trace:
+#0 /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php(39): PDOStatement->execute()
+#1 {main}
+  thrown in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 39
+[08-Mar-2020 10:22:49 Europe/Moscow] PHP Parse error:  syntax error, unexpected '}' in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/send-form.php on line 132
+[08-Mar-2020 10:23:58 Europe/Moscow] PHP Parse error:  syntax error, unexpected '}' in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/send-form.php on line 132
+[08-Mar-2020 10:24:26 Europe/Moscow] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/send-form.php:127
+Stack trace:
+#0 /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/send-form.php(127): PDOStatement->execute()
+#1 {main}
+  thrown in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/send-form.php on line 127
+[08-Mar-2020 10:25:29 Europe/Moscow] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/send-form.php:127
+Stack trace:
+#0 /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/send-form.php(127): PDOStatement->execute()
+#1 {main}
+  thrown in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/send-form.php on line 127
+[08-Mar-2020 10:26:19 Europe/Moscow] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/send-form.php:127
+Stack trace:
+#0 /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/send-form.php(127): PDOStatement->execute()
+#1 {main}
+  thrown in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/send-form.php on line 127
+[08-Mar-2020 10:27:18 Europe/Moscow] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/send-form.php:127
+Stack trace:
+#0 /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/send-form.php(127): PDOStatement->execute()
+#1 {main}
+  thrown in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/send-form.php on line 127
+[08-Mar-2020 14:25:16 Europe/Moscow] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/send-form.php:127
+Stack trace:
+#0 /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/send-form.php(127): PDOStatement->execute()
+#1 {main}
+  thrown in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/send-form.php on line 127
+[08-Mar-2020 14:26:19 Europe/Moscow] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/send-form.php:127
+Stack trace:
+#0 /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/send-form.php(127): PDOStatement->execute()
+#1 {main}
+  thrown in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/send-form.php on line 127
+[08-Mar-2020 14:27:17 Europe/Moscow] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/send-form.php:128
+Stack trace:
+#0 /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/send-form.php(128): PDOStatement->execute()
+#1 {main}
+  thrown in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/send-form.php on line 128
+[08-Mar-2020 14:28:07 Europe/Moscow] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/send-form.php:128
+Stack trace:
+#0 /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/send-form.php(128): PDOStatement->execute()
+#1 {main}
+  thrown in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/send-form.php on line 128
+[08-Mar-2020 14:29:20 Europe/Moscow] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'otpravil' in 'field list' in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/send-form.php:128
+Stack trace:
+#0 /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/send-form.php(128): PDOStatement->execute()
+#1 {main}
+  thrown in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/send-form.php on line 128
+[08-Mar-2020 14:31:26 Europe/Moscow] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'otpravil' in 'field list' in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/send-form.php:128
+Stack trace:
+#0 /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/send-form.php(128): PDOStatement->execute()
+#1 {main}
+  thrown in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/send-form.php on line 128
+[08-Mar-2020 14:33:26 Europe/Moscow] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'otpravil' in 'field list' in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/send-form.php:127
+Stack trace:
+#0 /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/send-form.php(127): PDOStatement->execute()
+#1 {main}
+  thrown in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/send-form.php on line 127
+[08-Mar-2020 14:36:18 Europe/Moscow] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '@mail.com, qwerty)' at line 1 in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/send-form.php:133
+Stack trace:
+#0 /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/send-form.php(133): PDOStatement->execute()
+#1 {main}
+  thrown in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/send-form.php on line 133
+[08-Mar-2020 15:07:02 Europe/Moscow] PHP Notice:  Undefined variable: _SESSION in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 6
+[08-Mar-2020 15:07:02 Europe/Moscow] PHP Notice:  Trying to access array offset on value of type null in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 6
+[08-Mar-2020 15:07:02 Europe/Moscow] PHP Notice:  Trying to get property 'id' of non-object in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 6
+[08-Mar-2020 15:07:02 Europe/Moscow] PHP Notice:  Undefined variable: _SESSION in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 11
+[08-Mar-2020 15:07:02 Europe/Moscow] PHP Notice:  Trying to access array offset on value of type null in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 11
+[08-Mar-2020 15:07:02 Europe/Moscow] PHP Notice:  Trying to get property 'id' of non-object in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 11
+[08-Mar-2020 15:07:02 Europe/Moscow] PHP Notice:  Undefined variable: _SESSION in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 16
+[08-Mar-2020 15:07:02 Europe/Moscow] PHP Notice:  Trying to access array offset on value of type null in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 16
+[08-Mar-2020 15:07:02 Europe/Moscow] PHP Notice:  Trying to get property 'id' of non-object in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 16
+[08-Mar-2020 15:07:02 Europe/Moscow] PHP Notice:  Undefined variable: _SESSION in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 29
+[08-Mar-2020 15:07:02 Europe/Moscow] PHP Notice:  Trying to access array offset on value of type null in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 29
+[08-Mar-2020 15:07:02 Europe/Moscow] PHP Notice:  Trying to get property 'id' of non-object in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 29
+[08-Mar-2020 15:07:02 Europe/Moscow] PHP Notice:  Undefined variable: pdo in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 31
+[08-Mar-2020 15:07:02 Europe/Moscow] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php:31
+Stack trace:
+#0 {main}
+  thrown in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 31
+[08-Mar-2020 16:39:05 Europe/Moscow] PHP Fatal error:  Uncaught RedBeanPHP\RedException: Expected array, string given. in /home/windmymind/Documents/projects/Diploma/abiturient/control/libs/rb-mysql.php:9655
+Stack trace:
+#0 /home/windmymind/Documents/projects/Diploma/abiturient/control/libs/rb-mysql.php(9705): RedBeanPHP\Finder->find()
+#1 /home/windmymind/Documents/projects/Diploma/abiturient/control/libs/rb-mysql.php(12255): RedBeanPHP\Finder->findOne()
+#2 /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/getAbiturientStatus.php(4): RedBeanPHP\Facade::findOne()
+#3 {main}
+  thrown in /home/windmymind/Documents/projects/Diploma/abiturient/control/libs/rb-mysql.php on line 9655
+[08-Mar-2020 16:39:44 Europe/Moscow] PHP Fatal error:  Uncaught RedBeanPHP\RedException: Expected array, string given. in /home/windmymind/Documents/projects/Diploma/abiturient/control/libs/rb-mysql.php:9655
+Stack trace:
+#0 /home/windmymind/Documents/projects/Diploma/abiturient/control/libs/rb-mysql.php(9705): RedBeanPHP\Finder->find()
+#1 /home/windmymind/Documents/projects/Diploma/abiturient/control/libs/rb-mysql.php(12255): RedBeanPHP\Finder->findOne()
+#2 /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/getAbiturientStatus.php(4): RedBeanPHP\Facade::findOne()
+#3 {main}
+  thrown in /home/windmymind/Documents/projects/Diploma/abiturient/control/libs/rb-mysql.php on line 9655
+[08-Mar-2020 17:06:39 Europe/Moscow] PHP Fatal error:  Uncaught RedBeanPHP\RedException: Identifier does not conform to RedBeanPHP security policies. in /home/windmymind/Documents/projects/Diploma/abiturient/control/libs/rb-mysql.php:5985
+Stack trace:
+#0 /home/windmymind/Documents/projects/Diploma/abiturient/control/libs/rb-mysql.php(6051): RedBeanPHP\QueryWriter\AQueryWriter->check()
+#1 /home/windmymind/Documents/projects/Diploma/abiturient/control/libs/rb-mysql.php(6164): RedBeanPHP\QueryWriter\AQueryWriter->esc()
+#2 /home/windmymind/Documents/projects/Diploma/abiturient/control/libs/rb-mysql.php(8000): RedBeanPHP\QueryWriter\AQueryWriter->queryRecord()
+#3 /home/windmymind/Documents/projects/Diploma/abiturient/control/libs/rb-mysql.php(9100): RedBeanPHP\Repository->find()
+#4 /home/windmymind/Documents/projects/Diploma/abiturient/control/libs/rb-mysql.php(9660): RedBeanPHP\OODB->find()
+#5 /home/windmymind/Documents/projects/Diploma/abiturient/control/libs/rb-mysql.php(9705): RedBeanPHP\Finder->find()
+#6 /home/windmymind/Documents/projects/Diploma/abiturient/cont in /home/windmymind/Documents/projects/Diploma/abiturient/control/libs/rb-mysql.php on line 5985
+[08-Mar-2020 17:18:39 Europe/Moscow] PHP Notice:  Array to string conversion in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/getAbiturientStatus.php on line 11
+[08-Mar-2020 17:35:24 Europe/Moscow] PHP Notice:  Trying to get property 'anket_status' of non-object in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/getAbiturientStatus.php on line 8
+[08-Mar-2020 17:35:24 Europe/Moscow] PHP Notice:  Trying to get property 'reception' of non-object in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/getAbiturientStatus.php on line 9
+[08-Mar-2020 17:35:24 Europe/Moscow] PHP Notice:  Trying to get property 'anket_status' of non-object in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/getAbiturientStatus.php on line 11
+[08-Mar-2020 17:35:25 Europe/Moscow] PHP Notice:  Trying to get property 'anket_status' of non-object in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/getAbiturientStatus.php on line 8
+[08-Mar-2020 17:35:25 Europe/Moscow] PHP Notice:  Trying to get property 'reception' of non-object in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/getAbiturientStatus.php on line 9
+[08-Mar-2020 17:35:25 Europe/Moscow] PHP Notice:  Trying to get property 'anket_status' of non-object in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/getAbiturientStatus.php on line 11
+[08-Mar-2020 17:36:10 Europe/Moscow] PHP Notice:  Trying to get property 'anket_status' of non-object in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/getAbiturientStatus.php on line 8
+[08-Mar-2020 17:36:10 Europe/Moscow] PHP Notice:  Trying to get property 'reception' of non-object in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/getAbiturientStatus.php on line 9
+[08-Mar-2020 17:36:10 Europe/Moscow] PHP Notice:  Trying to get property 'anket_status' of non-object in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/getAbiturientStatus.php on line 11
+[08-Mar-2020 17:37:10 Europe/Moscow] PHP Notice:  Trying to get property 'anket_status' of non-object in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/getAbiturientStatus.php on line 8
+[08-Mar-2020 17:37:10 Europe/Moscow] PHP Notice:  Trying to get property 'reception' of non-object in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/getAbiturientStatus.php on line 9
+[08-Mar-2020 17:37:10 Europe/Moscow] PHP Notice:  Trying to get property 'anket_status' of non-object in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/getAbiturientStatus.php on line 11
+[08-Mar-2020 17:37:24 Europe/Moscow] PHP Notice:  Trying to get property 'anket_status' of non-object in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/getAbiturientStatus.php on line 8
+[08-Mar-2020 17:37:24 Europe/Moscow] PHP Notice:  Trying to get property 'reception' of non-object in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/getAbiturientStatus.php on line 9
+[08-Mar-2020 17:37:24 Europe/Moscow] PHP Notice:  Trying to get property 'anket_status' of non-object in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/getAbiturientStatus.php on line 11
+[08-Mar-2020 17:37:27 Europe/Moscow] PHP Notice:  Trying to get property 'anket_status' of non-object in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/getAbiturientStatus.php on line 8
+[08-Mar-2020 17:37:27 Europe/Moscow] PHP Notice:  Trying to get property 'reception' of non-object in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/getAbiturientStatus.php on line 9
+[08-Mar-2020 17:37:27 Europe/Moscow] PHP Notice:  Trying to get property 'anket_status' of non-object in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/getAbiturientStatus.php on line 11
+[08-Mar-2020 17:37:55 Europe/Moscow] PHP Notice:  Trying to get property 'anket_status' of non-object in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/getAbiturientStatus.php on line 8
+[08-Mar-2020 17:37:55 Europe/Moscow] PHP Notice:  Trying to get property 'reception' of non-object in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/getAbiturientStatus.php on line 9
+[08-Mar-2020 17:37:55 Europe/Moscow] PHP Notice:  Trying to get property 'anket_status' of non-object in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/getAbiturientStatus.php on line 11
+[08-Mar-2020 17:37:56 Europe/Moscow] PHP Notice:  Trying to get property 'anket_status' of non-object in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/getAbiturientStatus.php on line 8
+[08-Mar-2020 17:37:56 Europe/Moscow] PHP Notice:  Trying to get property 'reception' of non-object in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/getAbiturientStatus.php on line 9
+[08-Mar-2020 17:37:56 Europe/Moscow] PHP Notice:  Trying to get property 'anket_status' of non-object in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/getAbiturientStatus.php on line 11
+[08-Mar-2020 17:38:30 Europe/Moscow] PHP Notice:  Trying to get property 'anket_status' of non-object in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/getAbiturientStatus.php on line 8
+[08-Mar-2020 17:38:30 Europe/Moscow] PHP Notice:  Trying to get property 'reception' of non-object in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/getAbiturientStatus.php on line 9
+[08-Mar-2020 17:38:30 Europe/Moscow] PHP Notice:  Trying to get property 'anket_status' of non-object in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/getAbiturientStatus.php on line 11
+[08-Mar-2020 17:38:31 Europe/Moscow] PHP Notice:  Trying to get property 'anket_status' of non-object in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/getAbiturientStatus.php on line 8
+[08-Mar-2020 17:38:31 Europe/Moscow] PHP Notice:  Trying to get property 'reception' of non-object in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/getAbiturientStatus.php on line 9
+[08-Mar-2020 17:38:31 Europe/Moscow] PHP Notice:  Trying to get property 'anket_status' of non-object in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/getAbiturientStatus.php on line 11
+[08-Mar-2020 17:38:31 Europe/Moscow] PHP Notice:  Trying to get property 'anket_status' of non-object in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/getAbiturientStatus.php on line 8
+[08-Mar-2020 17:38:31 Europe/Moscow] PHP Notice:  Trying to get property 'reception' of non-object in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/getAbiturientStatus.php on line 9
+[08-Mar-2020 17:38:31 Europe/Moscow] PHP Notice:  Trying to get property 'anket_status' of non-object in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/getAbiturientStatus.php on line 11
+[08-Mar-2020 17:38:53 Europe/Moscow] PHP Notice:  Trying to get property 'anket_status' of non-object in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/getAbiturientStatus.php on line 8
+[08-Mar-2020 17:38:53 Europe/Moscow] PHP Notice:  Trying to get property 'reception' of non-object in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/getAbiturientStatus.php on line 9
+[08-Mar-2020 17:38:53 Europe/Moscow] PHP Notice:  Trying to get property 'anket_status' of non-object in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/getAbiturientStatus.php on line 11
+[08-Mar-2020 17:38:54 Europe/Moscow] PHP Notice:  Trying to get property 'anket_status' of non-object in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/getAbiturientStatus.php on line 8
+[08-Mar-2020 17:38:54 Europe/Moscow] PHP Notice:  Trying to get property 'reception' of non-object in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/getAbiturientStatus.php on line 9
+[08-Mar-2020 17:38:54 Europe/Moscow] PHP Notice:  Trying to get property 'anket_status' of non-object in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/getAbiturientStatus.php on line 11
+[08-Mar-2020 17:39:41 Europe/Moscow] PHP Fatal error:  Uncaught RedBeanPHP\RedException: Expected array, object given. in /home/windmymind/Documents/projects/Diploma/abiturient/control/libs/rb-mysql.php:9655
+Stack trace:
+#0 /home/windmymind/Documents/projects/Diploma/abiturient/control/libs/rb-mysql.php(9705): RedBeanPHP\Finder->find()
+#1 /home/windmymind/Documents/projects/Diploma/abiturient/control/libs/rb-mysql.php(12255): RedBeanPHP\Finder->findOne()
+#2 /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/getAbiturientStatus.php(4): RedBeanPHP\Facade::findOne()
+#3 {main}
+  thrown in /home/windmymind/Documents/projects/Diploma/abiturient/control/libs/rb-mysql.php on line 9655
+[08-Mar-2020 17:39:42 Europe/Moscow] PHP Fatal error:  Uncaught RedBeanPHP\RedException: Expected array, object given. in /home/windmymind/Documents/projects/Diploma/abiturient/control/libs/rb-mysql.php:9655
+Stack trace:
+#0 /home/windmymind/Documents/projects/Diploma/abiturient/control/libs/rb-mysql.php(9705): RedBeanPHP\Finder->find()
+#1 /home/windmymind/Documents/projects/Diploma/abiturient/control/libs/rb-mysql.php(12255): RedBeanPHP\Finder->findOne()
+#2 /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/getAbiturientStatus.php(4): RedBeanPHP\Facade::findOne()
+#3 {main}
+  thrown in /home/windmymind/Documents/projects/Diploma/abiturient/control/libs/rb-mysql.php on line 9655
+[08-Mar-2020 17:40:02 Europe/Moscow] PHP Fatal error:  Uncaught RedBeanPHP\RedException: Expected array, string given. in /home/windmymind/Documents/projects/Diploma/abiturient/control/libs/rb-mysql.php:9655
+Stack trace:
+#0 /home/windmymind/Documents/projects/Diploma/abiturient/control/libs/rb-mysql.php(9705): RedBeanPHP\Finder->find()
+#1 /home/windmymind/Documents/projects/Diploma/abiturient/control/libs/rb-mysql.php(12255): RedBeanPHP\Finder->findOne()
+#2 /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/getAbiturientStatus.php(4): RedBeanPHP\Facade::findOne()
+#3 {main}
+  thrown in /home/windmymind/Documents/projects/Diploma/abiturient/control/libs/rb-mysql.php on line 9655
+[08-Mar-2020 17:40:03 Europe/Moscow] PHP Fatal error:  Uncaught RedBeanPHP\RedException: Expected array, string given. in /home/windmymind/Documents/projects/Diploma/abiturient/control/libs/rb-mysql.php:9655
+Stack trace:
+#0 /home/windmymind/Documents/projects/Diploma/abiturient/control/libs/rb-mysql.php(9705): RedBeanPHP\Finder->find()
+#1 /home/windmymind/Documents/projects/Diploma/abiturient/control/libs/rb-mysql.php(12255): RedBeanPHP\Finder->findOne()
+#2 /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/getAbiturientStatus.php(4): RedBeanPHP\Facade::findOne()
+#3 {main}
+  thrown in /home/windmymind/Documents/projects/Diploma/abiturient/control/libs/rb-mysql.php on line 9655
+[08-Mar-2020 17:40:53 Europe/Moscow] PHP Fatal error:  Uncaught RedBeanPHP\RedException: Expected array, string given. in /home/windmymind/Documents/projects/Diploma/abiturient/control/libs/rb-mysql.php:9655
+Stack trace:
+#0 /home/windmymind/Documents/projects/Diploma/abiturient/control/libs/rb-mysql.php(9705): RedBeanPHP\Finder->find()
+#1 /home/windmymind/Documents/projects/Diploma/abiturient/control/libs/rb-mysql.php(12255): RedBeanPHP\Finder->findOne()
+#2 /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/getAbiturientStatus.php(6): RedBeanPHP\Facade::findOne()
+#3 {main}
+  thrown in /home/windmymind/Documents/projects/Diploma/abiturient/control/libs/rb-mysql.php on line 9655
+[08-Mar-2020 17:41:02 Europe/Moscow] PHP Fatal error:  Uncaught RedBeanPHP\RedException: Expected array, string given. in /home/windmymind/Documents/projects/Diploma/abiturient/control/libs/rb-mysql.php:9655
+Stack trace:
+#0 /home/windmymind/Documents/projects/Diploma/abiturient/control/libs/rb-mysql.php(9705): RedBeanPHP\Finder->find()
+#1 /home/windmymind/Documents/projects/Diploma/abiturient/control/libs/rb-mysql.php(12255): RedBeanPHP\Finder->findOne()
+#2 /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/getAbiturientStatus.php(6): RedBeanPHP\Facade::findOne()
+#3 {main}
+  thrown in /home/windmymind/Documents/projects/Diploma/abiturient/control/libs/rb-mysql.php on line 9655
+[08-Mar-2020 17:42:50 Europe/Moscow] PHP Fatal error:  Uncaught RedBeanPHP\RedException: Expected array, integer given. in /home/windmymind/Documents/projects/Diploma/abiturient/control/libs/rb-mysql.php:9655
+Stack trace:
+#0 /home/windmymind/Documents/projects/Diploma/abiturient/control/libs/rb-mysql.php(9705): RedBeanPHP\Finder->find()
+#1 /home/windmymind/Documents/projects/Diploma/abiturient/control/libs/rb-mysql.php(12255): RedBeanPHP\Finder->findOne()
+#2 /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/getAbiturientStatus.php(6): RedBeanPHP\Facade::findOne()
+#3 {main}
+  thrown in /home/windmymind/Documents/projects/Diploma/abiturient/control/libs/rb-mysql.php on line 9655
+[08-Mar-2020 17:42:51 Europe/Moscow] PHP Fatal error:  Uncaught RedBeanPHP\RedException: Expected array, integer given. in /home/windmymind/Documents/projects/Diploma/abiturient/control/libs/rb-mysql.php:9655
+Stack trace:
+#0 /home/windmymind/Documents/projects/Diploma/abiturient/control/libs/rb-mysql.php(9705): RedBeanPHP\Finder->find()
+#1 /home/windmymind/Documents/projects/Diploma/abiturient/control/libs/rb-mysql.php(12255): RedBeanPHP\Finder->findOne()
+#2 /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/getAbiturientStatus.php(6): RedBeanPHP\Facade::findOne()
+#3 {main}
+  thrown in /home/windmymind/Documents/projects/Diploma/abiturient/control/libs/rb-mysql.php on line 9655
+[08-Mar-2020 17:43:34 Europe/Moscow] PHP Fatal error:  Uncaught RedBeanPHP\RedException: Expected array, integer given. in /home/windmymind/Documents/projects/Diploma/abiturient/control/libs/rb-mysql.php:9655
+Stack trace:
+#0 /home/windmymind/Documents/projects/Diploma/abiturient/control/libs/rb-mysql.php(9705): RedBeanPHP\Finder->find()
+#1 /home/windmymind/Documents/projects/Diploma/abiturient/control/libs/rb-mysql.php(12255): RedBeanPHP\Finder->findOne()
+#2 /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/getAbiturientStatus.php(6): RedBeanPHP\Facade::findOne()
+#3 {main}
+  thrown in /home/windmymind/Documents/projects/Diploma/abiturient/control/libs/rb-mysql.php on line 9655
+[08-Mar-2020 17:43:35 Europe/Moscow] PHP Fatal error:  Uncaught RedBeanPHP\RedException: Expected array, integer given. in /home/windmymind/Documents/projects/Diploma/abiturient/control/libs/rb-mysql.php:9655
+Stack trace:
+#0 /home/windmymind/Documents/projects/Diploma/abiturient/control/libs/rb-mysql.php(9705): RedBeanPHP\Finder->find()
+#1 /home/windmymind/Documents/projects/Diploma/abiturient/control/libs/rb-mysql.php(12255): RedBeanPHP\Finder->findOne()
+#2 /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/getAbiturientStatus.php(6): RedBeanPHP\Facade::findOne()
+#3 {main}
+  thrown in /home/windmymind/Documents/projects/Diploma/abiturient/control/libs/rb-mysql.php on line 9655
+[08-Mar-2020 17:43:49 Europe/Moscow] PHP Fatal error:  Uncaught RedBeanPHP\RedException: Expected array, integer given. in /home/windmymind/Documents/projects/Diploma/abiturient/control/libs/rb-mysql.php:9655
+Stack trace:
+#0 /home/windmymind/Documents/projects/Diploma/abiturient/control/libs/rb-mysql.php(9705): RedBeanPHP\Finder->find()
+#1 /home/windmymind/Documents/projects/Diploma/abiturient/control/libs/rb-mysql.php(12255): RedBeanPHP\Finder->findOne()
+#2 /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/getAbiturientStatus.php(6): RedBeanPHP\Facade::findOne()
+#3 {main}
+  thrown in /home/windmymind/Documents/projects/Diploma/abiturient/control/libs/rb-mysql.php on line 9655
+[08-Mar-2020 17:43:50 Europe/Moscow] PHP Fatal error:  Uncaught RedBeanPHP\RedException: Expected array, integer given. in /home/windmymind/Documents/projects/Diploma/abiturient/control/libs/rb-mysql.php:9655
+Stack trace:
+#0 /home/windmymind/Documents/projects/Diploma/abiturient/control/libs/rb-mysql.php(9705): RedBeanPHP\Finder->find()
+#1 /home/windmymind/Documents/projects/Diploma/abiturient/control/libs/rb-mysql.php(12255): RedBeanPHP\Finder->findOne()
+#2 /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/getAbiturientStatus.php(6): RedBeanPHP\Facade::findOne()
+#3 {main}
+  thrown in /home/windmymind/Documents/projects/Diploma/abiturient/control/libs/rb-mysql.php on line 9655
+[08-Mar-2020 17:44:03 Europe/Moscow] PHP Fatal error:  Uncaught RedBeanPHP\RedException: Expected array, integer given. in /home/windmymind/Documents/projects/Diploma/abiturient/control/libs/rb-mysql.php:9655
+Stack trace:
+#0 /home/windmymind/Documents/projects/Diploma/abiturient/control/libs/rb-mysql.php(9705): RedBeanPHP\Finder->find()
+#1 /home/windmymind/Documents/projects/Diploma/abiturient/control/libs/rb-mysql.php(12255): RedBeanPHP\Finder->findOne()
+#2 /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/getAbiturientStatus.php(6): RedBeanPHP\Facade::findOne()
+#3 {main}
+  thrown in /home/windmymind/Documents/projects/Diploma/abiturient/control/libs/rb-mysql.php on line 9655
+[08-Mar-2020 17:44:04 Europe/Moscow] PHP Fatal error:  Uncaught RedBeanPHP\RedException: Expected array, integer given. in /home/windmymind/Documents/projects/Diploma/abiturient/control/libs/rb-mysql.php:9655
+Stack trace:
+#0 /home/windmymind/Documents/projects/Diploma/abiturient/control/libs/rb-mysql.php(9705): RedBeanPHP\Finder->find()
+#1 /home/windmymind/Documents/projects/Diploma/abiturient/control/libs/rb-mysql.php(12255): RedBeanPHP\Finder->findOne()
+#2 /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/getAbiturientStatus.php(6): RedBeanPHP\Facade::findOne()
+#3 {main}
+  thrown in /home/windmymind/Documents/projects/Diploma/abiturient/control/libs/rb-mysql.php on line 9655
+[08-Mar-2020 17:44:32 Europe/Moscow] PHP Fatal error:  Uncaught RedBeanPHP\RedException: Expected array, integer given. in /home/windmymind/Documents/projects/Diploma/abiturient/control/libs/rb-mysql.php:9655
+Stack trace:
+#0 /home/windmymind/Documents/projects/Diploma/abiturient/control/libs/rb-mysql.php(9705): RedBeanPHP\Finder->find()
+#1 /home/windmymind/Documents/projects/Diploma/abiturient/control/libs/rb-mysql.php(12255): RedBeanPHP\Finder->findOne()
+#2 /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/getAbiturientStatus.php(8): RedBeanPHP\Facade::findOne()
+#3 {main}
+  thrown in /home/windmymind/Documents/projects/Diploma/abiturient/control/libs/rb-mysql.php on line 9655
+[08-Mar-2020 17:45:25 Europe/Moscow] PHP Fatal error:  Uncaught RedBeanPHP\RedException: Expected array, integer given. in /home/windmymind/Documents/projects/Diploma/abiturient/control/libs/rb-mysql.php:9655
+Stack trace:
+#0 /home/windmymind/Documents/projects/Diploma/abiturient/control/libs/rb-mysql.php(12207): RedBeanPHP\Finder->find()
+#1 /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/getAbiturientStatus.php(8): RedBeanPHP\Facade::find()
+#2 {main}
+  thrown in /home/windmymind/Documents/projects/Diploma/abiturient/control/libs/rb-mysql.php on line 9655
+[10-Mar-2020 13:43:21 Europe/Moscow] PHP Notice:  Array to string conversion in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/checkStatement.php on line 13
+[10-Mar-2020 13:48:24 Europe/Moscow] PHP Parse error:  syntax error, unexpected end of file, expecting ';' in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/checkStatement.php on line 14
+[10-Mar-2020 13:48:24 Europe/Moscow] PHP Parse error:  syntax error, unexpected end of file, expecting ';' in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/checkStatement.php on line 14
+[10-Mar-2020 13:48:25 Europe/Moscow] PHP Parse error:  syntax error, unexpected end of file, expecting ';' in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/checkStatement.php on line 14
+[10-Mar-2020 14:06:00 Europe/Moscow] PHP Parse error:  syntax error, unexpected '}' in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/checkStatement.php on line 13
+[10-Mar-2020 14:06:10 Europe/Moscow] PHP Parse error:  syntax error, unexpected '}' in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/checkStatement.php on line 13
+[10-Mar-2020 14:06:12 Europe/Moscow] PHP Parse error:  syntax error, unexpected '}' in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/checkStatement.php on line 13
+[10-Mar-2020 14:06:49 Europe/Moscow] PHP Parse error:  syntax error, unexpected '}' in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/checkStatement.php on line 13
+[11-Mar-2020 13:55:32 Europe/Moscow] PHP Notice:  Undefined index: abiturient in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/send-form.php on line 85
+[11-Mar-2020 13:55:32 Europe/Moscow] PHP Notice:  Trying to get property 'id' of non-object in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/send-form.php on line 85
+[11-Mar-2020 13:55:32 Europe/Moscow] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'abiturient_id' cannot be null in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/send-form.php:117
+Stack trace:
+#0 /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/send-form.php(117): PDOStatement->execute()
+#1 {main}
+  thrown in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/send-form.php on line 117
+[11-Mar-2020 13:55:32 Europe/Moscow] PHP Notice:  Undefined index: abiturient in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/getAbiturientStatus.php on line 15
+[11-Mar-2020 13:55:32 Europe/Moscow] PHP Notice:  Trying to get property 'id' of non-object in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/getAbiturientStatus.php on line 15
+[11-Mar-2020 13:55:32 Europe/Moscow] PHP Notice:  Trying to get property 'anket_status' of non-object in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/getAbiturientStatus.php on line 17
+[11-Mar-2020 13:56:09 Europe/Moscow] PHP Notice:  Undefined index: abiturient in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/send-form.php on line 85
+[11-Mar-2020 13:56:09 Europe/Moscow] PHP Notice:  Trying to get property 'id' of non-object in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/send-form.php on line 85
+[11-Mar-2020 13:56:09 Europe/Moscow] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'abiturient_id' cannot be null in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/send-form.php:117
+Stack trace:
+#0 /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/send-form.php(117): PDOStatement->execute()
+#1 {main}
+  thrown in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/send-form.php on line 117
+[11-Mar-2020 13:56:09 Europe/Moscow] PHP Notice:  Undefined index: abiturient in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/getAbiturientStatus.php on line 15
+[11-Mar-2020 13:56:09 Europe/Moscow] PHP Notice:  Trying to get property 'id' of non-object in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/getAbiturientStatus.php on line 15
+[11-Mar-2020 13:56:09 Europe/Moscow] PHP Notice:  Trying to get property 'anket_status' of non-object in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/getAbiturientStatus.php on line 17
+[20-Mar-2020 18:18:40 Europe/Moscow] PHP Warning:  require(../../db.php): failed to open stream: No such file or directory in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/getAlgorithm.php on line 2
+[20-Mar-2020 18:18:40 Europe/Moscow] PHP Fatal error:  require(): Failed opening required '../../db.php' (include_path='.:/usr/share/php') in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/getAlgorithm.php on line 2

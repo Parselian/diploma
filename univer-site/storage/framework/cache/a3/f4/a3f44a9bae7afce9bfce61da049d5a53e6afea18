@@ -1,0 +1,42 @@
+1583231871a:1:{s:11:"bossess.htm";a:7:{s:8:"fileName";s:11:"bossess.htm";s:7:"content";s:702:"[viewBag]
+
+[blogPosts]
+pageNumber = "{{ :page }}"
+categoryFilter = "bossess"
+postsPerPage = 20
+noPostsMessage = "Записей не найдено"
+sortOrder = "published_at desc"
+categoryPage = "about"
+postPage = "about"
+==
+{% set posts = blogPosts.posts %}
+
+{% for post in posts %}
+<div class="main-content-card">
+  <img src="{{ 'assets/images/photo-1.jpg'|theme }}" alt="photo" class="main-content-card__img">
+
+  <div class="main-content-card-text">
+    <h3 class="main-content-card__title">{{ post.title }}</h3>
+    <!-- /.main-content-card__title -->
+    
+    {{ post.content_html|raw }}
+  </div>
+  <!-- /.main-content-card-text -->
+</div>
+<!-- /.main-content-card -->
+{% endfor %}";s:5:"mtime";i:1582739315;s:6:"markup";s:476:"{% set posts = blogPosts.posts %}
+
+{% for post in posts %}
+<div class="main-content-card">
+  <img src="{{ 'assets/images/photo-1.jpg'|theme }}" alt="photo" class="main-content-card__img">
+
+  <div class="main-content-card-text">
+    <h3 class="main-content-card__title">{{ post.title }}</h3>
+    <!-- /.main-content-card__title -->
+    
+    {{ post.content_html|raw }}
+  </div>
+  <!-- /.main-content-card-text -->
+</div>
+<!-- /.main-content-card -->
+{% endfor %}";s:4:"code";N;s:7:"viewBag";a:0:{}s:9:"blogPosts";a:7:{s:10:"pageNumber";s:11:"{{ :page }}";s:14:"categoryFilter";s:7:"bossess";s:12:"postsPerPage";s:2:"20";s:14:"noPostsMessage";s:34:"Записей не найдено";s:9:"sortOrder";s:17:"published_at desc";s:12:"categoryPage";s:5:"about";s:8:"postPage";s:5:"about";}}}

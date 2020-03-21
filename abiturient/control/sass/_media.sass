@@ -1,0 +1,174 @@
+@media (max-width: 1200px)
+  .section
+    width: 70%
+    &-props
+      &-form
+        max-width: 100%
+
+@media (max-width: 993px)
+  .sidebar
+    position: fixed
+    width: 220px
+  .section
+    padding: 40px 0 0 80px
+    width: 100%
+    &-general
+      padding: 40px 40px 0 80px
+    &-props
+      padding: 40px 40px 0 80px
+      &-form
+        max-width: 100%
+        flex-direction: column
+        align-items: flex-start
+      &-block
+        &__info
+          margin-bottom: 15px
+          width: 90%
+          font-size: 14px
+        &__name
+          margin-right: 20px
+        &__spec
+          text-align: right
+    &-statement
+      padding: 40px 0 0 0
+      .section
+        &__title
+          text-align: center
+      &-wrap
+        flex-direction: column
+        align-items: center
+      &-column
+        width: 70%
+        &:first-child
+          .section
+            &-statement
+              &-block
+                &:first-child
+                  margin-bottom: 50px
+        &:last-child
+          .section
+            &-statement
+              &-block
+                &:first-child
+                  margin-bottom: 50px
+      &-field
+        &__field
+          width: 100%
+
+@media (max-width: 768px)
+  .form
+    &__select
+      width: 400px
+    &__input
+      width: 356px
+  .section
+    &-general
+      &-wrap
+        flex-direction: column
+      &-block
+        width: 95%
+    &-faculty
+      &-form
+        max-width: 350px
+    &-specialty
+      &-form
+        &-block
+          margin-bottom: 15px
+          flex-direction: column
+
+@media (max-width: 596px)
+  .section
+    &-general
+      &-block
+        width: 95%
+        
+@media (max-width: 576px)
+  .form
+    &__title
+      padding-right: 20px
+      font-size: 20px
+    &__select
+      width: 364px
+    &__input
+      width: 320px
+  .section
+    height: 80vh
+    width: 90%
+    overflow-y: auto
+    overflow-x: hidden
+  .header
+    padding: 15px 25px
+    &-logined
+      &-wrap
+        &__text
+          display: none
+  .section
+    &__title
+      padding: 0px 22px
+      font-size: 22px
+    &-props
+      &-block
+        &__info
+          flex-direction: column
+          align-items: center
+        &__name
+          margin: 
+            right: 0
+            bottom: 10px
+          text-align: center
+          font-size: 18px
+          font-weight: 500
+        &__spec
+          text-align: center
+    &-specialty
+      &-form
+        .form
+          &__select
+            width: 364px
+          &__input
+            width: 320px
+        &__input
+          &_short
+            width: 320px
+    &-statement
+      overflow-y: hidden
+      &-column
+        width: 90%
+@media (max-width: 480px) 
+  .form
+    &__title
+      font-size: 20px
+    &__select
+      width: 274px
+    &__input
+      width: 230px
+  .section
+    &-specialty
+      &-form
+        .form
+          &__select
+            width: 274px
+          &__input
+            width: 230px
+        &__input
+          &_short
+            width: 230px
+@media (max-width: 380px) 
+  .form
+    &__title
+      font-size: 20px
+    &__select
+      width: 204px
+    &__input
+      width: 160px
+  .section
+    &-specialty
+      &-form
+        .form
+          &__select
+            width: 204px
+          &__input
+            width: 160px
+        &__input
+          &_short
+            width: 160px

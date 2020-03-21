@@ -1,0 +1,31 @@
+[blogPosts]
+pageNumber = "{{ :page }}"
+categoryFilter = "specialty-list"
+postsPerPage = 1000
+noPostsMessage = "Записей не найдено"
+sortOrder = "published_at desc"
+categoryPage = "about"
+postPage = "about"
+
+[viewBag]
+==
+{% set posts = blogPosts.posts %}
+
+{% for post in posts %}
+<tr class="main-content-table__row">
+  
+  {{ post.content_html|raw }}
+
+</tr>
+<!-- /.main-content-table__row -->
+{% endfor %}
+
+
+<!-- <tr class="main-content-table__row">
+  <td class="main-content-table__cell">09.02.03</td>
+  <td class="main-content-table__cell">Компьютерные системы и комплексы</td>
+  <td class="main-content-table__cell">Информатика и вычислительная техника</td>
+  <td class="main-content-table__cell">очно-заочное</td>
+  <td class="main-content-table__cell">60</td>
+  <td class="main-content-table__cell">20</td>
+</tr> -->

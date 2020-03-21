@@ -1,0 +1,27 @@
+[viewBag]
+
+[blogPosts]
+pageNumber = "{{ :page }}"
+categoryFilter = "bossess"
+postsPerPage = 20
+noPostsMessage = "Записей не найдено"
+sortOrder = "published_at desc"
+categoryPage = "about"
+postPage = "about"
+==
+{% set posts = blogPosts.posts %}
+
+{% for post in posts %}
+<div class="main-content-card">
+  <img src="{{ 'assets/images/photo-1.jpg'|theme }}" alt="photo" class="main-content-card__img">
+
+  <div class="main-content-card-text">
+    <h3 class="main-content-card__title">{{ post.title }}</h3>
+    <!-- /.main-content-card__title -->
+    
+    {{ post.content_html|raw }}
+  </div>
+  <!-- /.main-content-card-text -->
+</div>
+<!-- /.main-content-card -->
+{% endfor %}

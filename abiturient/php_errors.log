@@ -1,0 +1,63 @@
+[04-Mar-2020 11:20:48 Europe/Moscow] PHP Notice:  Undefined index: documents_passport in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 9
+[04-Mar-2020 11:20:48 Europe/Moscow] PHP Notice:  Trying to access array offset on value of type null in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 9
+[04-Mar-2020 11:20:48 Europe/Moscow] PHP Notice:  Undefined index: documents_passport in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 10
+[04-Mar-2020 11:20:48 Europe/Moscow] PHP Notice:  Trying to access array offset on value of type null in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 10
+[04-Mar-2020 11:20:48 Europe/Moscow] PHP Notice:  Undefined index: documents_photo in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 13
+[04-Mar-2020 11:20:48 Europe/Moscow] PHP Notice:  Trying to access array offset on value of type null in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 13
+[04-Mar-2020 11:20:48 Europe/Moscow] PHP Notice:  Undefined index: documents_photo in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 14
+[04-Mar-2020 11:20:48 Europe/Moscow] PHP Notice:  Trying to access array offset on value of type null in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 14
+[04-Mar-2020 11:20:48 Europe/Moscow] PHP Notice:  Undefined index: documents_statement in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 17
+[04-Mar-2020 11:20:48 Europe/Moscow] PHP Notice:  Trying to access array offset on value of type null in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 17
+[04-Mar-2020 11:20:48 Europe/Moscow] PHP Notice:  Undefined index: documents_statement in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 18
+[04-Mar-2020 11:20:48 Europe/Moscow] PHP Notice:  Trying to access array offset on value of type null in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 18
+[04-Mar-2020 20:40:01 Europe/Moscow] PHP Fatal error:  Uncaught Error: Call to undefined function is_user_logged_in() in /home/windmymind/Documents/projects/Diploma/abiturient/account.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/windmymind/Documents/projects/Diploma/abiturient/account.php on line 5
+[07-Mar-2020 17:16:50 Europe/Moscow] PHP Notice:  Undefined index: type in /home/windmymind/Documents/projects/Diploma/abiturient/account.php on line 6
+[07-Mar-2020 17:16:50 Europe/Moscow] PHP Notice:  Undefined index: type in /home/windmymind/Documents/projects/Diploma/abiturient/account.php on line 6
+[07-Mar-2020 17:17:46 Europe/Moscow] PHP Notice:  Undefined index: type in /home/windmymind/Documents/projects/Diploma/abiturient/account.php on line 6
+[07-Mar-2020 17:17:46 Europe/Moscow] PHP Notice:  Undefined index: type in /home/windmymind/Documents/projects/Diploma/abiturient/account.php on line 6
+[07-Mar-2020 17:17:47 Europe/Moscow] PHP Notice:  Undefined index: type in /home/windmymind/Documents/projects/Diploma/abiturient/account.php on line 6
+[07-Mar-2020 17:17:47 Europe/Moscow] PHP Notice:  Undefined index: type in /home/windmymind/Documents/projects/Diploma/abiturient/account.php on line 6
+[07-Mar-2020 17:17:47 Europe/Moscow] PHP Notice:  Undefined index: type in /home/windmymind/Documents/projects/Diploma/abiturient/account.php on line 6
+[07-Mar-2020 17:17:56 Europe/Moscow] PHP Notice:  Undefined index: type in /home/windmymind/Documents/projects/Diploma/abiturient/account.php on line 6
+[07-Mar-2020 17:18:23 Europe/Moscow] PHP Notice:  Undefined index: type in /home/windmymind/Documents/projects/Diploma/abiturient/account.php on line 6
+[07-Mar-2020 17:18:29 Europe/Moscow] PHP Notice:  Undefined index: type in /home/windmymind/Documents/projects/Diploma/abiturient/account.php on line 6
+[07-Mar-2020 17:22:21 Europe/Moscow] PHP Notice:  Undefined variable: _SESSION in /home/windmymind/Documents/projects/Diploma/abiturient/account.php on line 6
+[07-Mar-2020 17:22:21 Europe/Moscow] PHP Notice:  Trying to access array offset on value of type null in /home/windmymind/Documents/projects/Diploma/abiturient/account.php on line 6
+[07-Mar-2020 17:22:26 Europe/Moscow] PHP Notice:  Undefined variable: _SESSION in /home/windmymind/Documents/projects/Diploma/abiturient/account.php on line 6
+[07-Mar-2020 17:22:26 Europe/Moscow] PHP Notice:  Trying to access array offset on value of type null in /home/windmymind/Documents/projects/Diploma/abiturient/account.php on line 6
+[07-Mar-2020 17:22:33 Europe/Moscow] PHP Notice:  Undefined variable: _SESSION in /home/windmymind/Documents/projects/Diploma/abiturient/account.php on line 6
+[07-Mar-2020 17:22:33 Europe/Moscow] PHP Notice:  Trying to access array offset on value of type null in /home/windmymind/Documents/projects/Diploma/abiturient/account.php on line 6
+[07-Mar-2020 17:23:33 Europe/Moscow] PHP Notice:  Undefined variable: _SESSION in /home/windmymind/Documents/projects/Diploma/abiturient/account.php on line 6
+[07-Mar-2020 17:23:33 Europe/Moscow] PHP Notice:  Trying to access array offset on value of type null in /home/windmymind/Documents/projects/Diploma/abiturient/account.php on line 6
+[07-Mar-2020 17:23:37 Europe/Moscow] PHP Notice:  Undefined variable: _SESSION in /home/windmymind/Documents/projects/Diploma/abiturient/account.php on line 6
+[07-Mar-2020 17:23:37 Europe/Moscow] PHP Notice:  Trying to access array offset on value of type null in /home/windmymind/Documents/projects/Diploma/abiturient/account.php on line 6
+[07-Mar-2020 17:23:51 Europe/Moscow] PHP Notice:  Undefined variable: _SESSION in /home/windmymind/Documents/projects/Diploma/abiturient/account.php on line 6
+[07-Mar-2020 17:23:51 Europe/Moscow] PHP Notice:  Trying to access array offset on value of type null in /home/windmymind/Documents/projects/Diploma/abiturient/account.php on line 6
+[07-Mar-2020 17:24:35 Europe/Moscow] PHP Notice:  Undefined variable: _SESSION in /home/windmymind/Documents/projects/Diploma/abiturient/account.php on line 6
+[07-Mar-2020 17:24:35 Europe/Moscow] PHP Notice:  Trying to access array offset on value of type null in /home/windmymind/Documents/projects/Diploma/abiturient/account.php on line 6
+[07-Mar-2020 17:28:23 Europe/Moscow] PHP Notice:  Undefined index: logged_user in /home/windmymind/Documents/projects/Diploma/abiturient/account.php on line 6
+[07-Mar-2020 17:28:45 Europe/Moscow] PHP Notice:  Undefined index: logged_user in /home/windmymind/Documents/projects/Diploma/abiturient/account.php on line 6
+[07-Mar-2020 17:29:18 Europe/Moscow] PHP Notice:  Undefined index: logged_user in /home/windmymind/Documents/projects/Diploma/abiturient/account.php on line 6
+[07-Mar-2020 17:29:54 Europe/Moscow] PHP Parse error:  syntax error, unexpected '.', expecting end of file in /home/windmymind/Documents/projects/Diploma/abiturient/account.php on line 7
+[08-Mar-2020 15:03:43 Europe/Moscow] PHP Warning:  require(/home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/../../db.php): failed to open stream: No such file or directory in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/select-specialities.php on line 2
+[08-Mar-2020 15:03:43 Europe/Moscow] PHP Fatal error:  require(): Failed opening required '/home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/../../db.php' (include_path='.:/usr/share/php') in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/select-specialities.php on line 2
+[08-Mar-2020 15:03:49 Europe/Moscow] PHP Fatal error:  Cannot declare interface RedBeanPHP\Logger, because the name is already in use in /home/windmymind/Documents/projects/Diploma/abiturient/control/libs/rb-mysql.php on line 19
+[08-Mar-2020 15:04:40 Europe/Moscow] PHP Fatal error:  Cannot declare interface RedBeanPHP\Logger, because the name is already in use in /home/windmymind/Documents/projects/Diploma/abiturient/control/libs/rb-mysql.php on line 19
+[08-Mar-2020 15:04:54 Europe/Moscow] PHP Fatal error:  Cannot declare interface RedBeanPHP\Logger, because the name is already in use in /home/windmymind/Documents/projects/Diploma/abiturient/control/libs/rb-mysql.php on line 19
+[08-Mar-2020 15:05:29 Europe/Moscow] PHP Warning:  require(/home/windmymind/Documents/projects/Diploma/abiturient/../db.php): failed to open stream: No such file or directory in /home/windmymind/Documents/projects/Diploma/abiturient/account.php on line 2
+[08-Mar-2020 15:05:29 Europe/Moscow] PHP Fatal error:  require(): Failed opening required '/home/windmymind/Documents/projects/Diploma/abiturient/../db.php' (include_path='.:/usr/share/php') in /home/windmymind/Documents/projects/Diploma/abiturient/account.php on line 2
+[08-Mar-2020 15:05:29 Europe/Moscow] PHP Warning:  require(/home/windmymind/Documents/projects/Diploma/abiturient/../db.php): failed to open stream: No such file or directory in /home/windmymind/Documents/projects/Diploma/abiturient/account.php on line 2
+[08-Mar-2020 15:05:29 Europe/Moscow] PHP Fatal error:  require(): Failed opening required '/home/windmymind/Documents/projects/Diploma/abiturient/../db.php' (include_path='.:/usr/share/php') in /home/windmymind/Documents/projects/Diploma/abiturient/account.php on line 2
+[08-Mar-2020 15:05:30 Europe/Moscow] PHP Warning:  require(/home/windmymind/Documents/projects/Diploma/abiturient/../db.php): failed to open stream: No such file or directory in /home/windmymind/Documents/projects/Diploma/abiturient/account.php on line 2
+[08-Mar-2020 15:05:30 Europe/Moscow] PHP Fatal error:  require(): Failed opening required '/home/windmymind/Documents/projects/Diploma/abiturient/../db.php' (include_path='.:/usr/share/php') in /home/windmymind/Documents/projects/Diploma/abiturient/account.php on line 2
+[08-Mar-2020 15:05:43 Europe/Moscow] PHP Warning:  require(/home/windmymind/Documents/projects/Diploma/abiturientcontrol/functions/db.php): failed to open stream: No such file or directory in /home/windmymind/Documents/projects/Diploma/abiturient/account.php on line 2
+[08-Mar-2020 15:05:43 Europe/Moscow] PHP Fatal error:  require(): Failed opening required '/home/windmymind/Documents/projects/Diploma/abiturientcontrol/functions/db.php' (include_path='.:/usr/share/php') in /home/windmymind/Documents/projects/Diploma/abiturient/account.php on line 2
+[08-Mar-2020 15:05:43 Europe/Moscow] PHP Warning:  require(/home/windmymind/Documents/projects/Diploma/abiturientcontrol/functions/db.php): failed to open stream: No such file or directory in /home/windmymind/Documents/projects/Diploma/abiturient/account.php on line 2
+[08-Mar-2020 15:05:43 Europe/Moscow] PHP Fatal error:  require(): Failed opening required '/home/windmymind/Documents/projects/Diploma/abiturientcontrol/functions/db.php' (include_path='.:/usr/share/php') in /home/windmymind/Documents/projects/Diploma/abiturient/account.php on line 2
+[08-Mar-2020 15:05:44 Europe/Moscow] PHP Warning:  require(/home/windmymind/Documents/projects/Diploma/abiturientcontrol/functions/db.php): failed to open stream: No such file or directory in /home/windmymind/Documents/projects/Diploma/abiturient/account.php on line 2
+[08-Mar-2020 15:05:44 Europe/Moscow] PHP Fatal error:  require(): Failed opening required '/home/windmymind/Documents/projects/Diploma/abiturientcontrol/functions/db.php' (include_path='.:/usr/share/php') in /home/windmymind/Documents/projects/Diploma/abiturient/account.php on line 2
+[08-Mar-2020 15:05:52 Europe/Moscow] PHP Fatal error:  Cannot declare interface RedBeanPHP\Logger, because the name is already in use in /home/windmymind/Documents/projects/Diploma/abiturient/control/libs/rb-mysql.php on line 19
+[08-Mar-2020 15:05:53 Europe/Moscow] PHP Fatal error:  Cannot declare interface RedBeanPHP\Logger, because the name is already in use in /home/windmymind/Documents/projects/Diploma/abiturient/control/libs/rb-mysql.php on line 19

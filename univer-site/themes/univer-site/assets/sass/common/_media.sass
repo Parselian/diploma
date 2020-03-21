@@ -1,0 +1,189 @@
+@media (max-width: 1200px)
+  .footer
+    &-logo
+      width: 120px
+
+@media (max-width: 993px)
+  .buttons
+    &-wrap
+      display: none
+  .header
+    &-wrap
+      &_fixed
+        position: fixed
+    &-burger
+      &__btn
+        display: block
+    &-list
+      display: none
+  .about
+    &-wrap
+      flex-direction: column
+    &-text
+      margin-right: 0
+      width: 100%
+      order: 1
+      &__info
+        font-size: 16px
+        text-align: justify
+        text-align-last: center
+    &__img
+      margin-bottom: 40px
+      width: 100%
+  .main
+    display: block
+    &-sidebar
+      margin-bottom: 20px
+      width: 100%
+      &__title
+        margin-bottom: 0
+        padding: 6px
+        display: flex
+        justify-content: center
+        border: 1px solid $border-color
+        border-radius: 3px
+        &-icon
+          display: block
+      &-list
+        height: 0
+    &-content
+      width: 100%
+      &-card
+        font-size: 14px
+        &__title
+          margin-bottom: 15px
+        &-block
+          margin-bottom: 10px
+  .account
+    &-wrap
+      display: block
+    &-menu
+      padding: 20px
+      width: 100%
+      background-color: transparent
+      border-bottom: 1px solid $border-color
+      &-list
+        display: flex
+        justify-content: center
+        flex-wrap: wrap
+        color: $border-color
+        &__item
+          list-style-type: disc
+          margin:
+            right: 30px
+            bottom: 0
+          &:first-child
+            list-style: none
+          &:last-child
+            margin:
+              right: 0
+        &__link
+          color: $account-subtitle-color
+    &-content
+      width: 100%
+  .popup
+    &-buttons
+      &-wrap
+        display: flex
+@media (max-width: 768px)
+  .button
+    &-authorization
+      &__text
+        display: none
+      &__img
+        display: block
+  .burger
+    &-menu
+      width: 40%
+  .main
+    &-content
+      margin-right: 0
+      width: 100%
+      &-wrap
+        overflow: scroll
+      &-table
+        min-width: 880px
+      &-card
+        flex-direction: column
+        align-items: center
+        &__img
+          margin: 
+            right: 0
+            bottom: 30px
+          width: 40%
+        &__title
+          text-align: center
+  .account
+    &-form
+      &__input
+        width: 68%
+  .footer
+    padding-bottom: 60px
+    &-wrap
+      flex-direction: column
+      align-items: center
+    &-logo
+      margin-bottom: 40px
+    &-list
+      text-align: center
+      margin-bottom: 60px
+      width: 100%
+      &:last-child
+        margin-bottom: 0
+@media (max-width: 576px)
+  .burger
+    &-menu
+      width: 60%
+  .about
+    &-text
+      &__info 
+        font-size: 14px
+  .timeline
+    &__content
+      font-size: 12px
+      line-height: 1.6
+  .main
+    &-sidebar
+      margin: auto
+      width: 90%
+    &-content
+      margin: auto
+      width: 90%
+      &-card
+        &__img
+          width: 50%
+  .popup
+    &-form
+      display: flex
+      flex-direction: column
+      align-items: center
+      width: 90%
+    &-buttons
+      &-wrap
+        flex-direction: column
+        align-items: center
+  .account
+    &-menu
+      &-list
+        flex-direction: column
+        align-items: center
+        &__item
+          margin:
+            right: 0
+            bottom: 15px
+          list-style: none  
+          &:last-child
+            margin-bottom: 0 
+    &-form
+      &-group
+        flex-direction: column
+        align-items: flex-start
+      &__input
+        width: 100%
+    &-documents
+      &-list
+        &__item
+          width: 100%
+          flex-direction: column
+          &-title
+            margin-bottom: 5px

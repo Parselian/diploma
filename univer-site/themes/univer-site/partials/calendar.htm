@@ -1,0 +1,24 @@
+[viewBag]
+
+[blogPosts]
+pageNumber = "{{ :page }}"
+categoryFilter = "kalendar"
+postsPerPage = 10
+noPostsMessage = "Записей не найдено"
+sortOrder = "published_at desc"
+categoryPage = "receipt"
+postPage = "receipt"
+==
+{% set posts = blogPosts.posts %}
+
+{% for post in posts %}
+<div class="timeline-block">
+  <div class="timeline-date">
+    <span class="timeline__day">28</span>
+    <span class="timeline__month">мая</span>
+  </div>
+  <!-- /.timeline-date -->
+  {{ post.content_html|raw }}
+</div>
+<!-- /.timeline-block -->
+{% endfor %}

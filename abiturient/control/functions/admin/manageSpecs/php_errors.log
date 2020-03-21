@@ -1,0 +1,5 @@
+[14-Mar-2020 14:38:17 Europe/Moscow] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`university`.`statements`, CONSTRAINT `statements_ibfk_2` FOREIGN KEY (`edu_specialty`) REFERENCES `specialties` (`specialty_id`)) in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/manageSpecs/delSpec.php:7
+Stack trace:
+#0 /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/manageSpecs/delSpec.php(7): PDO->query()
+#1 {main}
+  thrown in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/manageSpecs/delSpec.php on line 7

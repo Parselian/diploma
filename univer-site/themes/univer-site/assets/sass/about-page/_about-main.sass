@@ -1,0 +1,94 @@
+.main
+  padding: 80px 0
+  display: flex
+  justify-content: space-between
+  flex-grow: 2
+  &-sidebar
+    margin-right: 40px
+    width: 20%
+    &__title
+      margin-bottom: 10px
+      font-weight: 500
+      &-icon
+        display: none
+        transform: rotate(0)
+        transition: .3s
+    &-list
+      border-radius: 2px
+      overflow: hidden
+      box-shadow: 0px 3px 10px 0px rgba(0,0,0,0.15)
+      transition: .3s
+      &__item
+        padding: 15px 20px
+        border-bottom: 1px solid $sidebar-color
+        &:last-child
+          border-bottom: none
+      &__link
+        opacity: 0.6
+        transition: .2s
+        &:hover
+          opacity: 1
+          color: $active-color 
+  &-content
+    text-align: justify
+    width: 80%
+    line-height: 1.4
+    &__title
+      margin-bottom: 30px
+    &__subtitle
+      margin: 25px 0
+    &__img
+      width: 80%
+    &-table
+      width: 100%
+      text-align: center
+      border: 1px solid $border-color
+      border-collapse: collapse
+      &__row
+        padding: 10px
+        border: 1px solid $border-color
+        th
+          padding: 10px
+        td
+          padding: 5px 10px
+          border: 1px solid $border-color
+    &-list
+      margin-left: 30px
+      list-style-type: disc
+      &-documents
+        margin-left: 0
+        padding: 10px 20px 20px 40px
+        box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.3)
+      &__item
+        margin: 10px 0
+        &:last-child
+          margin-bottom: 0
+      &__link
+        text-decoration: underline
+        transition: .2s
+        &:hover
+          color: $active-color
+    &-card
+      margin-bottom: 30px
+      padding: 30px
+      display: flex
+      box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.3)
+      border-radius: 3px
+      &-text
+        width: 100%
+      &__title
+        padding-bottom: 10px
+        margin-bottom: 30px
+        font-weight: 500
+        color: $active-color
+        border-bottom: 1px solid $border-color
+      &__img
+        margin-right: 40px
+        width: 20%
+        height: 100%
+      &-block
+        margin-bottom: 15px
+        &:last-child
+          margin-bottom: 0
+      &__subtitle
+        font-weight: 700

@@ -1,0 +1,46 @@
+.popup
+  color: $main-color
+  &-logo
+    width: 50px
+    display: block
+    &__img
+      width: inherit
+  &-form
+    padding: 20px 30px
+    position: absolute
+    width: 501px
+    top: 50%
+    left: 50%
+    transform: translate(-50%, -50%)
+    border: 1px solid $border-color
+    box-shadow: 0px 5px 16px 0px rgba(0,0,0,0.16)
+    &-info
+      margin-bottom: 20px
+      &__img
+        margin: auto
+        margin-bottom: 15px
+        display: block
+        width: 90px
+      &__text
+        text-align: center
+  &__title
+    margin-bottom: 30px
+    border-bottom: 1px solid $border-color
+  &-authorization
+    &-input
+      margin-bottom: 20px
+      display: flex
+      align-items: center
+      &__label
+        width: 120px
+        margin-right: 20px
+        &:last-child
+          width: auto
+      &__field
+        padding: 5px
+        border-bottom: 1px solid $border-color
+  &-buttons
+    &-wrap
+      display: flex
+      justify-content: center
+

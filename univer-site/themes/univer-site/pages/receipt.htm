@@ -1,0 +1,70 @@
+title = "Receipt info"
+url = "/receipt"
+layout = "additional"
+is_hidden = 0
+menu_text = "Поступление"
+menu_order = 2
+show_menu = 1
+
+[simpleMenu]
+main-ul-class = "header-list"
+main-li-class = "header-list__item"
+active-class = "active"
+==
+<main class="container main">
+    <nav class="main-sidebar">
+      <h2 class="main-sidebar__title">
+        <div class="main-sidebar__title-text">Меню</div>
+        <img src="{{ 'assets/images/down-arrow_dark.svg'|theme }}" class="header-list__link-arrow main-sidebar__title-icon">
+      </h2>
+      <!-- /.main-sidebar__title -->
+
+      <ul class="main-sidebar-list">
+        <li class="main-sidebar-list__item">
+          <a href="#info-receipt" class="main-sidebar-list__link active">информация по приему</a>
+        </li>
+        <!-- /.main-sidebar-list__item -->
+        <li class="main-sidebar-list__item">
+          <a href="#species" class="main-sidebar-list__link">Специальности</a>
+        </li>
+        <!-- /.main-sidebar-list__item -->
+        <li class="main-sidebar-list__item">
+          <a href="#calendar" class="main-sidebar-list__link">Календарь приёма</a>
+        </li>
+        <!-- /.main-sidebar-list__item -->
+      </ul>
+      <!-- /.main-sidebar-list -->
+    </nav>
+    <!-- /.main-sidebar -->
+
+    <section id="info-receipt" class="main-content visible">
+      <h2 class="main-content__title">Информация по приему</h2>
+      <!-- /.main-content__title -->
+
+      {% partial 'documents' %}
+    </section>
+
+    <section id="species" class="main-content hidden">
+      <h2 class="main-content__title">Специальности</h2>
+      <!-- /.main-content__title -->
+
+      <div class="main-content-wrap">
+
+        {% partial 'specialties' %}
+        
+      </div>
+    </section>
+    <!-- /.main-content -->
+
+    <section id="calendar" class="main-content hidden">
+      <h2 class="main-content__title">Календарь приема</h2>
+      <!-- /.main-content__title -->
+
+      <div class="timeline">
+        
+        {% partial 'calendar' %}
+
+      </div>
+      <!-- /.timeline -->
+    </section>
+  </main>

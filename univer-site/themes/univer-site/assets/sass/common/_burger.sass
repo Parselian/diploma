@@ -1,0 +1,65 @@
+.ham 
+  cursor: pointer
+  -webkit-tap-highlight-color: transparent
+  transition: transform 400ms
+  -moz-user-select: none
+  -webkit-user-select: none
+  -ms-user-select: none
+  user-select: none
+
+.hamRotate.active 
+  transform: rotate(45deg)
+
+.hamRotate180.active 
+  transform: rotate(180deg)
+
+.line 
+  fill: none
+  transition: stroke-dasharray 400ms, stroke-dashoffset 400ms
+  stroke: orange
+  stroke-width: 5.5
+  stroke-linecap: round
+
+.ham4 .top 
+  stroke-dasharray: 40 121
+
+.ham4 .bottom 
+  stroke-dasharray: 40 121
+
+.ham4.active .top 
+  stroke-dashoffset: -68px
+
+.ham4.active .bottom 
+  stroke-dashoffset: -68px
+
+
+.burger
+  &-menu
+    position: fixed
+    display: flex
+    flex-direction: column
+    height: 100vh
+    width: 40%
+    right: -100%
+    background-color: $burger-bg-color
+    z-index: 999999
+    transition: .3s
+    &__close
+      align-self: flex-end
+    &__item
+      padding: 15px
+      border-bottom: 1px solid $burger-border-color
+      &:first-child
+        border-top: 1px solid white
+    &__link
+      color: $header-nav-color
+      transition: .2s
+      &:hover
+        color: $active-color
+    &-button
+      display: flex
+      &__img
+        height: 20px
+
+
+

@@ -1,0 +1,50 @@
+1583231872a:1:{s:15:"specialties.htm";a:7:{s:8:"fileName";s:15:"specialties.htm";s:7:"content";s:907:"[blogPosts]
+pageNumber = "{{ :page }}"
+categoryFilter = "specialty-list"
+postsPerPage = 1000
+noPostsMessage = "Записей не найдено"
+sortOrder = "published_at desc"
+categoryPage = "about"
+postPage = "about"
+
+[viewBag]
+==
+{% set posts = blogPosts.posts %}
+
+{% for post in posts %}
+<tr class="main-content-table__row">
+  
+  {{ post.content_html|raw }}
+
+</tr>
+<!-- /.main-content-table__row -->
+{% endfor %}
+
+
+<!-- <tr class="main-content-table__row">
+  <td class="main-content-table__cell">09.02.03</td>
+  <td class="main-content-table__cell">Компьютерные системы и комплексы</td>
+  <td class="main-content-table__cell">Информатика и вычислительная техника</td>
+  <td class="main-content-table__cell">очно-заочное</td>
+  <td class="main-content-table__cell">60</td>
+  <td class="main-content-table__cell">20</td>
+</tr> -->";s:5:"mtime";i:1582804458;s:6:"markup";s:672:"{% set posts = blogPosts.posts %}
+
+{% for post in posts %}
+<tr class="main-content-table__row">
+  
+  {{ post.content_html|raw }}
+
+</tr>
+<!-- /.main-content-table__row -->
+{% endfor %}
+
+
+<!-- <tr class="main-content-table__row">
+  <td class="main-content-table__cell">09.02.03</td>
+  <td class="main-content-table__cell">Компьютерные системы и комплексы</td>
+  <td class="main-content-table__cell">Информатика и вычислительная техника</td>
+  <td class="main-content-table__cell">очно-заочное</td>
+  <td class="main-content-table__cell">60</td>
+  <td class="main-content-table__cell">20</td>
+</tr> -->";s:4:"code";N;s:9:"blogPosts";a:7:{s:10:"pageNumber";s:11:"{{ :page }}";s:14:"categoryFilter";s:14:"specialty-list";s:12:"postsPerPage";s:4:"1000";s:14:"noPostsMessage";s:34:"Записей не найдено";s:9:"sortOrder";s:17:"published_at desc";s:12:"categoryPage";s:5:"about";s:8:"postPage";s:5:"about";}s:7:"viewBag";a:0:{}}}

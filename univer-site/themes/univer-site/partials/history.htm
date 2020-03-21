@@ -1,0 +1,21 @@
+[viewBag]
+
+[blogPosts]
+pageNumber = "{{ :page }}"
+categoryFilter = "istoriya"
+postsPerPage = 1
+noPostsMessage = "Записей не найдено"
+sortOrder = "published_at desc"
+categoryPage = "about"
+postPage = "about"
+==
+{% set posts = blogPosts.posts %}
+
+{% for post in posts %}
+<div class="info__wrap">
+  <h2 class="main-content__title">{{ post.title }}</h2>
+  <!-- /.main-content__title -->
+
+  {{ post.content_html|raw }}
+</div>
+{% endfor %}

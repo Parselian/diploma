@@ -1,0 +1,36 @@
+1583231872a:1:{s:12:"calendar.htm";a:7:{s:8:"fileName";s:12:"calendar.htm";s:7:"content";s:562:"[viewBag]
+
+[blogPosts]
+pageNumber = "{{ :page }}"
+categoryFilter = "kalendar"
+postsPerPage = 10
+noPostsMessage = "Записей не найдено"
+sortOrder = "published_at desc"
+categoryPage = "receipt"
+postPage = "receipt"
+==
+{% set posts = blogPosts.posts %}
+
+{% for post in posts %}
+<div class="timeline-block">
+  <div class="timeline-date">
+    <span class="timeline__day">28</span>
+    <span class="timeline__month">мая</span>
+  </div>
+  <!-- /.timeline-date -->
+  {{ post.content_html|raw }}
+</div>
+<!-- /.timeline-block -->
+{% endfor %}";s:5:"mtime";i:1582789687;s:6:"markup";s:331:"{% set posts = blogPosts.posts %}
+
+{% for post in posts %}
+<div class="timeline-block">
+  <div class="timeline-date">
+    <span class="timeline__day">28</span>
+    <span class="timeline__month">мая</span>
+  </div>
+  <!-- /.timeline-date -->
+  {{ post.content_html|raw }}
+</div>
+<!-- /.timeline-block -->
+{% endfor %}";s:4:"code";N;s:7:"viewBag";a:0:{}s:9:"blogPosts";a:7:{s:10:"pageNumber";s:11:"{{ :page }}";s:14:"categoryFilter";s:8:"kalendar";s:12:"postsPerPage";s:2:"10";s:14:"noPostsMessage";s:34:"Записей не найдено";s:9:"sortOrder";s:17:"published_at desc";s:12:"categoryPage";s:7:"receipt";s:8:"postPage";s:7:"receipt";}}}

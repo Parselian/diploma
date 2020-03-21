@@ -1,0 +1,51 @@
+.slider
+  overflow: hidden
+  &-wrap
+    position: relative
+    display: flex
+    height: 100vh
+  &-slide
+    position: absolute
+    height: inherit
+    opacity: 0
+    visibility: hidden
+    transition: .3s
+    &_active
+      visibility: visible !important
+      opacity: 1 !important
+    &__img
+      height: 100vh
+      width: 100vw
+      object-fit: cover
+  &-dots
+    padding: 5px
+    position: absolute
+    display: flex
+    justify-content: space-between
+    width: 96px
+    right: 10%
+    bottom: 20px
+    border-radius: 5px
+    background-color: rgba(0,0,0,0.6)
+    z-index: 999
+    &__dot
+      width: 15px
+      height: 15px
+      border-radius: 50%
+      border: 2px solid $dot-color
+      cursor: pointer
+      &_active
+        background-color: $dot-active-color
+        border: 2px solid $dot-active-color
+  &__arrow
+    width: 15px
+    height: 15px
+    z-index: 999
+    cursor: pointer
+    &_prev
+      background: url('../img/arrow-left.svg') center no-repeat
+      background-size: cover
+    &_next
+      background: url('../img/arrow-right.svg') center no-repeat
+      background-size: cover
+      order: 10000

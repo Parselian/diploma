@@ -1,0 +1,23 @@
+[20-Mar-2020 14:27:24 Europe/Moscow] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'university.alogrithm' doesn't exist in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/manageAlgrorithm/getAlgorithm.php:6
+Stack trace:
+#0 /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/manageAlgrorithm/getAlgorithm.php(6): PDOStatement->execute()
+#1 {main}
+  thrown in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/manageAlgrorithm/getAlgorithm.php on line 6
+[20-Mar-2020 14:30:24 Europe/Moscow] PHP Parse error:  syntax error, unexpected '.' in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/manageAlgrorithm/getAlgorithm.php on line 11
+[20-Mar-2020 14:30:35 Europe/Moscow] PHP Parse error:  syntax error, unexpected '}', expecting ';' or ',' in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/manageAlgrorithm/getAlgorithm.php on line 13
+[20-Mar-2020 14:36:25 Europe/Moscow] PHP Notice:  Undefined variable: reseult in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/manageAlgrorithm/getAlgorithm.php on line 11
+[20-Mar-2020 14:36:25 Europe/Moscow] PHP Notice:  Trying to access array offset on value of type null in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/manageAlgrorithm/getAlgorithm.php on line 11
+[20-Mar-2020 14:36:25 Europe/Moscow] PHP Notice:  Undefined variable: reseult in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/manageAlgrorithm/getAlgorithm.php on line 11
+[20-Mar-2020 14:36:25 Europe/Moscow] PHP Notice:  Trying to access array offset on value of type null in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/manageAlgrorithm/getAlgorithm.php on line 11
+[20-Mar-2020 14:36:25 Europe/Moscow] PHP Notice:  Undefined variable: reseult in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/manageAlgrorithm/getAlgorithm.php on line 11
+[20-Mar-2020 14:36:25 Europe/Moscow] PHP Notice:  Trying to access array offset on value of type null in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/manageAlgrorithm/getAlgorithm.php on line 11
+[20-Mar-2020 14:36:25 Europe/Moscow] PHP Notice:  Undefined variable: reseult in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/manageAlgrorithm/getAlgorithm.php on line 11
+[20-Mar-2020 14:36:25 Europe/Moscow] PHP Notice:  Trying to access array offset on value of type null in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/manageAlgrorithm/getAlgorithm.php on line 11
+[20-Mar-2020 14:36:25 Europe/Moscow] PHP Notice:  Undefined variable: reseult in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/manageAlgrorithm/getAlgorithm.php on line 11
+[20-Mar-2020 14:36:25 Europe/Moscow] PHP Notice:  Trying to access array offset on value of type null in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/manageAlgrorithm/getAlgorithm.php on line 11
+[20-Mar-2020 14:36:34 Europe/Moscow] PHP Notice:  A non well formed numeric value encountered in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/manageAlgrorithm/getAlgorithm.php on line 11
+[20-Mar-2020 14:36:34 Europe/Moscow] PHP Notice:  A non well formed numeric value encountered in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/manageAlgrorithm/getAlgorithm.php on line 11
+[20-Mar-2020 14:36:34 Europe/Moscow] PHP Notice:  A non well formed numeric value encountered in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/manageAlgrorithm/getAlgorithm.php on line 11
+[20-Mar-2020 14:36:34 Europe/Moscow] PHP Notice:  A non well formed numeric value encountered in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/manageAlgrorithm/getAlgorithm.php on line 11
+[20-Mar-2020 14:36:34 Europe/Moscow] PHP Notice:  A non well formed numeric value encountered in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/manageAlgrorithm/getAlgorithm.php on line 11
+[20-Mar-2020 14:38:45 Europe/Moscow] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/manageAlgrorithm/getAlgorithm.php on line 16
