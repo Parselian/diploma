@@ -78,9 +78,9 @@ document.addEventListener('DOMContentLoaded', () => {
     return fetch('functions/admin/getReceiptStatistics.php')
       .then(response => {
         if( response.status !== 200 ) {
-          manageAttention();
+          manageAttention('Ошибка!', 'section-content-attention_error');
           
-          throw new Error('Error! Network status not 200')
+          throw new Error('Error! Network status not 200');
         }
         return response.json();
       })
@@ -789,7 +789,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
           manageAttention('Успешно!');
         })
-        .catch(error => console.error(error))
+        .catch(error => console.error(error));
       }
     });
   };
@@ -956,7 +956,6 @@ document.addEventListener('DOMContentLoaded', () => {
     const formFiles = document.getElementById(id),
           fileInput = formFiles.querySelector('input[type="file"]');
     
-
     formFiles.addEventListener('submit', (e) => {
       e.preventDefault();
 
