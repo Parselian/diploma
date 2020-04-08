@@ -127,9 +127,17 @@ document.addEventListener('DOMContentLoaded', () => {
           let button;
 
           if( +data.checked[i] === 1 ) {
-            button = '<div class="section-props-block__glockoma"></div>';
+            button = `
+            <div class="section-props-block__buttons">
+              <input type="submit" name="get_statement_btn" class="button section-props-block__btn" value="Посмотреть">
+              <div class="section-props-block__glockoma"></div>
+            </div>
+            `;
           } else {
-            button = '<input type="submit" name="get_statement_btn" class="button section-props-block__btn" value="Посмотреть">';
+            button = `
+            <div class="section-props-block__buttons">
+              <input type="submit" name="get_statement_btn" class="button section-props-block__btn" value="Посмотреть">
+            </div>`;
           }
 
           sectionProps.insertAdjacentHTML('beforeend', `
@@ -234,12 +242,11 @@ document.addEventListener('DOMContentLoaded', () => {
     propsWrap.addEventListener('click', (e) => {
       const target = e.target;
 
-      
-      if( target.closest('.section-props-block__btn') ) {
-        target.parentNode.addEventListener('submit', (e) => {
+      if( target.matches('.section-props-block__btn') ) {
+        target.closest('form').addEventListener('submit', (e) => {
           e.preventDefault();
-          
-          const formData = new FormData(target.parentNode);
+
+          let formData = new FormData(target.parentNode.parentNode);
           
           let body = {};
 
@@ -278,7 +285,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
           mainWrap.insertAdjacentHTML('beforeend', `
           <section class="section section-statement">
-
+            <div class="section-statement__close">&times;</div>
             <div class="section-statement-column">
               <div class="section-statement-block">
                 <div class="section-statement-block__title">Личные данные</div>
@@ -288,7 +295,7 @@ document.addEventListener('DOMContentLoaded', () => {
                   <div class="section-statement-field__title">Фамилия</div>
                   <!-- /.section-statement-field__title -->
                   <div class="section-statement-field__field">
-                    ${data[2]}
+                    ${data[3]}
                   </div>
                   <!-- /.section-statement-field__field -->
                 </div>
@@ -297,7 +304,7 @@ document.addEventListener('DOMContentLoaded', () => {
                   <div class="section-statement-field__title">Имя</div>
                   <!-- /.section-statement-field__title -->
                   <div class="section-statement-field__field">
-                    ${data[3]}
+                    ${data[4]}
                   </div>
                   <!-- /.section-statement-field__field -->
                 </div>
@@ -306,7 +313,7 @@ document.addEventListener('DOMContentLoaded', () => {
                   <div class="section-statement-field__title">Отчество</div>
                   <!-- /.section-statement-field__title -->
                   <div class="section-statement-field__field">
-                    ${data[4]}
+                    ${data[5]}
                   </div>
                   <!-- /.section-statement-field__field -->
                 </div>
@@ -315,7 +322,7 @@ document.addEventListener('DOMContentLoaded', () => {
                   <div class="section-statement-field__title">Дата рождения</div>
                   <!-- /.section-statement-field__title -->
                   <div class="section-statement-field__field">
-                    ${data[5]}
+                    ${data[6]}
                   </div>
                   <!-- /.section-statement-field__field -->
                 </div>
@@ -324,7 +331,7 @@ document.addEventListener('DOMContentLoaded', () => {
                   <div class="section-statement-field__title">Страна</div>
                   <!-- /.section-statement-field__title -->
                   <div class="section-statement-field__field">
-                    ${data[6]}
+                    ${data[7]}
                   </div>
                   <!-- /.section-statement-field__field -->
                 </div>
@@ -333,7 +340,7 @@ document.addEventListener('DOMContentLoaded', () => {
                   <div class="section-statement-field__title">Город</div>
                   <!-- /.section-statement-field__title -->
                   <div class="section-statement-field__field">
-                    ${data[7]}
+                    ${data[8]}
                   </div>
                   <!-- /.section-statement-field__field -->
                 </div>
@@ -342,7 +349,7 @@ document.addEventListener('DOMContentLoaded', () => {
                   <div class="section-statement-field__title">Гражданство</div>
                   <!-- /.section-statement-field__title -->
                   <div class="section-statement-field__field">
-                    ${data[8]}
+                    ${data[9]}
                   </div>
                   <!-- /.section-statement-field__field -->
                 </div>
@@ -358,7 +365,7 @@ document.addEventListener('DOMContentLoaded', () => {
                   <div class="section-statement-field__title">Серия</div>
                   <!-- /.section-statement-field__title -->
                   <div class="section-statement-field__field">
-                    ${data[9]}
+                    ${data[10]}
                   </div>
                   <!-- /.section-statement-field__field -->
                 </div>
@@ -367,7 +374,7 @@ document.addEventListener('DOMContentLoaded', () => {
                   <div class="section-statement-field__title">Номер</div>
                   <!-- /.section-statement-field__title -->
                   <div class="section-statement-field__field">
-                    ${data[10]}
+                    ${data[11]}
                   </div>
                   <!-- /.section-statement-field__field -->
                 </div>
@@ -376,7 +383,7 @@ document.addEventListener('DOMContentLoaded', () => {
                   <div class="section-statement-field__title">Кем выдан</div>
                   <!-- /.section-statement-field__title -->
                   <div class="section-statement-field__field">
-                    ${data[11]}
+                    ${data[12]}
                   </div>
                   <!-- /.section-statement-field__field -->
                 </div>
@@ -385,7 +392,7 @@ document.addEventListener('DOMContentLoaded', () => {
                   <div class="section-statement-field__title">Дата выдачи</div>
                   <!-- /.section-statement-field__title -->
                   <div class="section-statement-field__field">
-                    ${data[12]}
+                    ${data[13]}
                   </div>
                   <!-- /.section-statement-field__field -->
                 </div>
@@ -394,7 +401,7 @@ document.addEventListener('DOMContentLoaded', () => {
                   <div class="section-statement-field__title">СНИЛС</div>
                   <!-- /.section-statement-field__title -->
                   <div class="section-statement-field__field">
-                    ${data[13]}
+                    ${data[14]}
                   </div>
                   <!-- /.section-statement-field__field -->
                 </div>
@@ -413,7 +420,7 @@ document.addEventListener('DOMContentLoaded', () => {
                   <div class="section-statement-field__title">Телефон</div>
                   <!-- /.section-statement-field__title -->
                   <div class="section-statement-field__field">
-                    ${data[14]}
+                    ${data[15]}
                   </div>
                   <!-- /.section-statement-field__field -->
                 </div>
@@ -422,7 +429,7 @@ document.addEventListener('DOMContentLoaded', () => {
                   <div class="section-statement-field__title">Эл. почта</div>
                   <!-- /.section-statement-field__title -->
                   <div class="section-statement-field__field">
-                    ${data[15]}
+                    ${data[16]}
                   </div>
                   <!-- /.section-statement-field__field -->
                 </div>
@@ -435,7 +442,7 @@ document.addEventListener('DOMContentLoaded', () => {
                   <div class="section-statement-field__title">Город</div>
                   <!-- /.section-statement-field__title -->
                   <div class="section-statement-field__field">
-                    ${data[16]}
+                    ${data[17]}
                   </div>
                   <!-- /.section-statement-field__field -->
                 </div>
@@ -444,7 +451,7 @@ document.addEventListener('DOMContentLoaded', () => {
                   <div class="section-statement-field__title">Улица</div>
                   <!-- /.section-statement-field__title -->
                   <div class="section-statement-field__field">
-                    ${data[17]}
+                    ${data[18]}
                   </div>
                   <!-- /.section-statement-field__field -->
                 </div>
@@ -453,7 +460,7 @@ document.addEventListener('DOMContentLoaded', () => {
                   <div class="section-statement-field__title">Дом</div>
                   <!-- /.section-statement-field__title -->
                   <div class="section-statement-field__field">
-                    ${data[18]}
+                    ${data[19]}
                   </div>
                   <!-- /.section-statement-field__field -->
                 </div>
@@ -462,7 +469,7 @@ document.addEventListener('DOMContentLoaded', () => {
                   <div class="section-statement-field__title">Квартира</div>
                   <!-- /.section-statement-field__title -->
                   <div class="section-statement-field__field">
-                    ${data[19]}
+                    ${data[20]}
                   </div>
                   <!-- /.section-statement-field__field -->
                 </div>
@@ -471,7 +478,7 @@ document.addEventListener('DOMContentLoaded', () => {
                   <div class="section-statement-field__title">Индекс</div>
                   <!-- /.section-statement-field__title -->
                   <div class="section-statement-field__field">
-                    ${data[20]}
+                    ${data[21]}
                   </div>
                   <!-- /.section-statement-field__field -->
                 </div>
@@ -487,7 +494,7 @@ document.addEventListener('DOMContentLoaded', () => {
                   <div class="section-statement-field__title">Город</div>
                   <!-- /.section-statement-field__title -->
                   <div class="section-statement-field__field">
-                    ${data[21]}
+                    ${data[22]}
                   </div>
                   <!-- /.section-statement-field__field -->
                 </div>
@@ -496,7 +503,7 @@ document.addEventListener('DOMContentLoaded', () => {
                   <div class="section-statement-field__title">Улица</div>
                   <!-- /.section-statement-field__title -->
                   <div class="section-statement-field__field">
-                    ${data[22]}
+                    ${data[23]}
                   </div>
                   <!-- /.section-statement-field__field -->
                 </div>
@@ -505,7 +512,7 @@ document.addEventListener('DOMContentLoaded', () => {
                   <div class="section-statement-field__title">Дом</div>
                   <!-- /.section-statement-field__title -->
                   <div class="section-statement-field__field">
-                    ${data[23]}
+                    ${data[24]}
                   </div>
                   <!-- /.section-statement-field__field -->
                 </div>
@@ -514,7 +521,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 <div class = "section-statement-field__title"> Квартира </div>
                   <!-- /.section-statement-field__title -->
                   <div class="section-statement-field__field">
-                    ${data[24]}
+                    ${data[25]}
                   </div>
                   <!-- /.section-statement-field__field -->
                 </div>
@@ -523,7 +530,7 @@ document.addEventListener('DOMContentLoaded', () => {
                   <div class="section-statement-field__title">Индекс</div>
                   <!-- /.section-statement-field__title -->
                   <div class="section-statement-field__field">
-                    ${data[25]}
+                    ${data[26]}
                   </div>
                   <!-- /.section-statement-field__field -->
                 </div>
@@ -544,7 +551,7 @@ document.addEventListener('DOMContentLoaded', () => {
                   </div>
                   <!-- /.section-statement-field__title -->
                   <div class="section-statement-field__field">
-                    ${data[26]}
+                    ${data[27]}
                   </div>
                   <!-- /.section-statement-field__field -->
                 </div>
@@ -556,7 +563,7 @@ document.addEventListener('DOMContentLoaded', () => {
                   </div>
                   <!-- /.section-statement-field__title -->
                   <div class="section-statement-field__field">
-                    ${data[27]}
+                    ${data[28]}
                   </div>
                   <!-- /.section-statement-field__field -->
                 </div>
@@ -568,7 +575,7 @@ document.addEventListener('DOMContentLoaded', () => {
                   </div>
                   <!-- /.section-statement-field__title -->
                   <div class="section-statement-field__field">
-                    ${data[28]}
+                    ${data[29]}
                   </div>
                   <!-- /.section-statement-field__field -->
                 </div>
@@ -578,7 +585,7 @@ document.addEventListener('DOMContentLoaded', () => {
                   <div class="section-statement-field__title">Год окончания</div>
                   <!-- /.section-statement-field__title -->
                   <div class="section-statement-field__field">
-                    ${data[29]}
+                    ${data[30]}
                   </div>
                   <!-- /.section-statement-field__field -->
                 </div>
@@ -588,7 +595,7 @@ document.addEventListener('DOMContentLoaded', () => {
                   <div class="section-statement-field__title">Серия</div>
                   <!-- /.section-statement-field__title -->
                   <div class="section-statement-field__field">
-                    ${data[30]}
+                    ${data[31]}
                   </div>
                   <!-- /.section-statement-field__field -->
                 </div>
@@ -598,7 +605,7 @@ document.addEventListener('DOMContentLoaded', () => {
                   <div class="section-statement-field__title">Номер</div>
                   <!-- /.section-statement-field__title -->
                   <div class="section-statement-field__field">
-                    ${data[31]}
+                    ${data[32]}
                   </div>
                   <!-- /.section-statement-field__field -->
                 </div>
@@ -608,7 +615,7 @@ document.addEventListener('DOMContentLoaded', () => {
                   <div class="section-statement-field__title">Средний балл</div>
                   <!-- /.section-statement-field__title -->
                   <div class="section-statement-field__field">
-                    ${data[32]}
+                    ${data[33]}
                   </div>
                   <!-- /.section-statement-field__field -->
                 </div>
@@ -620,7 +627,7 @@ document.addEventListener('DOMContentLoaded', () => {
                   </div>
                   <!-- /.section-statement-field__title -->
                   <div class="section-statement-field__field">
-                    ${data[33]}
+                    ${data[34]}
                   </div>
                   <!-- /.section-statement-field__field -->
                 </div>
@@ -631,14 +638,6 @@ document.addEventListener('DOMContentLoaded', () => {
               <div class="section-statement-block">
                 <div class="section-statement-link">
                   <span class="section-statement-link__label">Паспорт - </span>
-                  <a href="../${data[34]}" class="section-statement-link__link" target="_blank">
-                    Ссылка на файл
-                  </a>
-                </div>
-                <!-- /.section-statement-link -->
-
-                <div class="section-statement-link">
-                  <span class="section-statement-link__label">Фото - </span>
                   <a href="../${data[35]}" class="section-statement-link__link" target="_blank">
                     Ссылка на файл
                   </a>
@@ -646,8 +645,16 @@ document.addEventListener('DOMContentLoaded', () => {
                 <!-- /.section-statement-link -->
 
                 <div class="section-statement-link">
+                  <span class="section-statement-link__label">Фото - </span>
+                  <a href="../${data[36]}" class="section-statement-link__link" target="_blank">
+                    Ссылка на файл
+                  </a>
+                </div>
+                <!-- /.section-statement-link -->
+
+                <div class="section-statement-link">
                   <span class="section-statement-link__label">Заявление - </span>
-                  <a href="../${data[36]}"
+                  <a href="../${data[37]}"
                   class="section-statement-link__link"
                   target="_blank">
                     Ссылка на файл
@@ -673,12 +680,29 @@ document.addEventListener('DOMContentLoaded', () => {
 
           updateDBInfo('check-statement', '../control/functions/admin/markStatement.php', data[0]);
 
+          closeFullStatement();
           outputStatements();
         })
         .catch(error => console.error(error));
     };
   };
   showStatement();
+
+  const closeFullStatement = () => {
+    const fullStatement = document.querySelector('.section-statement'),
+          sidebar = document.querySelector('.sidebar'),
+          sectionProps = document.querySelector('.section-props');
+
+    fullStatement.addEventListener('click', (e) => {
+      const target = e.target;
+
+      if( target.matches('.section-statement__close') ) {
+        fullStatement.remove();
+        sidebar.classList.remove('hidden');
+        sectionProps.classList.remove('hidden');
+      }
+    });
+  }
 
   /* ПОЛУЧЕНИЕ АЛГОРИТМА ПОСТУПЛЕНИЯ ИЗ БД */
   const getAlgorithm = (wrap, block) => {

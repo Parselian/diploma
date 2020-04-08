@@ -486,3 +486,13 @@ Stack trace:
 Stack trace:
 #0 {main}
   thrown in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/updDocTemplate.php on line 18
+[08-Apr-2020 14:18:24 Europe/Moscow] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/markStatement.php:13
+Stack trace:
+#0 /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/markStatement.php(13): PDOStatement->fetch()
+#1 {main}
+  thrown in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/markStatement.php on line 13
+[08-Apr-2020 14:18:37 Europe/Moscow] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/markStatement.php:13
+Stack trace:
+#0 /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/markStatement.php(13): PDOStatement->fetch()
+#1 {main}
+  thrown in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/markStatement.php on line 13

@@ -1,6 +1,6 @@
 <?
   $dsn = 'mysql:host=localhost;dbname=university';
-  $pdo = new PDO($dsn, 'root', '', [PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION]);
+  $pdo = new PDO($dsn, 'windmymind', '', [PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION]);
 
   $queryShowFacs = $pdo->query('SELECT * from faculties');
 

@@ -1,6 +1,6 @@
 <?
   $dsn = 'mysql:host=localhost;dbname=university';
-  $pdo = new PDO($dsn, 'root', '', [PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION]);
+  $pdo = new PDO($dsn, 'windmymind', '', [PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION]);
 
   $queryStatements = $pdo->query('SELECT * from statements st JOIN specialties sp ON st.edu_specialty=sp.specialty_id ');
 
@@ -24,6 +24,8 @@
   );
 
   print_r(json_encode($res));
+
+  
 
   // print_r( json_encode($result = $queryStatements->fetch()) );
 

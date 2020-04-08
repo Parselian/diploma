@@ -9,4 +9,5 @@ $fullStatement = $pdo->query('SELECT * from statements WHERE statement_id='.$dat
 $result = json_encode($fullStatement->fetch());
 
 echo $result;  
+
 unset($_GET);

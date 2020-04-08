@@ -400,13 +400,18 @@ input:focus {
 .section-props-block__info {
   margin-right: 20px;
   padding: 10px 20px;
-  width: 70%;
+  width: 65%;
   display: -webkit-box;
   display: flex;
   -webkit-box-pack: justify;
   justify-content: space-between;
   border: 2px solid #969696;
   border-radius: 5px
+}
+
+.section-props-block__buttons {
+  display: flex;
+  align-items: center;
 }
 
 .section-props-block__btn {
@@ -416,6 +421,8 @@ input:focus {
 }
 
 .section-props-block__glockoma {
+  margin-left: 10px;
+  display: inline-block;
   width: 40px;
   height: 40px;
   background: url('../../assets/img/success.svg') center no-repeat;
@@ -424,9 +431,23 @@ input:focus {
 
 .section-statement {
   padding: 20px 0 20px 40px;
+  position: relative;
   display: flex;
   width: 100vw !important;
   height: calc(100vh - 110px);
+}
+
+.section-statement__close {
+  position: absolute;
+  right: 30px;
+  top: 15px;
+  font-size: 48px;
+  cursor: pointer;
+  transition: .2s;
+}
+
+.section-statement__close:hover {
+  color: #18a0fb;
 }
 
 .section-statement-column {
@@ -807,11 +828,29 @@ input:focus {
     -webkit-box-direction: normal;
     flex-direction: column
   }
+
+  .section-algorithm-form__input {
+    width: 400px;
+    min-width: auto;
+    flex-direction: column;
+  }
+
+  .section-algorithm-form__date {
+    margin-bottom: 20px;
+  }
+
+  .section-algorithm-form__content {
+    height: 80px;
+  }
 }
 
 @media (max-width:596px) {
   .section-general-block {
     width: 95%
+  }
+
+  .section-algorithm-form__input {
+    width: 400px;
   }
 }
 
@@ -882,9 +921,13 @@ input:focus {
   .section-statement-column {
     width: 90%
   }
+
+  .section-algorithm-form__input {
+    width: 360px;
+  }
 }
 
-@media (max-width:480px) {
+@media (max-width:490px) {
   .form__title {
     font-size: 20px
   }
@@ -934,6 +977,21 @@ input:focus {
     color: #ffffff;
     background-color: rgb(0, 174, 255);
   }
+
+  .section-algorithm-form__input {
+    width: 270px;
+  }
+}
+
+@media (max-width: 400px) {
+  .section-algorithm-form__input {
+    width: 190px;
+  }
+
+  .section-algorithm-form__date,
+  .section-algorithm-form__content {
+    width: 150px;
+  }
 }
 
 @media (max-width:380px) {
@@ -950,5 +1008,10 @@ input:focus {
   .section-specialty-form .form__input,
   .section-specialty-form__input_short {
     width: 160px
+  }
+
+  .section-algorithm-form__date,
+  .section-algorithm-form__content {
+    width: 150px;
   }
 }

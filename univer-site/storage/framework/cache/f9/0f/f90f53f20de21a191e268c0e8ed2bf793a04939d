@@ -1,4 +1,4 @@
-1583231417a:1:{s:10:"footer.htm";a:5:{s:8:"fileName";s:10:"footer.htm";s:7:"content";s:1947:"<footer class="footer">
+1585391970a:1:{s:10:"footer.htm";a:5:{s:8:"fileName";s:10:"footer.htm";s:7:"content";s:1947:"<footer class="footer">
   <div class="container footer-wrap">
     <a href="{{ 'home'|page }}" class="footer-logo">
       <img src="{{ 'assets/images/logo.png'|theme }}" alt="лого ВУЗа" class="footer-logo__img">
