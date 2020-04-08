@@ -68,7 +68,7 @@ if (isset($data['send_form'])) {
         <!-- /.popup__title -->
         <input id="login-login" name="login" type="text" class="popup-authorization__input" placeholder="Логин" value="<? echo @$data['login'] ?>">
 
-        <input id="login-email" name="email" type="text" class="popup-authorization__input" placeholder="Email" value="<? echo @$data['email'] ?>">
+        <input id="login-email" name="email" type="email" class="popup-authorization__input" placeholder="Email" value="<? echo @$data['email'] ?>">
 
         <input id="login-password" name="password" type="password" class="popup-authorization__input" placeholder="Пароль" value="<? echo @$data['password'] ?>">
 

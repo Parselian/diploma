@@ -211,7 +211,7 @@ if (empty($_SESSION['abiturient'])) {
               <label for="contacts-email" class="account-form__label account-form__label_required">
                 EMAIL
               </label>
-              <input id="contacts-email" type="text" name="form-contacts_email" class="account-form__input" value="example@ya.ru" required>
+              <input id="contacts-email" type="email" name="form-contacts_email" class="account-form__input" value="example@ya.ru" required>
             </div>
             <!-- /.account-form-group -->
 
