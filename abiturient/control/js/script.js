@@ -194,7 +194,9 @@ document.addEventListener('DOMContentLoaded', () => {
       const allStatements = document.querySelectorAll('.section-props-block');
       
       allStatements.forEach(item => {
-        let statementButton = item.children[0].lastElementChild;
+        let statementButton = item.children[0].lastElementChild.lastElementChild;
+
+        console.log(statementButton);
 
         switch (filtrationSelect.value) {
           case 'new':

@@ -496,3 +496,23 @@ Stack trace:
 #0 /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/markStatement.php(13): PDOStatement->fetch()
 #1 {main}
   thrown in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/markStatement.php on line 13
+[19-Apr-2020 13:38:41 Europe/Moscow] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/markStatement.php:13
+Stack trace:
+#0 /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/markStatement.php(13): PDOStatement->fetch()
+#1 {main}
+  thrown in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/markStatement.php on line 13
+[19-Apr-2020 13:45:07 Europe/Moscow] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/markStatement.php:13
+Stack trace:
+#0 /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/markStatement.php(13): PDOStatement->fetch()
+#1 {main}
+  thrown in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/markStatement.php on line 13
+[19-Apr-2020 13:45:13 Europe/Moscow] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/markStatement.php:13
+Stack trace:
+#0 /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/markStatement.php(13): PDOStatement->fetch()
+#1 {main}
+  thrown in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/markStatement.php on line 13
+[19-Apr-2020 13:46:56 Europe/Moscow] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/markStatement.php:13
+Stack trace:
+#0 /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/markStatement.php(13): PDOStatement->fetch()
+#1 {main}
+  thrown in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/markStatement.php on line 13
