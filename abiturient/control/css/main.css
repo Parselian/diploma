@@ -123,6 +123,14 @@ input[type="checkbox"]:checked+label:after {
   color: red
 }
 
+.button_close {
+  background-color: gray
+}
+
+.button_close:hover {
+  color: gray
+}
+
 .form {
   margin-bottom: 50px;
   display: -webkit-box;
@@ -438,6 +446,15 @@ input:focus {
   background-size: cover;
 }
 
+.section-props-block__hourglasses {
+  margin-left: 10px;
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background: url('../img/sand-clock.svg') center no-repeat;
+  background-size: cover;
+}
+
 .section-statement {
   padding: 20px 0 20px 40px;
   position: relative;
@@ -536,11 +553,13 @@ input:focus {
 }
 
 .section-statement-buttons__button {
+  margin-right: 10px;
   font-size: 16px
 }
 
-.section-statement-buttons__button:first-child {
-  margin-right: 10px
+.section-statement-buttons__button:last-child {
+  margin-top: 15px;
+  margin-right: 0;
 }
 
 .section-specialty {
@@ -933,6 +952,10 @@ input:focus {
 
   .section-algorithm-form__input {
     width: 360px;
+  }
+
+  .section-statement-buttons__button {
+    padding: 10px 15px;
   }
 }
 

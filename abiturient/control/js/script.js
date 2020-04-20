@@ -126,14 +126,20 @@ document.addEventListener('DOMContentLoaded', () => {
         data.statementsId.forEach((item, i) => {
           let button;
 
-          if ( data.checked[i] === '1' ) {
+          if (+data.checked[i] === 2) {
+            button = `
+            <div class="section-props-block__buttons">
+              <div class="section-props-block__hourglasses"></div>
+            </div>
+            `;
+          } else if ( +data.checked[i] === 1 ) {
             button = `
             <div class="section-props-block__buttons">
               <input type="submit" name="get_statement_btn" class="button section-props-block__btn" value="Посмотреть">
               <div class="section-props-block__glockoma"></div>
             </div>
             `;
-          } else if (data.checked[i] === '-1') {
+          } else if (+data.checked[i] === -1) {
             button = `
             <div class="section-props-block__buttons">
               <input type="submit" name="get_statement_btn" class="button section-props-block__btn" value="Посмотреть">
@@ -266,6 +272,8 @@ document.addEventListener('DOMContentLoaded', () => {
           e.preventDefault();
 
           let formData = new FormData(target.parentNode.parentNode);
+
+          formData.append('verdict', 'in-process');
           
           let body = {};
 
@@ -273,13 +281,32 @@ document.addEventListener('DOMContentLoaded', () => {
             body[val[0]] = val[1];
           }
 
+          const sendForm = (data) => {
+            return fetch('../control/functions/admin/markStatement.php', {
+              method: 'POST',
+              headers: {
+                'Content-Type': 'application / json'
+              },
+              body: JSON.stringify(data)
+            });
+          };
+
+          sendForm(body)
+            .then(response => {
+              if (response.status !== 200) {
+                manageAttention('Ошибка!', 'section-content-attention_error');
+
+                throw new Error('Ошибка! статус ответа от сервера не 200!');
+              }
+            })
+            .catch(error => console.error(error));
+
           getFullInfo(body);
         });
       }
     });
 
     const getFullInfo = (data) => {
-
       fetch('../control/functions/admin/getFullStatement.php', {
         method: 'POST', 
         headers: {
@@ -304,7 +331,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
           mainWrap.insertAdjacentHTML('beforeend', `
           <section class="section section-statement">
-            <div class="section-statement__close">&times;</div>
             <div class="section-statement-column">
               <div class="section-statement-block">
                 <div class="section-statement-block__title">Личные данные</div>
@@ -688,6 +714,8 @@ document.addEventListener('DOMContentLoaded', () => {
                   class="button button_granted section-statement-buttons__button" value="approved">прошёл</button>
 
                   <button type="submit" name="check-statement_button" class="button button_denied section-statement-buttons__button" value="denied">не прошёл</button>
+
+                  <button type="submit" name="check-statement_button" class="button button_close section-statement-buttons__button" value="close">закрыть</button>
                 </form>
                 <!-- /.section-statement-buttons -->
               </div>
@@ -699,29 +727,12 @@ document.addEventListener('DOMContentLoaded', () => {
 
           updateDBInfo('check-statement', '../control/functions/admin/markStatement.php', data[0]);
 
-          closeFullStatement();
           outputStatements();
         })
         .catch(error => console.error(error));
     };
   };
   showStatement();
-
-  const closeFullStatement = () => {
-    const fullStatement = document.querySelector('.section-statement'),
-          sidebar = document.querySelector('.sidebar'),
-          sectionProps = document.querySelector('.section-props');
-
-    fullStatement.addEventListener('click', (e) => {
-      const target = e.target;
-
-      if( target.matches('.section-statement__close') ) {
-        fullStatement.remove();
-        sidebar.classList.remove('hidden');
-        sectionProps.classList.remove('hidden');
-      }
-    });
-  }
 
   /* ПОЛУЧЕНИЕ АЛГОРИТМА ПОСТУПЛЕНИЯ ИЗ БД */
   const getAlgorithm = (wrap, block) => {
@@ -890,7 +901,12 @@ document.addEventListener('DOMContentLoaded', () => {
           showSelectOptions('.form__select-fac', 'functions/admin/manageFacs/getFacs.php');
           showSelectOptions('.form__select-spec', 'functions/admin/manageSpecs/getSpecs.php');
 
-          manageAttention('Успешно!');
+          if (body['verdict'] === 'close') {
+            return;
+          } else {
+            manageAttention('Успешно!');
+          }
+
         })
         .catch(error => console.error(error));
     });
