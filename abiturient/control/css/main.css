@@ -429,6 +429,15 @@ input:focus {
   background-size: cover;
 }
 
+.section-props-block__denied {
+  margin-left: 10px;
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background: url('../img/cross.svg') center no-repeat;
+  background-size: cover;
+}
+
 .section-statement {
   padding: 20px 0 20px 40px;
   position: relative;

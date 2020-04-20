@@ -178,6 +178,8 @@ if (empty($_SESSION['admin'])) {
           <option value="none" disabled selected>Сортировка:</option>
           <option value="new">Сначала новые</option>
           <option value="checked">Сначала просмотренные</option>
+          <option value="approved">Сначала принятые</option>
+          <option value="denied">Сначала отклонённые</option>
           <option value="alphabet">По алфавиту</option>
         </select>
 

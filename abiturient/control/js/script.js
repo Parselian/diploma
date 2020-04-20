@@ -126,11 +126,18 @@ document.addEventListener('DOMContentLoaded', () => {
         data.statementsId.forEach((item, i) => {
           let button;
 
-          if( +data.checked[i] === 1 ) {
+          if ( data.checked[i] === '1' ) {
             button = `
             <div class="section-props-block__buttons">
               <input type="submit" name="get_statement_btn" class="button section-props-block__btn" value="Посмотреть">
               <div class="section-props-block__glockoma"></div>
+            </div>
+            `;
+          } else if (data.checked[i] === '-1') {
+            button = `
+            <div class="section-props-block__buttons">
+              <input type="submit" name="get_statement_btn" class="button section-props-block__btn" value="Посмотреть">
+              <div class="section-props-block__denied"></div>
             </div>
             `;
           } else {
@@ -196,8 +203,6 @@ document.addEventListener('DOMContentLoaded', () => {
       allStatements.forEach(item => {
         let statementButton = item.children[0].lastElementChild.lastElementChild;
 
-        console.log(statementButton);
-
         switch (filtrationSelect.value) {
           case 'new':
             if (statementButton.getAttribute('name') === 'get_statement_btn') {
@@ -206,7 +211,19 @@ document.addEventListener('DOMContentLoaded', () => {
             }
             return;
           case 'checked':
+            if (statementButton.matches('.section-props-block__glockoma .section-props-block__denied')) {
+              item.remove();
+              filtrationWrap.insertAdjacentElement('afterend', item);
+            }
+            return;
+          case 'approved':
             if (statementButton.classList.contains('section-props-block__glockoma')) {
+              item.remove();
+              filtrationWrap.insertAdjacentElement('afterend', item);
+            }
+            return;
+          case 'denied':
+            if (statementButton.classList.contains('section-props-block__denied')) {
               item.remove();
               filtrationWrap.insertAdjacentElement('afterend', item);
             }
@@ -228,9 +245,9 @@ document.addEventListener('DOMContentLoaded', () => {
     };
 
     filtrationSelect.addEventListener('change', () => {
-      if( filtrationSelect.value === 'new' || filtrationSelect.value === 'checked' ) {
+      if (filtrationSelect.value !== 'alphabet') {
         buttonCheck();
-      } else if( filtrationSelect.value === 'alphabet' ) {
+      } else {
         alphabetSort();
       }
     });
