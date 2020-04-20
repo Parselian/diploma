@@ -672,7 +672,7 @@ document.addEventListener('DOMContentLoaded', () => {
                   </div>
                   <!-- /.section-statement-field__title -->
                   <div class="section-statement-field__field">
-                    ${data[34]}
+                    ${data['specialty_name']}
                   </div>
                   <!-- /.section-statement-field__field -->
                 </div>
