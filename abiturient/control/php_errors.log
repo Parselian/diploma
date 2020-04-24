@@ -222,3 +222,5 @@ trace: #0 /home/windmymind/Documents/projects/Diploma/abiturient/control/libs/rb
 [21-Apr-2020 12:09:14 Europe/Moscow] PHP Notice:  Trying to get property 'login' of non-object in /home/windmymind/Documents/projects/Diploma/abiturient/control/admin-panel.php on line 32
 [23-Apr-2020 14:57:27 Europe/Moscow] PHP Notice:  Undefined index: admin in /home/windmymind/Documents/projects/Diploma/abiturient/control/admin-panel.php on line 32
 [23-Apr-2020 14:57:27 Europe/Moscow] PHP Notice:  Trying to get property 'login' of non-object in /home/windmymind/Documents/projects/Diploma/abiturient/control/admin-panel.php on line 32
+[24-Apr-2020 17:41:32 Europe/Moscow] PHP Notice:  Undefined index: admin in /home/windmymind/Documents/projects/Diploma/abiturient/control/admin-panel.php on line 32
+[24-Apr-2020 17:41:32 Europe/Moscow] PHP Notice:  Trying to get property 'login' of non-object in /home/windmymind/Documents/projects/Diploma/abiturient/control/admin-panel.php on line 32

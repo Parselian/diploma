@@ -2,7 +2,6 @@
 require __DIR__ . '/../db.php';
 
 if (isset($_POST['send_files_btn'])) {
-  // var_dump($_FILES);
 
   $passport_name = 'user_id_' . $_SESSION['abiturient']->id;
   $passport_tmp_name = $_FILES['documents_passport']['tmp_name'];
@@ -23,24 +22,36 @@ if (isset($_POST['send_files_btn'])) {
   move_uploaded_file($passport_tmp_name, $passport_path);
   move_uploaded_file($statement_tmp_name, $statement_path);
 
-  $sql_send_docs = 'UPDATE statements SET
-      checked = :checked_status,
-      passport_link = :passport_path,
-      photo_link = :photo_path,
-      statement_link = :statement_path 
-      WHERE abiturient_id = ' . $_SESSION['abiturient']->id . '';
+  
+  $query_check_docs = $pdo->query('SELECT * FROM statements 
+    WHERE abiturient_id = ' . $_SESSION['abiturient']->id . '');
 
-  $query_send_docs = $pdo->prepare($sql_send_docs);
-  $query_send_docs->execute([
-    'checked_status' => 'documents-sent',
-    'passport_path' => $passport_db_path,
-    'photo_path' => $photo_db_path,
-    'statement_path' => $statement_db_path
-  ]);
+  while ($result = $query_check_docs->fetch()) {
+    if($result['checked'] === 'approved' || $result['checked'] === 'denied')
+    {
+      $checked_status = $result['checked'];
+    } 
+    else 
+    {
+      $checked_status = 'documents_sent';
+    }
 
-  // $abiturient = R::load( 'abiturients', $_SESSION['abiturient']->id );
-  // $abiturient->anket_status = 'documents-sent';
-  // R::store( $abiturient );
+    $sql_send_docs = 'UPDATE statements SET
+        checked = :checked_status,
+        passport_link = :passport_path,
+        photo_link = :photo_path,
+        statement_link = :statement_path 
+        WHERE abiturient_id = ' . $_SESSION['abiturient']->id . ' AND statement_id = :statement_id';
+  
+    $query_send_docs = $pdo->prepare($sql_send_docs);
+    $query_send_docs->execute([
+      'checked_status' => $checked_status,
+      'passport_path' => $passport_db_path,
+      'photo_path' => $photo_db_path,
+      'statement_path' => $statement_db_path,
+      'statement_id' => $result['statement_id']
+    ]);
+  }
 
   unset($_POST);
   unset($_FILES);

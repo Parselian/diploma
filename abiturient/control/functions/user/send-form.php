@@ -12,6 +12,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
   $sql = 'INSERT INTO statements(
       abiturient_id,
       checked,
+      anket_status,
       surname,
       abiname,
       patronymic,
@@ -47,6 +48,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
       ) VALUES (
         :abiturient_id,
         :checked,
+        :anket_status,
         :surname,
         :abiname,
         :patronymic,
@@ -86,6 +88,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
   $query->execute([
     'abiturient_id' => $_SESSION['abiturient']->id,
     'checked' => 'questionnaire-sent',
+    'anket_status' => 'new',
     'surname' => $data["form-surname"],
     'abiname' => $data["form-abiname"],
     'patronymic' => $data["form-patronymic"],

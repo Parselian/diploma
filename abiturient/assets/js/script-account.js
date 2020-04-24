@@ -222,7 +222,9 @@ document.addEventListener('DOMContentLoaded', () => {
               approvedAnkets.push(data['anketSpecs'][i]);
             } else if (item === 'denied') {
               deniedAnkets.push(data['anketSpecs'][i]);
-            } else if (item === 'documents-sent' || item === 'in-process') {
+            } else if (item !== 'approved' && item !== 'denied' && 
+            data.anketStatuses[i] === 'in-process' ||
+            data.anketStatuses[i] === 'new') {
               waitingAnkets.push(data['anketSpecs'][i]);
             } else if (item === 'questionnaire-sent') {
               anketsWithoutDocs.push(data['anketVerdicts'][i]);
@@ -231,9 +233,6 @@ document.addEventListener('DOMContentLoaded', () => {
             }
           });
         }
-
-        console.log(data);
-        console.log(anketsWithoutDocs);
 
         if (data === false) {
           popupText.textContent = 'Для участия необходимо отправить анкету!';

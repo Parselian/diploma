@@ -565,3 +565,17 @@ Stack trace:
 #0 /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php(38): PDOStatement->execute(Array)
 #1 {main}
   thrown in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 38
+[24-Apr-2020 19:15:31 Europe/Moscow] PHP Parse error:  syntax error, unexpected '}' in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 38
+[24-Apr-2020 19:17:16 Europe/Moscow] PHP Notice:  Undefined variable: _SESSION in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 8
+[24-Apr-2020 19:17:16 Europe/Moscow] PHP Notice:  Trying to get property 'id' of non-object in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 8
+[24-Apr-2020 19:17:16 Europe/Moscow] PHP Notice:  Undefined variable: _SESSION in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 13
+[24-Apr-2020 19:17:16 Europe/Moscow] PHP Notice:  Trying to get property 'id' of non-object in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 13
+[24-Apr-2020 19:17:16 Europe/Moscow] PHP Notice:  Undefined variable: _SESSION in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 18
+[24-Apr-2020 19:17:16 Europe/Moscow] PHP Notice:  Trying to get property 'id' of non-object in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 18
+[24-Apr-2020 19:17:16 Europe/Moscow] PHP Notice:  Undefined variable: _SESSION in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 29
+[24-Apr-2020 19:17:16 Europe/Moscow] PHP Notice:  Trying to get property 'id' of non-object in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 29
+[24-Apr-2020 19:17:16 Europe/Moscow] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 2 in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php:29
+Stack trace:
+#0 /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php(29): PDO->query('SELECT * FROM s...')
+#1 {main}
+  thrown in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 29
