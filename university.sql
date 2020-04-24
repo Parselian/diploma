@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Хост: localhost:3306
--- Время создания: Апр 22 2020 г., 20:37
+-- Время создания: Апр 24 2020 г., 20:37
 -- Версия сервера: 10.1.44-MariaDB-0ubuntu0.18.04.1
 -- Версия PHP: 7.2.24-0ubuntu0.18.04.4
 
@@ -42,122 +42,11 @@ INSERT INTO `abiturients` (`id`, `login`, `email`, `password`, `anket_status`) V
 (2, 'user', 'user@user.ru', '$2y$10$31f4/Nd4GNsM54cHiLVWaO5Kl/HuHyj/l1zhuop7FqKiAKF2gdr/S', 'denied'),
 (3, 'test2', 'test@tes.tu', '$2y$10$bp7e3r1fqqL4YglgURTQy.M6mO0p7H2UqUS0u6pCfzBq.HEBbDnSC', 'denied'),
 (4, 'testuser', 'sedg', '$2y$10$NjntA0w1tUQ3rycsVTnVT.j0SYuaFEhvksehTzcG5kK5g7ZYgLzce', 'approved'),
-(5, 'user2', 'sdgd', '$2y$10$1Zuo5YOjDrpbGEy77ugsfuhXSXvjCzY6iJUWvnwYW95/JIS0y28.O', 'denied'),
+(5, 'user2', 'sdgd', '$2y$10$1Zuo5YOjDrpbGEy77ugsfuhXSXvjCzY6iJUWvnwYW95/JIS0y28.O', 'questionnaire-sent'),
 (6, 'desktop', 'sadf', '$2y$10$bLSiFFcHw78icVVbGk4fGurVqINZsvDrH6hFNlsoIa4xrvi1FG1iK', 'approved'),
 (7, 'desk2', 'uyryut', '$2y$10$QGsCuK8mISJbUJBk2fUR3uIVg92f8/xQDyippRFiOHVfhhQahKaxK', 'documents-sent'),
 (8, 'qwerty', 'kjgklj@nd.ry', '$2y$10$dUQGm/rURTAoi0wgQR8Xa.c8IAHykmMigx7jJ8MowCCtFUNbqoi46', 'approved'),
-(9, 'test7', 'jhgk@kjgjlkh', '$2y$10$AZP5S0M9jgu11OaVoBxBSOPzL7w/h6o1sIMjbrnLFwaqVwhdbV8P.', 'closed'),
-(10, '', '', '', 'in-process'),
-(11, '', '', '', 'in-process'),
-(12, '', '', '', 'in-process'),
-(13, '', '', '', 'in-process'),
-(14, '', '', '', 'in-process'),
-(15, '', '', '', 'in-process'),
-(16, '', '', '', 'in-process'),
-(17, '', '', '', NULL),
-(18, '', '', '', NULL),
-(19, '', '', '', 'in-process'),
-(20, '', '', '', 'in-process'),
-(21, '', '', '', 'in-process'),
-(22, '', '', '', 'in-process'),
-(23, '', '', '', 'in-process'),
-(24, '', '', '', 'in-process'),
-(25, '', '', '', 'in-process'),
-(26, '', '', '', 'in-process'),
-(27, '', '', '', 'in-process'),
-(28, '', '', '', 'in-process'),
-(29, '', '', '', 'in-process'),
-(30, '', '', '', 'in-process'),
-(31, '', '', '', 'in-process'),
-(32, '', '', '', 'in-process'),
-(33, '', '', '', 'in-process'),
-(34, '', '', '', 'in-process'),
-(35, '', '', '', 'in-process'),
-(36, '', '', '', 'in-process'),
-(37, '', '', '', 'in-process'),
-(38, '', '', '', 'in-process'),
-(39, '', '', '', 'in-process'),
-(40, '', '', '', 'in-process'),
-(41, '', '', '', 'in-process'),
-(42, '', '', '', 'in-process'),
-(43, '', '', '', 'in-process'),
-(44, '', '', '', 'in-process'),
-(45, '', '', '', 'in-process'),
-(46, '', '', '', 'in-process'),
-(47, '', '', '', 'in-process'),
-(48, '', '', '', 'in-process'),
-(49, '', '', '', 'in-process'),
-(50, '', '', '', 'in-process'),
-(51, '', '', '', 'in-process'),
-(52, '', '', '', 'in-process'),
-(53, '', '', '', 'in-process'),
-(54, '', '', '', 'in-process'),
-(55, '', '', '', 'in-process'),
-(56, '', '', '', 'in-process'),
-(57, '', '', '', 'in-process'),
-(58, '', '', '', 'in-process'),
-(59, '', '', '', 'in-process'),
-(60, '', '', '', 'in-process'),
-(61, '', '', '', 'in-process'),
-(62, '', '', '', 'in-process'),
-(63, '', '', '', 'in-process'),
-(64, '', '', '', 'close'),
-(65, '', '', '', 'in-process'),
-(66, '', '', '', 'in-process'),
-(67, '', '', '', 'in-process'),
-(68, '', '', '', 'in-process'),
-(69, '', '', '', 'in-process'),
-(70, '', '', '', 'close'),
-(71, '', '', '', 'in-process'),
-(72, '', '', '', 'in-process'),
-(73, '', '', '', 'in-process'),
-(74, '', '', '', 'in-process'),
-(75, '', '', '', 'in-process'),
-(76, '', '', '', 'in-process'),
-(77, '', '', '', 'in-process'),
-(78, '', '', '', 'in-process'),
-(79, '', '', '', 'in-process'),
-(80, '', '', '', 'closed'),
-(81, '', '', '', 'closed'),
-(82, '', '', '', 'in-process'),
-(83, '', '', '', 'in-process'),
-(84, '', '', '', 'closed'),
-(85, '', '', '', 'closed'),
-(86, '', '', '', 'closed'),
-(87, '', '', '', 'closed'),
-(88, '', '', '', 'closed'),
-(89, '', '', '', 'in-process'),
-(90, '', '', '', 'in-process'),
-(91, '', '', '', 'closed'),
-(92, '', '', '', 'closed'),
-(93, '', '', '', 'closed'),
-(94, '', '', '', 'closed'),
-(95, '', '', '', 'in-process'),
-(96, '', '', '', 'in-process'),
-(97, '', '', '', 'in-process'),
-(98, '', '', '', 'in-process'),
-(99, '', '', '', 'in-process'),
-(100, '', '', '', 'in-process'),
-(101, '', '', '', NULL),
-(102, '', '', '', 'in-process'),
-(103, '', '', '', NULL),
-(104, '', '', '', 'in-process'),
-(105, '', '', '', 'closed'),
-(106, '', '', '', 'closed'),
-(107, '', '', '', 'closed'),
-(108, '', '', '', 'closed'),
-(109, '', '', '', 'in-process'),
-(110, '', '', '', 'closed'),
-(111, '', '', '', 'in-process'),
-(112, '', '', '', 'closed'),
-(113, '', '', '', 'in-process'),
-(114, '', '', '', NULL),
-(115, '', '', '', 'in-process'),
-(116, '', '', '', NULL),
-(117, '', '', '', 'in-process'),
-(118, '', '', '', NULL),
-(119, '', '', '', 'in-process'),
-(120, '', '', '', 'in-process');
+(9, 'test7', 'jhgk@kjgjlkh', '$2y$10$AZP5S0M9jgu11OaVoBxBSOPzL7w/h6o1sIMjbrnLFwaqVwhdbV8P.', 'approved');
 
 -- --------------------------------------------------------
 
@@ -269,7 +158,8 @@ INSERT INTO `specialties` (`specialty_id`, `specialty_name`, `faculty_id`, `budg
 CREATE TABLE `statements` (
   `statement_id` int(11) UNSIGNED NOT NULL,
   `abiturient_id` int(11) NOT NULL,
-  `checked` tinyint(1) NOT NULL DEFAULT '0',
+  `checked` varchar(50) DEFAULT '0',
+  `anket_status` varchar(50) DEFAULT 'new',
   `surname` varchar(50) NOT NULL,
   `abiname` varchar(50) NOT NULL,
   `patronymic` varchar(50) NOT NULL,
@@ -311,10 +201,10 @@ CREATE TABLE `statements` (
 -- Дамп данных таблицы `statements`
 --
 
-INSERT INTO `statements` (`statement_id`, `abiturient_id`, `checked`, `surname`, `abiname`, `patronymic`, `born_date`, `born_country`, `born_city`, `citizenship`, `passport_series`, `passport_number`, `passport_whogive`, `passport_date`, `snils`, `contacts_phone`, `contacts_email`, `contacts_regcity`, `contacts_regstreet`, `contacts_reghouse`, `contacts_regflat`, `contacts_regindex`, `contacts_livecity`, `contacts_livestreet`, `contacts_livehouse`, `contacts_liveflat`, `contacts_liveindex`, `edu_last`, `edu_name`, `edu_country`, `edu_finishyear`, `edu_series`, `edu_number`, `edu_points`, `edu_specialty`, `passport_link`, `photo_link`, `statement_link`) VALUES
-(150, 9, 0, 'Вождаев', 'Вячеслав', 'Алексеевич', '2020-04-08', 'Россия', 'Санкт-Петербург', 'Российское', 1234, 123456, 'УФМС', '2020-04-09', 123, '+7 (921) 574-15-42', 'example@ya.ru', 'Санкт-Петербург', 'Руставелли', '12 лит.А', '142', 123456, 'Москва', 'Ленина', '8', '14', 123456, 'школа', 'шарага', 'Россия', '2020-04-10', '123456', '1234567', '4.2', 7, 'control/uploads/passports/user_id_9', 'control/uploads/photos/user_id_9', 'control/uploads/statements/user_id_9'),
-(151, 9, 2, 'Вождаев', 'Вячеслав', 'Алексеевич', '2020-04-08', 'Россия', 'Санкт-Петербург', 'Российское', 1234, 123456, 'УФМС', '2020-04-05', 123, '+7 (921) 574-15-42', 'example@ya.ru', 'Санкт-Петербург', 'Руставелли', '12 лит.А', '142', 123456, 'Москва', 'Ленина', '8', '14', 123456, 'школа', 'шарага', 'Россия', '2020-04-22', '123456', '1234567', '4.2', 1, NULL, NULL, NULL),
-(152, 9, 2, 'Вождаев', 'Вячеслав', 'Алексеевич', '2020-04-08', 'Россия', 'Санкт-Петербург', 'Российское', 1234, 123456, 'УФМС', '2020-04-05', 123, '+7 (921) 574-15-42', 'example@ya.ru', 'Санкт-Петербург', 'Руставелли', '12 лит.А', '142', 123456, 'Москва', 'Ленина', '8', '14', 123456, 'школа', 'шарага', 'Россия', '2020-04-22', '123456', '1234567', '4.2', 4, NULL, NULL, NULL);
+INSERT INTO `statements` (`statement_id`, `abiturient_id`, `checked`, `anket_status`, `surname`, `abiname`, `patronymic`, `born_date`, `born_country`, `born_city`, `citizenship`, `passport_series`, `passport_number`, `passport_whogive`, `passport_date`, `snils`, `contacts_phone`, `contacts_email`, `contacts_regcity`, `contacts_regstreet`, `contacts_reghouse`, `contacts_regflat`, `contacts_regindex`, `contacts_livecity`, `contacts_livestreet`, `contacts_livehouse`, `contacts_liveflat`, `contacts_liveindex`, `edu_last`, `edu_name`, `edu_country`, `edu_finishyear`, `edu_series`, `edu_number`, `edu_points`, `edu_specialty`, `passport_link`, `photo_link`, `statement_link`) VALUES
+(161, 5, 'denied', 'new', 'Вождаев', 'Вячеслав', 'Алексеевич', '2020-04-08', 'Россия', 'Санкт-Петербург', 'Российское', 1234, 123456, 'УФМС', '2020-04-28', 123, '+7 (921) 574-15-42', 'example@ya.ru', 'Санкт-Петербург', 'Руставелли', '12 лит.А', '142', 123456, 'Москва', 'Ленина', '8', '14', 123456, 'школа', 'шарага', 'Россия', '2020-03-31', '123456', '1234567', '4.2', 7, 'control/uploads/passports/user_id_5', 'control/uploads/photos/user_id_5', 'control/uploads/statements/user_id_5'),
+(162, 5, 'approved', 'new', 'Вождаев', 'Вячеслав', 'Алексеевич', '2020-04-09', 'Россия', 'Санкт-Петербург', 'Российское', 1234, 123456, 'УФМС', '2020-04-14', 123, '+7 (921) 574-15-42', 'example@ya.ru', 'Санкт-Петербург', 'Руставелли', '12 лит.А', '142', 123456, 'Москва', 'Ленина', '8', '14', 123456, 'школа', 'шарага', 'Россия', '2020-04-16', '123456', '1234567', '4.2', 1, 'control/uploads/passports/user_id_5', 'control/uploads/photos/user_id_5', 'control/uploads/statements/user_id_5'),
+(163, 5, 'documents_sent', 'in-process', 'Вождаев', 'Вячеслав', 'Алексеевич', '2020-04-09', 'Россия', 'Санкт-Петербург', 'Российское', 1234, 123456, 'УФМС', '2020-04-08', 123, '+7 (921) 574-15-42', 'example@ya.ru', 'Санкт-Петербург', 'Руставелли', '12 лит.А', '142', 123456, 'Москва', 'Ленина', '8', '14', 123456, 'школа', 'шарага', 'Россия', '2020-04-16', '123456', '1234567', '4.2', 4, 'control/uploads/passports/user_id_5', 'control/uploads/photos/user_id_5', 'control/uploads/statements/user_id_5');
 
 --
 -- Индексы сохранённых таблиц
@@ -368,7 +258,7 @@ ALTER TABLE `statements`
 -- AUTO_INCREMENT для таблицы `abiturients`
 --
 ALTER TABLE `abiturients`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=121;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
 --
 -- AUTO_INCREMENT для таблицы `admins`
 --
@@ -393,7 +283,7 @@ ALTER TABLE `specialties`
 -- AUTO_INCREMENT для таблицы `statements`
 --
 ALTER TABLE `statements`
-  MODIFY `statement_id` int(11) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=153;
+  MODIFY `statement_id` int(11) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=164;
 --
 -- Ограничения внешнего ключа сохраненных таблиц
 --
