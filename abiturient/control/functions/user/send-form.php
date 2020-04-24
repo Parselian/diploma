@@ -11,6 +11,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
   
   $sql = 'INSERT INTO statements(
       abiturient_id,
+      checked,
       surname,
       abiname,
       patronymic,
@@ -45,6 +46,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
       edu_specialty
       ) VALUES (
         :abiturient_id,
+        :checked,
         :surname,
         :abiname,
         :patronymic,
@@ -83,6 +85,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
   $query->execute([
     'abiturient_id' => $_SESSION['abiturient']->id,
+    'checked' => 'questionnaire-sent',
     'surname' => $data["form-surname"],
     'abiname' => $data["form-abiname"],
     'patronymic' => $data["form-patronymic"],
@@ -117,9 +120,9 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     'edu_specialty' => $data["form-edu_specialty"]
   ]);
 
-  $abiturient = R::load( 'abiturients', $_SESSION['abiturient']->id );
-  $abiturient->anket_status = 'questionnaire-sent';
-  R::store( $abiturient );
+  // $abiturient = R::load( 'abiturients', $_SESSION['abiturient']->id );
+  // $abiturient->anket_status = 'questionnaire-sent';
+  // R::store( $abiturient );
 
   // unset($_POST);
   // header('Location: account.php');

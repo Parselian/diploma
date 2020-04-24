@@ -1,33 +1,35 @@
 <?
-require __DIR__ . '/../db.php';
+$dsn = 'mysql:host=localhost;dbname=university';
+$pdo = new PDO($dsn, 'windmymind', '', [PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION]);
 
 $postData = file_get_contents('php://input');
-
 $data = json_decode($postData, true);
 
-print_r($data);
-
-$query = R::load( 'abiturients', $data['abiturient_id'] );
-// $query->anket_status = $data['verdict'];
-// R::store( $query );
-
+// print_r($data);
 
 if ($data['verdict'] === 'approved') {
-  $anketVerdict = 1;  
+  $anketVerdict = 'approved';  
 } else if ($data['verdict'] === 'denied') {
-  $anketVerdict = -1;
+  $anketVerdict = 'denied';
 } else if ($data['verdict'] === 'in-process') {
-  $anketVerdict = 2;
+  $anketVerdict = "in-process";
 
-  $queryUpdChecked = $pdo->query('UPDATE statements SET checked = '. $anketVerdict .' WHERE statement_id = '.$data["state_id"].'');
+  $sqlUpdChecked = 'UPDATE statements SET checked = :checked_status WHERE statement_id = :statement_id';
 
-$queryUpdChecked->fetch();
-} else if ($postData == null) {
-  $anketVerdict = 0;
-}
-echo $anketVerdict;
+  $queryUpdChecked = $pdo->prepare($sqlUpdChecked);
+  $queryUpdChecked->execute([
+    'checked_status' => $anketVerdict,
+    'statement_id' => $data["state_id"]
+  ]);
+} 
 
-$queryUpdChecked = $pdo->query('UPDATE statements SET checked = '. $anketVerdict .' WHERE statement_id = '.$data["statement_id"].'');
+$sqlUpdChecked = 'UPDATE statements SET checked = :checked_status WHERE statement_id = :statement_id';
+
+$queryUpdChecked = $pdo->prepare($sqlUpdChecked);
+$queryUpdChecked->execute([
+  'checked_status' => $anketVerdict,
+  'statement_id' => $data["statement_id"]
+]);
 
 $queryUpdChecked->fetch();
 

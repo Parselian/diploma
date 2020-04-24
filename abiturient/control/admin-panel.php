@@ -177,7 +177,7 @@ if (empty($_SESSION['admin'])) {
         <select name="add_spec_fac" class="form__select section-props-filtration__select" required>
           <option value="none" disabled selected>Сортировка:</option>
           <option value="new">Сначала новые</option>
-          <option value="checked">Сначала просмотренные</option>
+          <option value="in_process">Сначала просматриваемые</option>
           <option value="approved">Сначала принятые</option>
           <option value="denied">Сначала отклонённые</option>
           <option value="alphabet">По алфавиту</option>

@@ -1815,3 +1815,277 @@ Stack trace:
 #0 /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/markStatement.php(30): PDO->query('UPDATE statemen...')
 #1 {main}
   thrown in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/markStatement.php on line 30
+[24-Apr-2020 15:05:33 Europe/Moscow] PHP Notice:  Undefined index: abiturient_id in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/markStatement.php on line 10
+[24-Apr-2020 15:05:33 Europe/Moscow] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/markStatement.php:24
+Stack trace:
+#0 /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/markStatement.php(24): PDOStatement->fetch()
+#1 {main}
+  thrown in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/markStatement.php on line 24
+[24-Apr-2020 15:15:52 Europe/Moscow] PHP Notice:  Undefined variable: anketVerdict in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/markStatement.php on line 28
+[24-Apr-2020 15:15:52 Europe/Moscow] PHP Notice:  Undefined variable: anketVerdict in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/markStatement.php on line 30
+[24-Apr-2020 15:15:52 Europe/Moscow] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE statement_id = 159' at line 1 in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/markStatement.php:30
+Stack trace:
+#0 /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/markStatement.php(30): PDO->query('UPDATE statemen...')
+#1 {main}
+  thrown in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/markStatement.php on line 30
+[24-Apr-2020 15:16:00 Europe/Moscow] PHP Notice:  Undefined index: abiturient_id in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/markStatement.php on line 10
+[24-Apr-2020 15:16:00 Europe/Moscow] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/markStatement.php:24
+Stack trace:
+#0 /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/markStatement.php(24): PDOStatement->fetch()
+#1 {main}
+  thrown in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/markStatement.php on line 24
+[24-Apr-2020 15:16:01 Europe/Moscow] PHP Notice:  Undefined variable: anketVerdict in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/markStatement.php on line 28
+[24-Apr-2020 15:16:01 Europe/Moscow] PHP Notice:  Undefined variable: anketVerdict in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/markStatement.php on line 30
+[24-Apr-2020 15:16:01 Europe/Moscow] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE statement_id = 160' at line 1 in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/markStatement.php:30
+Stack trace:
+#0 /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/markStatement.php(30): PDO->query('UPDATE statemen...')
+#1 {main}
+  thrown in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/markStatement.php on line 30
+[24-Apr-2020 15:16:10 Europe/Moscow] PHP Notice:  Undefined index: abiturient_id in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/markStatement.php on line 10
+[24-Apr-2020 15:16:10 Europe/Moscow] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/markStatement.php:24
+Stack trace:
+#0 /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/markStatement.php(24): PDOStatement->fetch()
+#1 {main}
+  thrown in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/markStatement.php on line 24
+[24-Apr-2020 15:18:25 Europe/Moscow] PHP Notice:  Undefined variable: anketVerdict in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/markStatement.php on line 28
+[24-Apr-2020 15:18:25 Europe/Moscow] PHP Notice:  Undefined variable: anketVerdict in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/markStatement.php on line 30
+[24-Apr-2020 15:18:25 Europe/Moscow] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE statement_id = 160' at line 1 in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/markStatement.php:30
+Stack trace:
+#0 /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/markStatement.php(30): PDO->query('UPDATE statemen...')
+#1 {main}
+  thrown in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/markStatement.php on line 30
+[24-Apr-2020 15:18:28 Europe/Moscow] PHP Notice:  Undefined index: abiturient_id in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/markStatement.php on line 10
+[24-Apr-2020 15:18:28 Europe/Moscow] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'in-process WHERE statement_id = 160' at line 1 in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/markStatement.php:22
+Stack trace:
+#0 /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/markStatement.php(22): PDO->query('UPDATE statemen...')
+#1 {main}
+  thrown in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/markStatement.php on line 22
+[24-Apr-2020 15:19:44 Europe/Moscow] PHP Notice:  Undefined variable: anketVerdict in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/markStatement.php on line 28
+[24-Apr-2020 15:19:44 Europe/Moscow] PHP Notice:  Undefined variable: anketVerdict in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/markStatement.php on line 30
+[24-Apr-2020 15:19:44 Europe/Moscow] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE statement_id = 160' at line 1 in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/markStatement.php:30
+Stack trace:
+#0 /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/markStatement.php(30): PDO->query('UPDATE statemen...')
+#1 {main}
+  thrown in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/markStatement.php on line 30
+[24-Apr-2020 15:19:47 Europe/Moscow] PHP Notice:  Undefined index: abiturient_id in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/markStatement.php on line 10
+[24-Apr-2020 15:19:47 Europe/Moscow] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'in-process WHERE statement_id = 160' at line 1 in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/markStatement.php:22
+Stack trace:
+#0 /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/markStatement.php(22): PDO->query('UPDATE statemen...')
+#1 {main}
+  thrown in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/markStatement.php on line 22
+[24-Apr-2020 15:20:11 Europe/Moscow] PHP Notice:  Undefined index: abiturient_id in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/markStatement.php on line 10
+[24-Apr-2020 15:20:11 Europe/Moscow] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'in-process WHERE statement_id = 160' at line 1 in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/markStatement.php:22
+Stack trace:
+#0 /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/markStatement.php(22): PDO->query('UPDATE statemen...')
+#1 {main}
+  thrown in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/markStatement.php on line 22
+[24-Apr-2020 15:21:29 Europe/Moscow] PHP Notice:  Undefined index: abiturient_id in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/markStatement.php on line 10
+[24-Apr-2020 15:21:29 Europe/Moscow] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'in_process' in 'field list' in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/markStatement.php:22
+Stack trace:
+#0 /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/markStatement.php(22): PDO->query('UPDATE statemen...')
+#1 {main}
+  thrown in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/markStatement.php on line 22
+[24-Apr-2020 15:21:44 Europe/Moscow] PHP Notice:  Undefined index: abiturient_id in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/markStatement.php on line 10
+[24-Apr-2020 15:21:44 Europe/Moscow] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'in-process WHERE statement_id = 160' at line 1 in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/markStatement.php:22
+Stack trace:
+#0 /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/markStatement.php(22): PDO->query('UPDATE statemen...')
+#1 {main}
+  thrown in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/markStatement.php on line 22
+[24-Apr-2020 15:22:35 Europe/Moscow] PHP Notice:  Undefined index: abiturient_id in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/markStatement.php on line 10
+[24-Apr-2020 15:22:35 Europe/Moscow] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'in-process WHERE statement_id = 160' at line 1 in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/markStatement.php:22
+Stack trace:
+#0 /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/markStatement.php(22): PDO->query('UPDATE statemen...')
+#1 {main}
+  thrown in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/markStatement.php on line 22
+[24-Apr-2020 15:24:19 Europe/Moscow] PHP Notice:  Undefined index: abiturient_id in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/markStatement.php on line 10
+[24-Apr-2020 15:24:19 Europe/Moscow] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/markStatement.php:24
+Stack trace:
+#0 /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/markStatement.php(24): PDOStatement->fetch()
+#1 {main}
+  thrown in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/markStatement.php on line 24
+[24-Apr-2020 15:24:40 Europe/Moscow] PHP Notice:  Undefined variable: anketVerdict in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/markStatement.php on line 28
+[24-Apr-2020 15:24:40 Europe/Moscow] PHP Notice:  Undefined variable: anketVerdict in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/markStatement.php on line 30
+[24-Apr-2020 15:24:40 Europe/Moscow] PHP Notice:  Undefined index: state_id in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/markStatement.php on line 30
+[24-Apr-2020 15:24:40 Europe/Moscow] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE statement_id =' at line 1 in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/markStatement.php:30
+Stack trace:
+#0 /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/markStatement.php(30): PDO->query('UPDATE statemen...')
+#1 {main}
+  thrown in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/markStatement.php on line 30
+[24-Apr-2020 15:24:46 Europe/Moscow] PHP Notice:  Undefined index: abiturient_id in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/markStatement.php on line 10
+[24-Apr-2020 15:24:46 Europe/Moscow] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'in-process WHERE statement_id = 159' at line 1 in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/markStatement.php:22
+Stack trace:
+#0 /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/markStatement.php(22): PDO->query('UPDATE statemen...')
+#1 {main}
+  thrown in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/markStatement.php on line 22
+[24-Apr-2020 15:25:03 Europe/Moscow] PHP Notice:  Undefined variable: anketVerdict in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/markStatement.php on line 28
+[24-Apr-2020 15:25:03 Europe/Moscow] PHP Notice:  Undefined variable: anketVerdict in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/markStatement.php on line 30
+[24-Apr-2020 15:25:03 Europe/Moscow] PHP Notice:  Undefined index: state_id in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/markStatement.php on line 30
+[24-Apr-2020 15:25:03 Europe/Moscow] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE statement_id =' at line 1 in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/markStatement.php:30
+Stack trace:
+#0 /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/markStatement.php(30): PDO->query('UPDATE statemen...')
+#1 {main}
+  thrown in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/markStatement.php on line 30
+[24-Apr-2020 15:25:07 Europe/Moscow] PHP Notice:  Undefined index: abiturient_id in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/markStatement.php on line 10
+[24-Apr-2020 15:25:07 Europe/Moscow] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'in-process WHERE statement_id = 159' at line 1 in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/markStatement.php:22
+Stack trace:
+#0 /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/markStatement.php(22): PDO->query('UPDATE statemen...')
+#1 {main}
+  thrown in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/markStatement.php on line 22
+[24-Apr-2020 15:29:25 Europe/Moscow] PHP Notice:  Undefined variable: anketVerdict in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/markStatement.php on line 34
+[24-Apr-2020 15:29:25 Europe/Moscow] PHP Notice:  Undefined variable: anketVerdict in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/markStatement.php on line 36
+[24-Apr-2020 15:29:25 Europe/Moscow] PHP Notice:  Undefined index: state_id in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/markStatement.php on line 36
+[24-Apr-2020 15:29:25 Europe/Moscow] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE statement_id =' at line 1 in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/markStatement.php:36
+Stack trace:
+#0 /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/markStatement.php(36): PDO->query('UPDATE statemen...')
+#1 {main}
+  thrown in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/markStatement.php on line 36
+[24-Apr-2020 15:29:31 Europe/Moscow] PHP Notice:  Undefined index: abiturient_id in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/markStatement.php on line 12
+[24-Apr-2020 15:29:31 Europe/Moscow] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'in-process WHERE statement_id = 159' at line 1 in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/markStatement.php:36
+Stack trace:
+#0 /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/markStatement.php(36): PDO->query('UPDATE statemen...')
+#1 {main}
+  thrown in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/markStatement.php on line 36
+[24-Apr-2020 15:33:09 Europe/Moscow] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'in-process WHERE statement_id = 159' at line 1 in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/markStatement.php:33
+Stack trace:
+#0 /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/markStatement.php(33): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/markStatement.php on line 33
+[24-Apr-2020 15:33:12 Europe/Moscow] PHP Notice:  Undefined index: state_id in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/markStatement.php on line 28
+[24-Apr-2020 15:33:12 Europe/Moscow] PHP Notice:  Undefined index: state_id in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/markStatement.php on line 33
+[24-Apr-2020 15:33:12 Europe/Moscow] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/markStatement.php:33
+Stack trace:
+#0 /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/markStatement.php(33): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/markStatement.php on line 33
+[24-Apr-2020 15:33:48 Europe/Moscow] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/markStatement.php:36
+Stack trace:
+#0 /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/markStatement.php(36): PDOStatement->fetch()
+#1 {main}
+  thrown in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/markStatement.php on line 36
+[24-Apr-2020 15:33:51 Europe/Moscow] PHP Notice:  Undefined index: state_id in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/markStatement.php on line 33
+[24-Apr-2020 15:33:51 Europe/Moscow] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/markStatement.php:36
+Stack trace:
+#0 /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/markStatement.php(36): PDOStatement->fetch()
+#1 {main}
+  thrown in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/markStatement.php on line 36
+[24-Apr-2020 15:34:43 Europe/Moscow] PHP Notice:  Undefined index: statement_id in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/markStatement.php on line 33
+[24-Apr-2020 15:34:43 Europe/Moscow] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/markStatement.php:36
+Stack trace:
+#0 /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/markStatement.php(36): PDOStatement->fetch()
+#1 {main}
+  thrown in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/markStatement.php on line 36
+[24-Apr-2020 15:34:46 Europe/Moscow] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/markStatement.php:36
+Stack trace:
+#0 /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/markStatement.php(36): PDOStatement->fetch()
+#1 {main}
+  thrown in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/markStatement.php on line 36
+[24-Apr-2020 15:34:51 Europe/Moscow] PHP Notice:  Undefined index: statement_id in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/markStatement.php on line 33
+[24-Apr-2020 15:34:51 Europe/Moscow] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/markStatement.php:36
+Stack trace:
+#0 /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/markStatement.php(36): PDOStatement->fetch()
+#1 {main}
+  thrown in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/markStatement.php on line 36
+[24-Apr-2020 15:34:53 Europe/Moscow] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/markStatement.php:36
+Stack trace:
+#0 /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/markStatement.php(36): PDOStatement->fetch()
+#1 {main}
+  thrown in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/markStatement.php on line 36
+[24-Apr-2020 15:34:54 Europe/Moscow] PHP Notice:  Undefined index: statement_id in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/markStatement.php on line 33
+[24-Apr-2020 15:34:54 Europe/Moscow] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/markStatement.php:36
+Stack trace:
+#0 /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/markStatement.php(36): PDOStatement->fetch()
+#1 {main}
+  thrown in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/markStatement.php on line 36
+[24-Apr-2020 15:34:57 Europe/Moscow] PHP Notice:  Undefined variable: anketVerdict in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/markStatement.php on line 32
+[24-Apr-2020 15:34:57 Europe/Moscow] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/markStatement.php:36
+Stack trace:
+#0 /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/markStatement.php(36): PDOStatement->fetch()
+#1 {main}
+  thrown in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/markStatement.php on line 36
+[24-Apr-2020 15:35:57 Europe/Moscow] PHP Notice:  Undefined index: statement_id in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/markStatement.php on line 33
+[24-Apr-2020 15:35:57 Europe/Moscow] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/markStatement.php:36
+Stack trace:
+#0 /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/markStatement.php(36): PDOStatement->fetch()
+#1 {main}
+  thrown in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/markStatement.php on line 36
+[24-Apr-2020 15:36:00 Europe/Moscow] PHP Notice:  Undefined variable: anketVerdict in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/markStatement.php on line 32
+[24-Apr-2020 15:36:00 Europe/Moscow] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/markStatement.php:36
+Stack trace:
+#0 /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/markStatement.php(36): PDOStatement->fetch()
+#1 {main}
+  thrown in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/markStatement.php on line 36
+[24-Apr-2020 15:36:37 Europe/Moscow] PHP Notice:  Undefined index: statement_id in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/markStatement.php on line 33
+[24-Apr-2020 15:36:37 Europe/Moscow] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/markStatement.php:36
+Stack trace:
+#0 /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/markStatement.php(36): PDOStatement->fetch()
+#1 {main}
+  thrown in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/markStatement.php on line 36
+[24-Apr-2020 15:36:45 Europe/Moscow] PHP Notice:  Undefined variable: anketVerdict in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/markStatement.php on line 32
+[24-Apr-2020 15:36:45 Europe/Moscow] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/markStatement.php:36
+Stack trace:
+#0 /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/markStatement.php(36): PDOStatement->fetch()
+#1 {main}
+  thrown in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/markStatement.php on line 36
+[24-Apr-2020 15:38:56 Europe/Moscow] PHP Notice:  Undefined index: statement_id in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/markStatement.php on line 33
+[24-Apr-2020 15:38:56 Europe/Moscow] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/markStatement.php:36
+Stack trace:
+#0 /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/markStatement.php(36): PDOStatement->fetch()
+#1 {main}
+  thrown in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/markStatement.php on line 36
+[24-Apr-2020 15:39:02 Europe/Moscow] PHP Notice:  Undefined variable: anketVerdict in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/markStatement.php on line 32
+[24-Apr-2020 15:39:02 Europe/Moscow] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/markStatement.php:36
+Stack trace:
+#0 /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/markStatement.php(36): PDOStatement->fetch()
+#1 {main}
+  thrown in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/markStatement.php on line 36
+[24-Apr-2020 15:48:29 Europe/Moscow] PHP Notice:  Undefined index: statement_id in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/markStatement.php on line 31
+[24-Apr-2020 15:48:29 Europe/Moscow] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/markStatement.php:34
+Stack trace:
+#0 /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/markStatement.php(34): PDOStatement->fetch()
+#1 {main}
+  thrown in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/markStatement.php on line 34
+[24-Apr-2020 15:50:08 Europe/Moscow] PHP Notice:  Undefined variable: anketVerdict in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/markStatement.php on line 30
+[24-Apr-2020 15:50:08 Europe/Moscow] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/markStatement.php:34
+Stack trace:
+#0 /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/markStatement.php(34): PDOStatement->fetch()
+#1 {main}
+  thrown in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/markStatement.php on line 34
+[24-Apr-2020 15:54:41 Europe/Moscow] PHP Notice:  Undefined index: statement_id in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/markStatement.php on line 31
+[24-Apr-2020 15:54:41 Europe/Moscow] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/markStatement.php:34
+Stack trace:
+#0 /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/markStatement.php(34): PDOStatement->fetch()
+#1 {main}
+  thrown in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/markStatement.php on line 34
+[24-Apr-2020 15:54:43 Europe/Moscow] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/markStatement.php:34
+Stack trace:
+#0 /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/markStatement.php(34): PDOStatement->fetch()
+#1 {main}
+  thrown in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/markStatement.php on line 34
+[24-Apr-2020 15:54:47 Europe/Moscow] PHP Notice:  Undefined index: statement_id in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/markStatement.php on line 31
+[24-Apr-2020 15:54:47 Europe/Moscow] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/markStatement.php:34
+Stack trace:
+#0 /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/markStatement.php(34): PDOStatement->fetch()
+#1 {main}
+  thrown in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/markStatement.php on line 34
+[24-Apr-2020 15:54:49 Europe/Moscow] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/markStatement.php:34
+Stack trace:
+#0 /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/markStatement.php(34): PDOStatement->fetch()
+#1 {main}
+  thrown in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/markStatement.php on line 34
+[24-Apr-2020 15:54:52 Europe/Moscow] PHP Notice:  Undefined index: statement_id in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/markStatement.php on line 31
+[24-Apr-2020 15:54:52 Europe/Moscow] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/markStatement.php:34
+Stack trace:
+#0 /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/markStatement.php(34): PDOStatement->fetch()
+#1 {main}
+  thrown in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/markStatement.php on line 34
+[24-Apr-2020 15:54:55 Europe/Moscow] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/markStatement.php:34
+Stack trace:
+#0 /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/markStatement.php(34): PDOStatement->fetch()
+#1 {main}
+  thrown in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/markStatement.php on line 34
+[24-Apr-2020 16:01:28 Europe/Moscow] PHP Notice:  Undefined index: statement_id in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/markStatement.php on line 31
+[24-Apr-2020 16:01:28 Europe/Moscow] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/markStatement.php:34
+Stack trace:
+#0 /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/markStatement.php(34): PDOStatement->fetch()
+#1 {main}
+  thrown in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/admin/markStatement.php on line 34

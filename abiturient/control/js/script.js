@@ -126,20 +126,21 @@ document.addEventListener('DOMContentLoaded', () => {
         data.statementsId.forEach((item, i) => {
           let button;
 
-          if (+data.checked[i] === 2) {
+          if (data.checked[i] === 'in-process') {
             button = `
             <div class="section-props-block__buttons">
+              <input type="submit" name="get_statement_btn" class="button section-props-block__btn" value="Посмотреть">
               <div class="section-props-block__hourglasses"></div>
             </div>
             `;
-          } else if ( +data.checked[i] === 1 ) {
+          } else if (data.checked[i] === 'approved') {
             button = `
             <div class="section-props-block__buttons">
               <input type="submit" name="get_statement_btn" class="button section-props-block__btn" value="Посмотреть">
               <div class="section-props-block__glockoma"></div>
             </div>
             `;
-          } else if (+data.checked[i] === -1) {
+          } else if (data.checked[i] === 'denied') {
             button = `
             <div class="section-props-block__buttons">
               <input type="submit" name="get_statement_btn" class="button section-props-block__btn" value="Посмотреть">
@@ -216,8 +217,8 @@ document.addEventListener('DOMContentLoaded', () => {
               filtrationWrap.insertAdjacentElement('afterend', item);
             }
             return;
-          case 'checked':
-            if (statementButton.matches('.section-props-block__glockoma .section-props-block__denied')) {
+          case 'in_process':
+            if (statementButton.classList.contains('section-props-block__hourglasses')) {
               item.remove();
               filtrationWrap.insertAdjacentElement('afterend', item);
             }
@@ -280,8 +281,6 @@ document.addEventListener('DOMContentLoaded', () => {
           for (let val of formData.entries()) {
             body[val[0]] = val[1];
           }
-
-          console.log(body);
 
           const sendForm = (data) => {
             return fetch('../control/functions/admin/markStatement.php', {
@@ -908,7 +907,6 @@ document.addEventListener('DOMContentLoaded', () => {
           } else {
             manageAttention('Успешно!');
           }
-
         })
         .catch(error => console.error(error));
     });
@@ -974,7 +972,7 @@ document.addEventListener('DOMContentLoaded', () => {
   /* УПРАВЛЛЕНИЕ ИНФОРМАЦИОННЫМ ПОП-АПОМ */
   const manageAttention = (message, error) => {
     const header = document.querySelector('header'),
-      block = document.querySelector('.section-content-attention');
+          block = document.querySelector('.section-content-attention');
     
     let autoClosePopup;
 
@@ -983,8 +981,8 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     let attentionBlock = document.createElement('div'),
-      attentionClose = document.createElement('span'),
-      attentionMessage = document.createElement('div');
+        attentionClose = document.createElement('span'),
+        attentionMessage = document.createElement('div');
 
     attentionBlock.classList.add('section-content-attention', error);
     attentionBlock.appendChild(attentionClose);
@@ -1000,14 +998,15 @@ document.addEventListener('DOMContentLoaded', () => {
 
     autoClosePopup = setTimeout(() => {
       attentionBlock.remove();
+      clearTimeout(autoClosePopup);
     }, 2500);
 
     attentionBlock.addEventListener('click', (e) => {
       const target = e.target;
 
       if (target.matches('span.section-content-attention__close')) {
-
         attentionBlock.remove();
+        clearTimeout(autoClosePopup);
       }
     });
   };

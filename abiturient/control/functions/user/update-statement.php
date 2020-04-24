@@ -23,22 +23,24 @@ if (isset($_POST['send_files_btn'])) {
   move_uploaded_file($passport_tmp_name, $passport_path);
   move_uploaded_file($statement_tmp_name, $statement_path);
 
-  $sql = 'UPDATE statements SET
+  $sql_send_docs = 'UPDATE statements SET
+      checked = :checked_status,
       passport_link = :passport_path,
       photo_link = :photo_path,
       statement_link = :statement_path 
       WHERE abiturient_id = ' . $_SESSION['abiturient']->id . '';
 
-  $query = $pdo->prepare($sql);
-  $query->execute([
+  $query_send_docs = $pdo->prepare($sql_send_docs);
+  $query_send_docs->execute([
+    'checked_status' => 'documents-sent',
     'passport_path' => $passport_db_path,
     'photo_path' => $photo_db_path,
     'statement_path' => $statement_db_path
   ]);
 
-  $abiturient = R::load( 'abiturients', $_SESSION['abiturient']->id );
-  $abiturient->anket_status = 'documents-sent';
-  R::store( $abiturient );
+  // $abiturient = R::load( 'abiturients', $_SESSION['abiturient']->id );
+  // $abiturient->anket_status = 'documents-sent';
+  // R::store( $abiturient );
 
   unset($_POST);
   unset($_FILES);
