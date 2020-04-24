@@ -522,3 +522,34 @@ Stack trace:
 [08-Apr-2020 14:16:42 Europe/Moscow] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpqH7yiZ' to '/home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/./../uploads/statements/user_id_7' in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 26
 [08-Apr-2020 14:16:59 Europe/Moscow] PHP Warning:  move_uploaded_file(/home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/./../uploads/statements/user_id_7): failed to open stream: No such file or directory in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 26
 [08-Apr-2020 14:16:59 Europe/Moscow] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpz6fc8X' to '/home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/./../uploads/statements/user_id_7' in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/update-statement.php on line 26
+[22-Apr-2020 21:00:40 Europe/Moscow] PHP Notice:  Undefined variable: abiturientStatu in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/getAbiturientStatus.php on line 20
+[22-Apr-2020 21:00:40 Europe/Moscow] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on null in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/getAbiturientStatus.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/getAbiturientStatus.php on line 20
+[22-Apr-2020 21:01:08 Europe/Moscow] PHP Notice:  Undefined variable: abiturientStatu in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/getAbiturientStatus.php on line 20
+[22-Apr-2020 21:01:08 Europe/Moscow] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on null in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/getAbiturientStatus.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/getAbiturientStatus.php on line 20
+[22-Apr-2020 21:01:13 Europe/Moscow] PHP Notice:  Undefined variable: abiturientStatu in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/getAbiturientStatus.php on line 20
+[22-Apr-2020 21:01:13 Europe/Moscow] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on null in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/getAbiturientStatus.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/getAbiturientStatus.php on line 20
+[22-Apr-2020 21:01:14 Europe/Moscow] PHP Notice:  Undefined variable: abiturientStatu in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/getAbiturientStatus.php on line 20
+[22-Apr-2020 21:01:14 Europe/Moscow] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on null in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/getAbiturientStatus.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/getAbiturientStatus.php on line 20
+[22-Apr-2020 21:01:21 Europe/Moscow] PHP Notice:  Undefined variable: abiturientStatu in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/getAbiturientStatus.php on line 20
+[22-Apr-2020 21:01:21 Europe/Moscow] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on null in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/getAbiturientStatus.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/getAbiturientStatus.php on line 20
+[22-Apr-2020 21:01:22 Europe/Moscow] PHP Notice:  Undefined variable: abiturientStatu in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/getAbiturientStatus.php on line 20
+[22-Apr-2020 21:01:22 Europe/Moscow] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on null in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/getAbiturientStatus.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/getAbiturientStatus.php on line 20
+[22-Apr-2020 21:04:04 Europe/Moscow] PHP Parse error:  syntax error, unexpected ''anketVerdicts'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /home/windmymind/Documents/projects/Diploma/abiturient/control/functions/user/getAbiturientStatus.php on line 29

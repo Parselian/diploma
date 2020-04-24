@@ -2,13 +2,14 @@
 require __DIR__ . '/../db.php';
 
 $postData = file_get_contents('php://input');
+
 $data = json_decode($postData, true);
 
 print_r($data);
 
 $query = R::load( 'abiturients', $data['abiturient_id'] );
-$query->anket_status = $data['verdict'];
-R::store( $query );
+// $query->anket_status = $data['verdict'];
+// R::store( $query );
 
 
 if ($data['verdict'] === 'approved') {
@@ -21,7 +22,7 @@ if ($data['verdict'] === 'approved') {
   $queryUpdChecked = $pdo->query('UPDATE statements SET checked = '. $anketVerdict .' WHERE statement_id = '.$data["state_id"].'');
 
 $queryUpdChecked->fetch();
-} else {
+} else if ($postData == null) {
   $anketVerdict = 0;
 }
 echo $anketVerdict;

@@ -208,28 +208,49 @@ document.addEventListener('DOMContentLoaded', () => {
           throw new Error('Error! network status not 200!');
         }
 
-        return response.text();
+        return response.json();
       })
       .then(data => {
-        switch(data) {
-          case 'questionnaire-sent':
-            popupText.textContent = 'Пожалуйста, отправьте необходимые документы!';
-            return;
-          case 'documents-sent':
-            popupText.textContent = 'Ваша заявка принята, ожидайте ответа.';
-            return;
-          case 'approved':
-            popupText.textContent = 'Поздравляем, вы прошли конкурс! Ждём вас со всеми документами';
-            popup.style.backgroundColor = 'green';
-            return;
-          case 'denied':
-            popupText.textContent = 'К сожалению, вы не прошли конкурс.';
-            popup.style.backgroundColor = '#fa7b7b';
-            return;
-          default:
-            popupText.textContent = 'Для участия необходимо отправить заявку!';
-            return;
+        let accessedAnkets = [],
+            waitingAnkets = [],
+            rejectedAnkets = false;
+
+        data['anketVerdicts'].forEach((item, i) => {
+          if (+item === 1) {
+            accessedAnkets.push(data['anketSpecs'][i]);
+          } else if (+item === 0 || +item === 2) {
+            waitingAnkets.push(data['anketSpecs'][i]);
+          } else if (+item === -1) {
+            rejectedAnkets = true
+          }
+        });
+
+        console.log(waitingAnkets);
+
+        if (waitingAnkets.length === 0 &&
+        accessedAnkets.length === 0 && rejectedAnkets === false) {
+          popupText.textContent = 'Пожалуйста, отправьте необходимые документы!';
+        } else if (data['abiturientStatus'] === 'documents-sent' &&
+          accessedAnkets.length === 0) {
+          popupText.textContent = 'Ваша заявка принята, ожидайте ответа.';
+        } else if (accessedAnkets.length !== 0) {
+          popupText.textContent = `
+            Поздравляем! Вы прошли на спец-ности: ${accessedAnkets.join(', ')}. Ждём вас со всеми документами. \n`;
+          popup.style.backgroundColor = 'green';
+        } else if (accessedAnkets.length === 0 &&
+          accessedAnkets.length === 0 && rejectedAnkets === true) {
+          popupText.textContent = 'К сожалению, вы не прошли конкурс.';
+          popup.style.backgroundColor = '#fa7b7b';
+        } else if (waitingAnkets.length !== 0) {
+          popupText.textContent += ` Анкеты на спец-ности: 
+            ${waitingAnkets.join(', ')}, находятся на проверке, ждите`
+        } else if (waitingAnkets.length !== 0) {
+          popupText.textContent += ` Анкеты на спец-ности: 
+            ${waitingAnkets.join(', ')} находятся на проверке, ждите`
+        } else if (waitingAnkets.length === 0) {
+          popupText.textContent = 'Для участия необходимо отправить заявку!';
         }
+
       })
       .catch(error => console.log(error));
   };

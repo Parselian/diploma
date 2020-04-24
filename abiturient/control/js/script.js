@@ -281,6 +281,8 @@ document.addEventListener('DOMContentLoaded', () => {
             body[val[0]] = val[1];
           }
 
+          console.log(body);
+
           const sendForm = (data) => {
             return fetch('../control/functions/admin/markStatement.php', {
               method: 'POST',
@@ -1051,3 +1053,48 @@ document.addEventListener('DOMContentLoaded', () => {
   sendFiles('form-upd-request', 'functions/admin/updDocTemplate.php');
   sendFiles('form-upd-polytics', 'functions/admin/updPolyticsPD.php');
 });
+
+
+
+
+const catchClosingWindow = () => {
+  window.onbeforeunload = request;
+
+  function request() {
+    const test = document.getElementById('check-statement');
+    console.log(test);
+
+    let formData = new FormData(test);
+
+    formData.append('verdict', 'closed');
+
+    let body = {};
+
+    for (let val of formData.entries()) {
+      body[val[0]] = val[1];
+    }
+
+    const sendForm = (data) => {
+      return fetch('../control/functions/admin/markStatement.php', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application / json'
+        },
+        body: JSON.stringify(data)
+      });
+    };
+
+    sendForm(body)
+      .then(response => {
+        if (response.status !== 200) {
+          manageAttention('Ошибка!', 'section-content-attention_error');
+
+          throw new Error('Ошибка! статус ответа от сервера не 200!');
+        }
+
+        return null;
+      })
+      .catch(error => console.error(error));
+  }
+}
+// catchClosingWindow();
